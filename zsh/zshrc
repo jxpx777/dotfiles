@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/.dotfiles/zsh/oh-my-zsh
+export ZSH=$HOME/.dotfiles/zsh/oh-my-zsh
+export ZSH_CUSTOM=$HOME/.dotfiles/zsh/customization
 
 # Use vim keybindings
 bindkey -v
