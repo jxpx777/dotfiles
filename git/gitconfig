@@ -1,0 +1,47 @@
+[user]
+	name = Jamie Phelps
+	email = jamie@epiphanymedia.net
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = tracking
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log
+	 up = pull
+	 pu = push
+[github]
+	user = jxpx777
+	token = 3289514529438a440471c46ab0361bf8
+[core]
+	excludesfile = /Users/j/bin/config/git/gitignore
+	editor = "subl -w"
+[branch]
+	autosetupmerge = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool "Changes"]
+	cmd = /usr/bin/env chdiff $LOCAL $REMOTE
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+
+[merge]
+	tool = Kaleidoscope
+[mergetool "Changes"]
+       cmd = /usr/bin/env chdiff --wait "$LOCAL" "$REMOTE"
+       keepBackup = false
+       trustExitCode = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[mergetool]
+	prompt = false

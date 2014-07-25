@@ -1,0 +1,28 @@
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+*.swp
+xcuserdata
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+# Rails
+/log/*
+/tmp
+/public/rcov
+/coverage
+
+#Bundler
+/.bundle
+/vendor/bundle/
+
+# Editors
+*.sublime-workspace
+*.espressostorage
+*.esproj
