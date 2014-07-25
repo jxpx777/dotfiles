@@ -1,0 +1,31 @@
+Host git.agilebits.com
+Port 22
+
+Host cdn.agile.ws
+Port 22
+
+Host *.agile.ws
+Port 22222
+
+host jp
+	hostname joker.dreamhost.com
+	user jrphelps
+
+host em
+	hostname epiphanymedia.net
+	user epiphanymedia
+
+host imageserver
+	user web
+	hostname richicons-origin.agilebits.com
+
+host learn
+  user docs
+  hostname learn-origin.agilebits.com
+
+
+host webtest
+	HostName 54.210.41.41
+    Port 22
+    User ec2-user
+    IdentityFile ~/.ssh/id_rsa.pub
