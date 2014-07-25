@@ -1,0 +1,15 @@
+[submodule "janus/local_vimrc.vim"]
+	path = janus/local_vimrc.vim
+	url = git@github.com:embear/vim-localvimrc.git
+[submodule "iTerm/colorschemes/base16"]
+	path = iTerm/colorschemes/base16
+	url = git@github.com:chriskempson/base16-iterm2.git
+[submodule "janus/base16.vim"]
+	path = janus/base16.vim
+	url = git@github.com:chriskempson/base16-vim.git
+[submodule "iTerm/iTerm2-Color-Schemes"]
+	path = iTerm/iTerm2-Color-Schemes
+	url = git@github.com:mbadolato/iTerm2-Color-Schemes.git
+[submodule "vim-janus"]
+	path = vim-janus
+	url = git@github.com:carlhuda/janus.git
