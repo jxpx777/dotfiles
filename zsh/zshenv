@@ -1,0 +1,2 @@
+eval "$(rbenv init -)"
+source "$HOME/bin/config/bash/aliases"
