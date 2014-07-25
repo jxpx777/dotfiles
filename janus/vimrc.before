@@ -1,0 +1,9 @@
+set nocompatible
+let mapleader=","
+set splitbelow
+set splitright
+call janus#disable_plugin('nerdtree')
+if has("gui_running")
+  let g:loaded_netrw        = 1 " Disable netrw
+  let g:loaded_netrwPlugin  = 1 " Disable netrw
+endif

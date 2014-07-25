@@ -1,0 +1,24 @@
+colorscheme tutticolori
+set guifont=Panic\ Sans:h13
+
+
+" window
+nmap <leader>sw<left>  :topleft  vnew<CR>
+nmap <leader>sw<right> :botright vnew<CR>
+nmap <leader>sw<up>    :topleft  new<CR>
+nmap <leader>sw<down>  :botright new<CR>
+
+" buffer
+nmap <leader>s<left>   :leftabove  vnew<CR>
+nmap <leader>s<right>  :rightbelow vnew<CR>
+nmap <leader>s<up>     :leftabove  new<CR>
+nmap <leader>s<down>   :rightbelow new<CR>
+
+" clear search highlight
+nnoremap <esc> :noh<return><esc>
+
+" exit insert mode when beginning text movements
+:imap jj <Esc>
+:imap jk <Esc>
+:imap kk <Esc>
+:imap kj <Esc>
