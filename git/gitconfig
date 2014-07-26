@@ -21,7 +21,7 @@
 	user = jxpx777
 	token = 3289514529438a440471c46ab0361bf8
 [core]
-	excludesfile = /Users/j/bin/config/git/gitignore
+	excludesfile = /Users/j/.dotfiles/git/gitignore
 	editor = "subl -w"
 [branch]
 	autosetupmerge = true
