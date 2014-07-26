@@ -13,6 +13,7 @@ bindkey '^R' history-incremental-search-backward
 # time that oh-my-zsh is loaded.
 ZSH_THEME="jxpx777"
 
+PROJECT_PATHS=(~/Projects)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -39,19 +40,17 @@ export DISABLE_UPDATE_PROMPT=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(bundler brew cloudapp cap colorize gem git jira osx pod pow powify rails sublime terminalapp thor projects)
+plugins=(rbenv bundler brew cloudapp cap colorize gem git jira osx pj pod pow rails thor pj wd)
 
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/bin/lib/prince/bin:/Users/j/bin/Multimarkdown/bin:/Users/j/bin/abbot/bin:/Users/j/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql:/usr/local/mysql/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:$PATH
-NODE_PATH="/usr/local/lib/node"
+export NODE_PATH="/usr/local/lib/node"
 
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 autoload -U zmv
 
-source $HOME/bin/config/bash/aliases
 export EDITOR='vim'
 export GIT_EDITOR='vim'
 export BUNDLER_EDITOR='vim'
-source $HOME/.rbenv/completions/rbenv.zsh
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+source $HOME/.rbenv/completions/rbenv.zsh

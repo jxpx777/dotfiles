@@ -1,16 +1,13 @@
 # Command Enhancements
-source ~/bin/config/bash/agilebits
+source ~/.dotfiles/zsh/agilebits
+
+# For bridging my homegrown Projects plugin to PJ plugin
+alias p='pj'
 
 # Utility
-alias reload='source ~/bin/config/bash/aliases'
-alias ea='subl -w ~/bin/config/bash/aliases && reload' # Edit aliases
-alias ee="subl ~/bin/config/bash/env"
-
-# Quicker cd
-alias cg='cd /Library/Ruby/Gems/1.8/gems/'
-function cj() {
- cd ~/Projects/$*
-}
+alias reload='source ~/.dotfiles/zsh/aliases'
+alias ea='vim ~/.dotfiles/zsh/aliases && reload' # Edit aliases
+alias ee="vim ~/.dotfiles/zsh/zshenv"
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -21,7 +18,6 @@ alias cl='clear; l'
 function cdc() { 
     cd $1; ls 
 }
-alias cls='clear; ls'
 alias h='history'
 alias l.='ls -d .[^.]*'
 alias l='ls -lhGt'  # -l long listing, most recent first
@@ -31,9 +27,9 @@ alias ll='ls -lhG'  # -l long listing, human readable, no group info
 alias lt='ls -lt' # sort with recently modified first
 alias md='mkdir -p'
 
-function take() { 
+function take() {
     mkdir -p "$1"
-    cd "$1" 
+    cd "$1"
 }
 
 alias e='exit'
@@ -51,20 +47,9 @@ alias ff='open -a Firefox'
 
 # General code
 
-# From Chris Wanstrath
-function pless() { 
-    pygmentize $1 | less -r 
-}
-
 # Processes
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
-
-# Mercurial hg
-# function new-hg() {
-#     ssh hg@example.com "hg init $1"
-#     hg clone ssh://hg@example.com/$1
-# }
 
 # Git
 alias go="git log --pretty=format:\"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s\""

@@ -1,2 +1,2 @@
-eval "$(rbenv init -)"
-source "$HOME/bin/config/bash/aliases"
+if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
+source "$HOME/.dotfiles/zsh/aliases"
