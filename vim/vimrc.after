@@ -1,4 +1,5 @@
-colorscheme tutticolori
+set background=light
+colorscheme base16-tomorrow
 set guifont=Panic\ Sans:h13
 
 
