@@ -1,0 +1,45 @@
+function ag_analyze_log() { 
+	glob=./*
+	field=8
+	count=50
+	FIELD=${2:-$field}
+	COUNT=${3:-$count}
+	GLOB=${1:-$glob}
+	grep '.' $GLOB | cut -sf $FIELD | sort | uniq -c | sort -nr | head -n $COUNT
+}
+
+#function sgrep() {
+#	files=`grep -lr "$*" ~/Projects/cs/templates`
+#	if [ -a $files ]
+#	then
+#		echo "$files"
+#		cat $files | pbcopy
+#	else
+#		echo "No files found for pattern $*"
+#	fi
+#}
+
+function killhelper {
+    echo "Killing 1Password 4 WebStore Helper"
+    launchctl stop 2BUA8C4S2C.com.agilebits.onepassword4-helper
+    launchctl remove 2BUA8C4S2C.com.agilebits.onepassword4-helper
+    echo "."
+
+    echo
+    echo "Killing 1Password 4 AppStore Helper"
+    launchctl stop 2BUA8C4S2C.com.agilebits.onepassword-osx-helper   
+    launchctl remove 2BUA8C4S2C.com.agilebits.onepassword-osx-helper   
+    echo "."
+
+    echo
+    echo "Killing 1Password 3 AppStore Helper"
+    launchctl stop com.agilebits.onepassword-osx-helper
+    launchctl remove com.agilebits.onepassword-osx-helper
+    echo "."
+
+    echo
+    echo "Killing 1Password 3 WebStore Helper"
+    launchctl stop ws.agile.1PasswordAgent
+    launchctl remove ws.agile.1PasswordAgent
+    echo "."
+}
