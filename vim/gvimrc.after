@@ -7,4 +7,4 @@ if exists("g:colors_name")
   endif
 endif
 
-colorscheme tutticolori
+colorscheme base16-tomorrow
