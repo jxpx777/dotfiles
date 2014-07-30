@@ -45,3 +45,7 @@
 	trustExitCode = true
 [mergetool]
 	prompt = false
+[url "https://github.com/"]
+  insteadOf = github:
+[url "git@bitbucket.org:agilebitsinc/"]
+  insteadOf = agilebits:
