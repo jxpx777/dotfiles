@@ -54,7 +54,3 @@ export GIT_EDITOR='vim'
 export BUNDLER_EDITOR='vim'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 source $HOME/.rbenv/completions/rbenv.zsh
-
-export RBENV_ROOT="$(brew --prefix rbenv)"
-export GEM_HOME="$(brew --prefix)/opt/gems"
-export GEM_PATH="$(brew --prefix)/opt/gems"
