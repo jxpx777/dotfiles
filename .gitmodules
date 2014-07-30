@@ -10,3 +10,6 @@
 [submodule "vim/customization/base16.vim"]
 	path = vim/customization/base16.vim
 	url = git@github.com:chriskempson/base16-vim.git
+[submodule "zsh/base16-shell"]
+	path = zsh/base16-shell
+	url = git@github.com:chriskempson/base16-shell.git
