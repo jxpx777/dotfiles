@@ -3,6 +3,8 @@ set background=light
 colorscheme base16-tomorrow
 set guifont=Panic\ Sans:h13
 
+let g:user_emmet_install_global = 0
+"autocmd FileType html,css,eruby,eruby-rails EmmetInstall
 
 " window
 nmap <leader>sw<left>  :topleft  vnew<CR>
