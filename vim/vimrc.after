@@ -92,3 +92,5 @@ vnoremap <F1> <ESC>
 au FocusLost * :wa
 
 " /Steve Losh
+
+set t_RV= ttymouse=xterm2
