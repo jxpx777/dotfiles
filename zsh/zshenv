@@ -1,10 +1,11 @@
-if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
 BASE16_SCHEME="tomorrow"
 BASE16_SHELL="$HOME/.dotfiles/zsh/base16-shell/base16-$BASE16_SCHEME.dark.sh"
 [[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
 
 source "$HOME/.dotfiles/zsh/aliases"
 
+if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
 export RBENV_ROOT="$(brew --prefix rbenv)"
 export GEM_HOME="$(brew --prefix)/opt/gems"
 export GEM_PATH="$(brew --prefix)/opt/gems"
+
