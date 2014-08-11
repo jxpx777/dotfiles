@@ -4,6 +4,7 @@
 [submodule "vim/janus"]
 	path = vim/janus
 	url = git@github.com:carlhuda/janus.git
+  ignore = dirty # ignore untracked doc/tags files that is created
 [submodule "iTerm/iTerm2-Color-Schemes"]
 	path = iTerm/iTerm2-Color-Schemes
 	url = git@github.com:mbadolato/iTerm2-Color-Schemes.git
