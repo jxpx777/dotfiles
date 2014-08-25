@@ -17,3 +17,6 @@
 [submodule "vim/customization/Emmet.vim"]
 	path = vim/customization/Emmet.vim
 	url = git@github.com:mattn/emmet-vim.git
+[submodule "vim/customization/vim-vinegar"]
+	path = vim/customization/vim-vinegar
+	url = git://github.com/tpope/vim-vinegar.git
