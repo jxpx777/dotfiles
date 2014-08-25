@@ -43,15 +43,12 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(rbenv bundler brew cloudapp cap colorize gem git jira osx pj pod pow rails thor pj wd)
 
 source $ZSH/oh-my-zsh.sh
+source "$HOME/.dotfiles/zsh/aliases"
 # Customize to your needs...
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/bin/lib/prince/bin:/Users/j/bin/Multimarkdown/bin:/Users/j/bin/abbot/bin:/Users/j/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql:/usr/local/mysql/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:$PATH
-export PATH=$HOME/.rbenv/shims:$(brew --prefix rbenv)/shims:$(brew --prefix rbenv)/bin:$PATH
-export NODE_PATH="/usr/local/lib/node"
 
 autoload -U zmv
 
-export EDITOR='vim'
-export GIT_EDITOR='vim'
-export BUNDLER_EDITOR='vim'
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-source $HOME/.rbenv/completions/rbenv.zsh
+
+BASE16_SCHEME="tomorrow"
+BASE16_SHELL="$HOME/.dotfiles/zsh/base16-shell/base16-$BASE16_SCHEME.dark.sh"
+[[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
