@@ -110,7 +110,7 @@ alias ss="if [ "$(find . -name '*.sublime-project' -maxdepth 1 | wc -l)" == "1" 
 
 # Ruby
 alias r="rake"
-
+alias be="bundle exec"
 function mmd() { 
 mmd $1 > $1.html 
 }
@@ -196,3 +196,4 @@ function __rm_single_file(){
 }
 
 alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
+alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
