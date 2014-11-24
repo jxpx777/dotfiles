@@ -1,3 +1,5 @@
+set clipboard=unnamed
+
 let base16colorspace=256  " Access colors present in 256 colorspace
 set background=light
 colorscheme base16-tomorrow
@@ -27,11 +29,8 @@ nnoremap <esc> :noh<return><esc>
 
 " exit insert mode when beginning text movements
 :imap jj <Esc>
-:imap jk <Esc>
 :imap kk <Esc>
-:imap kj <Esc>
 
-set clipboard=unnamed
 
 
 "Helpful stuff from Steve Losh
@@ -52,8 +51,8 @@ set incsearch
 set showmatch
 set hlsearch
 "nnoremap <leader><space> :noh<cr>
-nnoremap <tab> %
-vnoremap <tab> %
+"nnoremap <tab> %
+"vnoremap <tab> %
 
 set encoding=utf-8
 set scrolloff=3
