@@ -3,10 +3,9 @@ set background=light
 colorscheme base16-tomorrow
 set guifont=Panic\ Sans:h13
 
-"set tabstop=4
-"set shiftwidth=4
-"set softtabstop=4
-"set expandtab
+set expandtab
+set tabstop=2
+set shiftwidth=2
 
 let g:user_emmet_install_global = 0
 "autocmd FileType html,css,eruby,eruby-rails EmmetInstall
@@ -94,3 +93,14 @@ au FocusLost * :wa
 " /Steve Losh
 
 set t_RV= ttymouse=xterm2
+
+function! SetupEnvironment()
+  let l:path = expand('%:p')
+  if l:path =~ '/Users/j/Projects/AG'
+    setlocal noexpandtab smarttab tabstop=2 shiftwidth=2 textwidth=0
+    if &filetype == 'yaml'
+      setlocal expandtab tabstop=2 shiftwidth=2
+    endif
+  endif
+endfunction
+autocmd! BufReadPost,BufNewFile * call SetupEnvironment()
