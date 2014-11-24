@@ -6,3 +6,4 @@ export NODE_PATH="/usr/local/lib/node"
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/bin/lib/prince/bin:/Users/j/bin/Multimarkdown/bin:/Users/j/bin/abbot/bin:/Users/j/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql:/usr/local/mysql/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:$PATH
 
+eval "$(rbenv init -)"
