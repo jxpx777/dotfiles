@@ -13,7 +13,7 @@ bindkey '^R' history-incremental-search-backward
 # time that oh-my-zsh is loaded.
 ZSH_THEME="jxpx777"
 
-PROJECT_PATHS=(~/Projects)
+PROJECT_PATHS=(~/Projects ~/Projects/AG)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
