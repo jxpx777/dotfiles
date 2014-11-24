@@ -1,1 +1,6 @@
 --type-set=json=.json
+-s
+--ignore-directory=log
+--ignore-directory=vendor/bundle
+--ignore-directory=coverage
+--ignore-directory=tmp
