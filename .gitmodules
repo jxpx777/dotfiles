@@ -20,3 +20,6 @@
 [submodule "vim/customization/vim-vinegar"]
 	path = vim/customization/vim-vinegar
 	url = git://github.com/tpope/vim-vinegar.git
+[submodule "vim/customization/tComment.vim"]
+	path = vim/customization/tComment.vim
+	url = https://github.com/vim-scripts/tComment.git
