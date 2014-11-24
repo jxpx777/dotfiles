@@ -40,7 +40,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rbenv bundler brew cloudapp cap colorize gem git jira osx pj pod pow rails thor pj wd)
+plugins=(brew cloudapp cap colorize gem git jira osx pj pod pow rails thor pj wd)
 
 source $ZSH/oh-my-zsh.sh
 source "$HOME/.dotfiles/zsh/aliases"
