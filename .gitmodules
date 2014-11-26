@@ -23,3 +23,6 @@
 [submodule "vim/customization/tComment.vim"]
 	path = vim/customization/tComment.vim
 	url = https://github.com/vim-scripts/tComment.git
+[submodule "xcode/FontsAndColorThemes/Base16"]
+	path = xcode/FontsAndColorThemes/Base16
+	url = https://github.com/joedynamite/base16-xcode4
