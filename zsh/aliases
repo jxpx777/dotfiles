@@ -3,7 +3,7 @@ source ~/.dotfiles/zsh/agilebits
 
 # For bridging my homegrown Projects plugin to PJ plugin
 alias p='pj'
-
+alias po='pjo'
 # Utility
 alias reload='source ~/.dotfiles/zsh/aliases'
 alias ea='vim ~/.dotfiles/zsh/aliases && reload' # Edit aliases
