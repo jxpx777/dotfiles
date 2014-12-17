@@ -45,6 +45,7 @@
 	trustExitCode = true
 [mergetool]
 	prompt = false
+	keepBackup = true
 [url "https://github.com/"]
   insteadOf = github:
 [url "git@bitbucket.org:agilebitsinc/"]
@@ -69,3 +70,4 @@
 		end\n\
 		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
 		exit 1 if b.include?(%(<)*%L)'"
+
