@@ -48,6 +48,7 @@ source "$HOME/.dotfiles/zsh/aliases"
 
 autoload -U zmv
 
+eval "$(rbenv init -)"
 
 BASE16_SCHEME="tomorrow"
 BASE16_SHELL="$HOME/.dotfiles/zsh/base16-shell/base16-$BASE16_SCHEME.dark.sh"
