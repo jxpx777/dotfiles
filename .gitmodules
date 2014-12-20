@@ -26,3 +26,6 @@
 [submodule "xcode/FontsAndColorThemes/Base16"]
 	path = xcode/FontsAndColorThemes/Base16
 	url = https://github.com/joedynamite/base16-xcode4
+[submodule "sublime-text/Installed Packages/Theme - Soda"]
+	path = sublime-text/Installed Packages/Theme - Soda
+	url = https://github.com/buymeasoda/soda-theme/
