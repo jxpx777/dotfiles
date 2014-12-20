@@ -36,6 +36,9 @@
 		".themes",
 		".bundle"
 	],
+	"ignored_packages": [
+		"vintage"
+	],
 	"font_face": "Panic Sans",
 	"font_size": 15.0,
 	"highlight_modified_tabs": true,
