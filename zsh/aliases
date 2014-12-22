@@ -6,8 +6,8 @@ alias p='pj'
 alias po='pjo'
 # Utility
 alias reload='source ~/.dotfiles/zsh/aliases'
-alias ea='vim ~/.dotfiles/zsh/aliases && reload' # Edit aliases
-alias ee="vim ~/.dotfiles/zsh/zshenv"
+alias ea="$EDITOR ~/.dotfiles/zsh/aliases && reload" # Edit aliases
+alias ee="$EDITOR ~/.dotfiles/zsh/zshenv"
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
