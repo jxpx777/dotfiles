@@ -36,12 +36,13 @@
 		".themes",
 		".bundle"
 	],
-	"ignored_packages": [
-		"vintage"
-	],
 	"font_face": "Panic Sans",
 	"font_size": 15.0,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"vintage"
+	],
 	"line-margin": 5,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,

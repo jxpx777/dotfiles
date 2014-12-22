@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"Surround"
+	],
+	"repositories":
+	[
+		"https://github.com/jcartledge/sublime-surround.git"
+	]
+}
