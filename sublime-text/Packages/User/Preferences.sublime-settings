@@ -23,7 +23,8 @@
 		".DS_Store",
 		"Gemfile.lock",
 		"*.min.*",
-		"*.scssc"
+		"*.scssc",
+		"*.un~"
 	],
 	"folder_exclude_patterns":
 	[
