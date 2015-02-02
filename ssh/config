@@ -1,14 +1,5 @@
-Host git.agilebits.com
-Port 22
-
-Host cdn.agile.ws
-Port 22
-
-Host *.agile.ws
-Port 22222
-
 host jp
-	hostname joker.dreamhost.com
+	hostname glenallachie.dreamhost.com
 	user jrphelps
 
 host em
@@ -22,7 +13,6 @@ host imageserver
 host learn
   user docs
   hostname learn-origin.agilebits.com
-
 
 host webtest
 	HostName 54.210.41.41
