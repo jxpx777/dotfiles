@@ -38,12 +38,12 @@
 		".bundle"
 	],
 	"font_face": "Panic Sans",
-	"font_size": 15.0,
+	"font_size": 16.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"vintage",
-		"Vintageous"
+		"Vintageous",
+		"vintage"
 	],
 	"line-margin": 5,
 	"line_padding_bottom": 1,
