@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"Git",
+		"MarkdownEditing",
 		"Package Control",
 		"Surround"
 	],
