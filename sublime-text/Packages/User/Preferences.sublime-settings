@@ -1,20 +1,4 @@
 {
-	"binary_file_patterns":
-	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip"
-	],
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"detect_indentation": true,
 	"draw_white_space": "selection",
@@ -35,17 +19,12 @@
 		"ext",
 		".git",
 		".themes",
-		".bundle"
+		".bundle",
+		"vendor/bundle"
 	],
 	"font_face": "Panic Sans",
 	"font_size": 16.0,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintageous",
-		"vintage",
-		"Markdown"
-	],
 	"line-margin": 5,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -56,5 +35,27 @@
 	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_automatic_white_space": true,
-	"use_tab_stops": true
+	"use_tab_stops": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Markdown",
+		"Vintageous"
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	]
 }
