@@ -32,3 +32,6 @@
 [submodule "sublime-text/Packages/Theme - Soda"]
 	path = sublime-text/Packages/Theme - Soda
 	url = https://github.com/buymeasoda/soda-theme/
+[submodule "vim/customization/TaskPaper.vim"]
+	path = vim/customization/TaskPaper.vim
+	url = git@github.com:davidoc/taskpaper.vim.git
