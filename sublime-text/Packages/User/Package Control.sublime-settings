@@ -4,9 +4,12 @@
 	],
 	"installed_packages":
 	[
+		"Base16 Color Schemes",
+		"Filter Lines",
 		"Git",
 		"MarkdownEditing",
 		"Package Control",
+		"PlainTasks",
 		"Surround"
 	],
 	"repositories":
