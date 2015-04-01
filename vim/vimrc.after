@@ -3,13 +3,13 @@ set clipboard=unnamed
 let base16colorspace=256  " Access colors present in 256 colorspace
 set background=light
 colorscheme base16-tomorrow
-set guifont=Panic\ Sans:h13
+set guifont=Panic\ Sans:h16
 
 set expandtab
 set tabstop=2
 set shiftwidth=2
 
-let g:user_emmet_install_global = 0
+"let g:user_emmet_install_global = 0
 "autocmd FileType html,css,eruby,eruby-rails EmmetInstall
 
 " window
@@ -25,17 +25,24 @@ nmap <leader>s<up>     :leftabove  new<CR>
 nmap <leader>s<down>   :rightbelow new<CR>
 
 " clear search highlight
-nnoremap <esc> :noh<return><esc>
+nnoremap <leader>l         :noh<CR><ESC>
 
 " exit insert mode when beginning text movements
-:imap jj <Esc>
-:imap kk <Esc>
+:imap jj <ESC>
+:imap kk <ESC>
 
 
 
 "Helpful stuff from Steve Losh
 set list
-set listchars=tab:▸\ ,eol:¬ "Change the invisible character display characters.
+set listchars=extends:»,precedes:«,nbsp:%,tab:▸\ ,trail:.,eol:¬ "Change the invisible character display characters.
+highlight ExtraWhitespace ctermbg=red guibg=red
+" From http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 set wrap
 set textwidth=79
@@ -50,9 +57,6 @@ set gdefault
 set incsearch
 set showmatch
 set hlsearch
-"nnoremap <leader><space> :noh<cr>
-"nnoremap <tab> %
-"vnoremap <tab> %
 
 set encoding=utf-8
 set scrolloff=3
@@ -79,8 +83,6 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
-nnoremap j gj
-nnoremap k gk
 
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
