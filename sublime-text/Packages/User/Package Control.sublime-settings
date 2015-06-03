@@ -4,12 +4,27 @@
 	],
 	"installed_packages":
 	[
+		"ArcticTypescript",
+		"Babel",
 		"Base16 Color Schemes",
+		"DashDoc",
 		"Filter Lines",
 		"Git",
+		"GoSublime",
+		"JavaScriptNext - ES6 Syntax",
+		"Jekyll",
+		"JSON Reindent",
+		"JSX",
 		"MarkdownEditing",
+		"Marked App Menu",
 		"Package Control",
 		"PlainTasks",
+		"ReactJS",
+		"Sass",
+		"SASS Build",
+		"SassBeautify",
+		"SublimeLinter",
+		"SublimeLinter-jsxhint",
 		"Surround"
 	],
 	"repositories":
