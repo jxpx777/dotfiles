@@ -1,0 +1,10 @@
+{
+	"env" : {
+		"GOPATH": "$HOME/Projects/B5/vendor:$HOME/Projects/B5/server"
+	},
+    "on_save": [
+        {"cmd": "gs9o_open", "args": {"run": ["sh", "go build . errors && go vet "], "focus_view": false}}
+    ],
+
+    "fmt_cmd": ["goimports"]
+}
