@@ -2,6 +2,10 @@ host jp
 	hostname glenallachie.dreamhost.com
 	user jrphelps
 
+host jxpx777
+	hostname glenallachie.dreamhost.com
+	user jxpx777
+
 host em
 	hostname epiphanymedia.net
 	user epiphanymedia
