@@ -1,5 +1,4 @@
-export PATH=$(brew --prefix rbenv)/shims:$(brew --prefix rbenv)/bin:$PATH
-
+export PATH=$(brew --prefix rbenv)/shims:$(brew --prefix rbenv)/bin:$(rbenv root)/shims:$(rbenv root)/bin:$PATH
 export RBENV_ROOT="$(brew --prefix rbenv)"
 export GEM_HOME="$(brew --prefix)/opt/gems"
 export GEM_PATH="$(brew --prefix)/opt/gems"
