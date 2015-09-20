@@ -17,15 +17,18 @@
 		"JSX",
 		"MarkdownEditing",
 		"Marked App Menu",
+		"MDN Search Doc",
 		"Package Control",
 		"PlainTasks",
 		"ReactJS",
 		"Sass",
 		"SASS Build",
 		"SassBeautify",
+		"Smart Title Case",
 		"SublimeLinter",
 		"SublimeLinter-jsxhint",
-		"Surround"
+		"Surround",
+		"Vintageous"
 	],
 	"repositories":
 	[
