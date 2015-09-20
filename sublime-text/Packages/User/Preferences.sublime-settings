@@ -15,7 +15,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Espresso Soda (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/MarkdownEditor (SL).tmTheme",
 	"detect_indentation": true,
 	"draw_white_space": "selection",
 	"file_exclude_patterns":
@@ -43,7 +43,7 @@
 		"pkg"
 	],
 	"font_face": "Panic Sans",
-	"font_size": 17.0,
+	"font_size": 12.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -61,6 +61,6 @@
 	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": false,
 	"use_tab_stops": true
 }
