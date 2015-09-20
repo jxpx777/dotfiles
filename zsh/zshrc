@@ -40,7 +40,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew cloudapp cap colorize gem git jira osx pj pod pow rails thor pj wd)
+plugins=(brew bundler cap colorize encode64 gem git gpg-agent jira jsontools osx pip pj pod pow rails redis-cli sublime sudo taskwarrior thor tmux urltools vagrant web-search wd)
 
 source $ZSH/oh-my-zsh.sh
 source "$HOME/.dotfiles/zsh/aliases"
@@ -54,4 +54,5 @@ BASE16_SCHEME="tomorrow"
 BASE16_SHELL="$HOME/.dotfiles/zsh/base16-shell/base16-$BASE16_SCHEME.dark.sh"
 [[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
 
-export GOPATH="$HOME/Projects/AG/B5/vendor:$HOME/Projects/AG/B5/server"
+export JIRA_URL="https://agilebits.atlassian.net"
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
