@@ -53,9 +53,6 @@ alias tm='top -o vsize' # memory
 
 # Git
 alias gitx="gittower ."
-alias go0="git log --pretty=format:\"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s\""
-alias go1="git log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative"
-alias go2="git log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit"
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
 alias gb='git branch'
 alias gba='git branch -a'
@@ -66,7 +63,7 @@ function gg() {
     git commit -v -a -m "$*"
 }
 alias gco='git checkout'
-alias gd='git diff'
+alias gd='git d'
 alias gdt='git difftool -y'
 alias gdc='gdt -t Changes'
 alias gdk='gdt -t Kaleidoscope'
@@ -78,7 +75,7 @@ alias gnp="git-notpushed"
 alias gp='git push'
 alias gst='git status'
 alias gt='git status'
-alias g='git status'
+alias g='git'
 alias eg='subl .git/config'
 # Git clone from GitHub
 function gch() {
@@ -205,4 +202,24 @@ function circle() {
 
 function smallcap() {
   echo "$1" | tr "abcdefghijklmnopqrstuvwxyz" "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀꜱᴛᴜᴠᴡxʏᴢ"
+}
+
+
+function strip_diff_leading_symbols(){
+    color_code_regex=$'(\x1B\\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K])'
+
+        # simplify the unified patch diff header
+        sed -E "s/^($color_code_regex)diff --git .*$//g" | \
+               sed -E "s/^($color_code_regex)index .*$/\
+\1$(rule)/g" | \
+               sed -E "s/^($color_code_regex)\+\+\+(.*)$/\1\+\+\+\5\\
+\1$(rule)/g" | \
+
+        # actually strips the leading symbols
+               sed -E "s/^($color_code_regex)[\+\-]/\1 /g"
+}
+
+## Print a horizontal rule
+rule () {
+        printf "%$(tput cols)s\n"|tr " " "─"
 }
