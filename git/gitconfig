@@ -1,45 +1,61 @@
-[user]
-	name = Jamie Phelps
-	email = jamie@epiphanymedia.net
-[color]
-	ui = auto
-	diff = auto
-	status = auto
-	branch = auto
-[push]
-	default = tracking
 [alias]
     st = status
-    ci = commit
-    br = branch
+    c = commit
+    b = branch
     co = checkout
     df = diff
-    lg = log
-	 up = pull
-	 pu = push
+	l = pull
+	p = push
+    g = log
+    g0 = log --pretty=format:"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s" --date=local
+    g1 = log --graph --all --pretty=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)" --abbrev-commit --date=relative
+	d = diff --abbrev=10 --ignore-all-space --ignore-blank-lines
+
+[include]
+    # For username / github token / etc
+    path = ~/.gitconfig.local
+[user]
+	name = Jamie Phelps
+	email = jamie@jamiephelps.com
+[color]
+	ui = always
+	diff = always
+	status = always
+	branch = always
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+[color "diff-highlight"]
+	oldNormal = "red bold"
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+[push]
+	default = tracking
 [github]
 	user = jxpx777
 	token = 3289514529438a440471c46ab0361bf8
 [core]
-	excludesfile = /Users/j/.dotfiles/git/gitignore
-	editor = "subl -w"
+    excludesfile = ~/.dotfiles/git/gitignore
+    attributesfile = ~/.dotfiles/git/gitattributes
+    pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | strip_diff_leading_symbols | less -r' -
+    editor = "subl -w"
 [branch]
 	autosetupmerge = true
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[difftool "Changes"]
-	cmd = /usr/bin/env chdiff $LOCAL $REMOTE
 [difftool]
 	prompt = false
 [diff]
 	tool = Kaleidoscope
-
 [merge]
 	tool = Kaleidoscope
-[mergetool "Changes"]
-       cmd = /usr/bin/env chdiff --wait "$LOCAL" "$REMOTE"
-       keepBackup = false
-       trustExitCode = false
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
