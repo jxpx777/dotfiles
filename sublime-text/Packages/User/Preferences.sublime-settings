@@ -22,7 +22,6 @@
 	[
 		".DS_Store",
 		"Gemfile.lock",
-		"*.min.*",
 		"*.scssc",
 		"*.un~"
 	],
