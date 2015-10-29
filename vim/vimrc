@@ -1,1 +1,48 @@
+set nocompatible
 set clipboard=unnamed
+
+let base16colorspace=256  " Access colors present in 256 colorspace
+"colorscheme base16-default
+
+
+" ============================================================
+" Vundle
+" ============================================================
+set rtp+=~/.dotfiles/vim/bundle/Vundle.vim
+call vundle#begin('~/.dotfiles/vim/plugins')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'chriskempson/base16-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'vim-ruby/vim-rails'
+Plugin 'ctrlpvim/ctrlp.vim'
+
+Plugin 'faith/vim-go'
+
+" Plugins to try out
+" Plugin 'tomtom/tcomment_vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+
+
+nmap j gj
+nmap k gk
+
+imap jk <esc>
+imap kj <esc>
+
+noremap <C-s> <esc>:w<cr>
+inoremap <C-s> <esc>:w<cr>
+
+filetype off                  " required
+filetype plugin indent on    " required
+
+set backspace=indent,eol,start " allow backspacing over everything in insert mode
+
+set backupdir=~/.tmp
+set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
