@@ -1,3 +1,6 @@
+# Disable flow control so <C-s> works in vim
+stty -ixon
+
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.dotfiles/zsh/oh-my-zsh
 export ZSH_CUSTOM=$HOME/.dotfiles/zsh/customization
