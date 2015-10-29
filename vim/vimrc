@@ -1,10 +1,6 @@
 set nocompatible
 set clipboard=unnamed
 
-let base16colorspace=256  " Access colors present in 256 colorspace
-"colorscheme base16-default
-
-
 " ============================================================
 " Vundle
 " ============================================================
@@ -53,3 +49,7 @@ set backspace=indent,eol,start " allow backspacing over everything in insert mod
 
 set backupdir=~/.tmp
 set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
+
+let base16colorspace=256  " Access colors present in 256 colorspace
+colorscheme base16-tomorrow
+syntax on 
