@@ -1,5 +1,6 @@
 set nocompatible
 set clipboard=unnamed
+let mapleader=" "
 
 " ============================================================
 " Vundle
@@ -11,11 +12,24 @@ call vundle#begin('~/.dotfiles/vim/plugins')
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'chriskempson/base16-vim'
+
+Plugin 'rking/ag.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 
-" Ruby and Rails
+Plugin 'vim-scripts/move'
 
+"Javascript
+Plugin 'pangloss/vim-javascript'
+
+"JSON
+Plugin 'elzr/vim-json'
+
+" Ruby and Rails
 Plugin 'vim-ruby/vim-ruby'
+
+"Lua
+Plugin 'xolox/vim-lua-ftplugin'
+
 " Tim Pope Joints
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rails'
@@ -24,23 +38,36 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-commentary'
 
-Plugin 'faith/vim-go'
-
-" Plugins to try out
-" Plugin 'tomtom/tcomment_vim'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-
+cal vundle#end()            " required
 
 nmap j gj
 nmap k gk
-
+imap jj <esc>
 imap jk <esc>
 imap kj <esc>
 
 noremap <C-s> <esc>:w<cr>
 inoremap <C-s> <esc>:w<cr>
+
+" Line and selection moving mappings from
+" http://vim.wikia.com/wiki/Moving_lines_up_or_down
+nnoremap <leader>k :m-2<CR>==
+nnoremap <leader>j :m+<CR>==
+inoremap <leader>j <Esc>:m+<CR>==gi
+inoremap <leader>k <Esc>:m-2<CR>==gi
+vnoremap <leader>j :m '>+1<CR>gv=gv
+vnoremap <leader>k :m '<-2<CR>gv=gv
+
+" Make CtrlP use ag for listing the files. Way faster and no useless files.
+let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor --path-to-agignore="~/.dotfiles/ag/agignore" -g ""'
+let g:ctrlp_use_caching = 0
+
+" Only in iTerm. Terminal doesn't allow these mappings?
+inoremap <A-Backspace> <C-w>  
+cnoremap <A-Backspace> <C-w>
 
 filetype off                  " required
 filetype plugin indent on    " required
@@ -50,6 +77,9 @@ set backspace=indent,eol,start " allow backspacing over everything in insert mod
 set backupdir=~/.tmp
 set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
 
+set relativenumber 
+set number  
+set background=light
 let base16colorspace=256  " Access colors present in 256 colorspace
 colorscheme base16-tomorrow
 syntax on 
