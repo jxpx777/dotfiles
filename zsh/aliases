@@ -98,6 +98,9 @@ function ct() {
   etags --append --output=TAGS $*
 }
 
+# Give silver_searcher a default set of ignore files
+alias ag='ag --path-to-agignore="~/.dotfiles/ag/agignore"'
+
 # TextMate points to sublime text now
 alias m="s"
 alias mm="ss"
