@@ -1,6 +1,7 @@
 set nocompatible
 set clipboard=unnamed
-let mapleader=" "
+let mapleader=","
+set splitright
 
 " ============================================================
 " Vundle
@@ -14,12 +15,17 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'chriskempson/base16-vim'
 
 Plugin 'rking/ag.vim'
-Plugin 'ctrlpvim/ctrlp.vim'
 
 Plugin 'vim-scripts/move'
 
 "Javascript
 Plugin 'pangloss/vim-javascript'
+
+"Typescript
+Plugin 'leafgarland/typescript-vim'
+
+"ReactJS
+Plugin 'mxw/vim-jsx'
 
 "JSON
 Plugin 'elzr/vim-json'
@@ -28,6 +34,7 @@ Plugin 'elzr/vim-json'
 Plugin 'vim-ruby/vim-ruby'
 
 "Lua
+Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-lua-ftplugin'
 
 " Tim Pope Joints
@@ -38,10 +45,23 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-commentary'
 
+"Golang
 Plugin 'fatih/vim-go'
 
+"Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'christoomey/vim-tmux-navigator'
 " All of your Plugins must be added before the following line
 cal vundle#end()            " required
+
+"Markdown
+let g:markdown_fenced_languages = ['html', 'ruby', 'javascript', 'go', 'python', 'bash=sh', 'zsh']
+let g:vim_markdown_frontmatter=1
+
+
 
 nmap j gj
 nmap k gk
@@ -60,6 +80,10 @@ inoremap <leader>j <Esc>:m+<CR>==gi
 inoremap <leader>k <Esc>:m-2<CR>==gi
 vnoremap <leader>j :m '>+1<CR>gv=gv
 vnoremap <leader>k :m '<-2<CR>gv=gv
+
+" Tab creation and navigation
+nnoremap <leader><tab> :tabnew<cr>
+vnoremap <leader><tab> y :tabnew<cr>P
 
 " Make CtrlP use ag for listing the files. Way faster and no useless files.
 let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor --path-to-agignore="~/.dotfiles/ag/agignore" -g ""'
