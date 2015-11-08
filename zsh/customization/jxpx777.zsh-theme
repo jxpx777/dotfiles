@@ -51,6 +51,9 @@ local host="@${host_repr[$(hostname)]:-$(hostname)}%{$reset_color%}"
 # Compacted $PWD
 local pwd="%{$fg[blue]%}%c%{$reset_color%}"
 
+#prompt_title='echo -ne "\033]0;${user}@${hostname%%.*}:${pwd/#$home/~}\007"'
+#export prompt_command="${prompt_command} ${prompt_title}; "
+
 PROMPT='${time} ${user}:${pwd}$(git_prompt_info) $(rbenv_prompt_info) $(git_prompt_status)
 ↪ '
 
@@ -69,16 +72,16 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[yellow]%} ═%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ✭%{$reset_color%}"
 
 # elaborate exitcode on the right when >0
-return_code_enabled="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
-return_code_disabled=
-return_code=$return_code_enabled
+#return_code_enabled="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+#return_code_disabled=
+#return_code=$return_code_enabled
 
-RPS1='${return_code}'
+#RPS1="" # Command for right side of prompt
 
 function accept-line-or-clear-warning () {
 	if [[ -z $BUFFER ]]; then
 		time=$time_disabled
-		return_code=$return_code_disabled
+	return_code=$return_code_disabled
 	else
 		time=$time_enabled
 		return_code=$return_code_enabled
