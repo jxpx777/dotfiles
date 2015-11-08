@@ -17,7 +17,13 @@ augroup json_autocmd
 	autocmd FileType json set foldmethod=syntax
 augroup END
 
-" TODO: 
 " - Markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 " - ReactJS
+au! BufRead,BufNewFile *.react.ts set filetype=typescript
+au! BufRead,BufNewFile *.react.js set filetype=javascript
+
+"
+" TODO: 
 " - Rakefile?
