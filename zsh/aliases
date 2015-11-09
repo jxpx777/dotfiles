@@ -226,3 +226,30 @@ function strip_diff_leading_symbols(){
 rule () {
         printf "%$(tput cols)s\n"|tr " " "─"
 }
+
+
+set-window-title() {
+	
+	echo -ne "\e]1;$PWD\a"
+
+	# window-title=""
+	# project-path=$(pwd)
+	# project-name=${project-path##$HOME/Projects/AG/}
+	# if [ $project-name != $project-path ]
+	# 	window-title="AgileBits"
+	# 	if [ ${project-name##b5} ]
+	# 		window-title="$window-title - B5"
+	# 	elsif [ ${project-name##agilebits} ]
+	# 		window-title="$window-title - website"
+	# 	elsif [ ${project-name##onepassword-brain} ]
+	# 		window-title="$window-title - Brain"
+	# 	elsif [ ${project-name##onepassword
+	# 	fi
+	# fi
+}
+
+set-tab-title() {
+	echo -ne "\e]1;$PWD\a"
+}
+chpwd_functions+=(set-window-title set-tab-title)
+preexec_functions+=(set-window-title set-tab-title)
