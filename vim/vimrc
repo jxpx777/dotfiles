@@ -7,6 +7,7 @@ set splitright
 " Vundle
 " ============================================================
 set rtp+=~/.dotfiles/vim/bundle/Vundle.vim
+set rtp+=~/.fzf
 call vundle#begin('~/.dotfiles/vim/plugins')
 
 " let Vundle manage Vundle, required
