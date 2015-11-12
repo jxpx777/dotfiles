@@ -2,28 +2,16 @@ if exists("did_load_filetypes")
 	finish
 endif
 
-"
-"JSON
-"
-au! BufRead,BufNewFile *.json set filetype=json
-"au FileType json setlocal equalprg=python\ -m\ json.tool
+" - markdown
+autocmd bufnewfile,bufreadpost *.md set filetype=markdown
 
-augroup json_autocmd
-	autocmd!
-	autocmd FileType json set autoindent
-	autocmd FileType json set formatoptions=tcq2l
-	autocmd FileType json set textwidth=78 shiftwidth=2
-	autocmd FileType json set softtabstop=4 tabstop=8
-	autocmd FileType json set foldmethod=syntax
-augroup END
+" - reactjs
+au! bufread,bufnewfile *.react.ts set filetype=typescript
+au! bufread,bufnewfile *.react.js set filetype=javascript
 
-" - Markdown
-autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+""json
+au! bufread,bufnewfile *.json set filetype=json
+au filetype json setlocal equalprg=python\ -m\ json.tool
 
-" - ReactJS
-au! BufRead,BufNewFile *.react.ts set filetype=typescript
-au! BufRead,BufNewFile *.react.js set filetype=javascript
-
-"
 " TODO: 
 " - Rakefile?
