@@ -5,9 +5,11 @@ export BUNDLER_EDITOR='vim'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export NODE_PATH="/usr/local/lib/node"
 
-export GOPATH="/usr/local/go:$HOME/Projects/AG/B5/vendor:$HOME/Projects/AG/B5/server"
+export GOPATH=~/go
+export GO15VENDOREXPERIMENT=1
+export PATH=$PATH:~/go/bin
 
-export PATH=$GOPATH/bin:$HOME/Projects/AG/B5/bin:$HOME/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
+export PATH=$HOME/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
 
 export GIT_CONFIG_NOSYSTEM=1
 if [[ ! -L $HOME/.gitconfig ]] then
