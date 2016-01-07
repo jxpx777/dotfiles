@@ -43,9 +43,9 @@
 	user = jxpx777
 	token = 3289514529438a440471c46ab0361bf8
 [core]
-    excludesfile = ~/.dotfiles/git/gitignore
-    attributesfile = ~/.dotfiles/git/gitattributes
     pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | strip_diff_leading_symbols | less -r' -
+    excludesfile = $DOTFILES/git/gitignore
+    attributesfile = $DOTFILES/git/gitattributes
     editor = "subl -w"
 [branch]
 	autosetupmerge = true

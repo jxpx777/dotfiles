@@ -7,8 +7,8 @@ set rtp+=~/.fzf
 " ============================================================
 " Vundle
 " ============================================================
-set rtp+=~/.dotfiles/vim/bundle/Vundle.vim
-call vundle#begin('~/.dotfiles/vim/plugins')
+set rtp+=$DOTFILES/vim/bundle/Vundle.vim
+call vundle#begin("$DOTFILES/vim/plugins")
 
 "When vim is resized, equalize the windows. Useful in tmux context
 autocmd VimResized * :wincmd =
@@ -93,7 +93,7 @@ nnoremap <leader><tab> :tabnew<cr>
 vnoremap <leader><tab> y :tabnew<cr>P
 
 " Make CtrlP use ag for listing the files. Way faster and no useless files.
-let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor --path-to-agignore="~/.dotfiles/ag/agignore" -g ""'
+let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor --path-to-agignore="$DOTFILES/ag/agignore" -g ""'
 let g:ctrlp_use_caching = 0
 
 " Only in iTerm. Terminal doesn't allow these mappings?
