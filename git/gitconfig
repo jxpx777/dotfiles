@@ -43,10 +43,10 @@
 	user = jxpx777
 	token = 3289514529438a440471c46ab0361bf8
 [core]
-    pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | strip_diff_leading_symbols | less -r' -
-    excludesfile = $DOTFILES/git/gitignore
-    attributesfile = $DOTFILES/git/gitattributes
-    editor = "subl -w"
+    pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
+    excludesfile = ~/Projects/dotfiles/git/gitignore
+    attributesfile = ~/Projects/dotfiles/git/gitattributes
+    editor = "vim"
 [branch]
 	autosetupmerge = true
 [difftool "Kaleidoscope"]
