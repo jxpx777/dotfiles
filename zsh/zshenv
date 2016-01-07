@@ -1,3 +1,4 @@
+export DOTFILES="$HOME/Projects/dotfiles"
 export EDITOR='vim'
 export GIT_EDITOR='vim'
 export BUNDLER_EDITOR='vim'
@@ -8,5 +9,7 @@ export GOPATH="/usr/local/go:$HOME/Projects/AG/B5/vendor:$HOME/Projects/AG/B5/se
 
 export PATH=$GOPATH/bin:$HOME/Projects/AG/B5/bin:$HOME/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
 
-export GIT_CONFIG="$HOME/.dotfiles/git/gitconfig"
 export GIT_CONFIG_NOSYSTEM=1
+if [[ ! -L $HOME/.gitconfig ]] then
+	ln -nsf "$DOTFILES/git/gitconfig" $HOME/.gitconfig
+fi

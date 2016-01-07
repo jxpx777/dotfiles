@@ -1,13 +1,13 @@
 # Command Enhancements
-source ~/.dotfiles/zsh/agilebits
+source "$DOTFILES/zsh/agilebits"
 
 # For bridging my homegrown Projects plugin to PJ plugin
 alias p='pj'
 alias po='pjo'
 # Utility
-alias reload='source ~/.dotfiles/zsh/aliases'
-alias ea="$EDITOR ~/.dotfiles/zsh/aliases && reload" # Edit aliases
-alias ee="$EDITOR ~/.dotfiles/zsh/zshenv"
+alias reload='source $DOTFILES/zsh/aliases'
+alias ea="$EDITOR $DOTFILES/zsh/aliases && reload" # Edit aliases
+alias ee="$EDITOR $DOTFILES/zsh/zshenv"
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -99,7 +99,7 @@ function ct() {
 }
 
 # Give silver_searcher a default set of ignore files
-alias ag='ag --path-to-agignore="~/.dotfiles/ag/agignore"'
+alias ag='ag --path-to-agignore="$DOTFILES/ag/agignore"'
 
 # TextMate points to sublime text now
 alias m="s"
