@@ -38,5 +38,5 @@ windows:
             - notifier:
                 - go run build.go compile-notifier && ./bin/b5notifier
             - b5:
-                - go run build.go clean all run
+                - make clean all run
             - redis-cli
