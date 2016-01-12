@@ -15,6 +15,8 @@ autocmd VimResized * :wincmd =
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'szw/vim-tags'
+Plugin 'davidoc/taskpaper.vim'
 
 Plugin 'chriskempson/base16-vim'
 
@@ -62,6 +64,15 @@ Plugin 'tmux-plugins/vim-tmux-focus-events'
 
 " All of your Plugins must be added before the following line
 cal vundle#end()            " required
+
+function! s:DiffWithSaved()
+  let filetype=&ft
+  diffthis
+  vnew | r # | normal! 1Gdd
+  diffthis
+  exe "setlocal bt=nofile bh=wipe nobl noswf ro ft=" . filetype
+endfunction
+com! DiffSaved call s:DiffWithSaved()
 
 "Markdown
 let g:vim_markdown_folding_disabled=1
@@ -113,4 +124,8 @@ set number
 set background=light
 let base16colorspace=256  " Access colors present in 256 colorspace
 colorscheme base16-tomorrow
-syntax on 
+
+" Sane default code indentation
+set tabstop=4
+
+syntax on
