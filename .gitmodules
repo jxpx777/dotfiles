@@ -13,9 +13,6 @@
 [submodule "sublime-text/Installed Packages/Theme - Soda"]
 	path = sublime-text/Installed Packages/Theme - Soda
 	url = https://github.com/buymeasoda/soda-theme/
-[submodule "sublime-text/Packages/Theme - Soda"]
-	path = sublime-text/Packages/Theme - Soda
-	url = https://github.com/buymeasoda/soda-theme/
 [submodule "vim/colors/base16.vim"]
 	path = vim/colors/base16.vim
 	url = git://github.com/chriskempson/base16-vim.git
