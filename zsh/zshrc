@@ -2,8 +2,8 @@
 stty -ixon
 
 # Path to your oh-my-zsh configuration.
-export ZSH=$HOME/.dotfiles/zsh/oh-my-zsh
-export ZSH_CUSTOM=$HOME/.dotfiles/zsh/customization
+export ZSH=$DOTFILES/zsh/oh-my-zsh
+export ZSH_CUSTOM=$DOTFILES/zsh/customization
 
 # Use vim keybindings
 bindkey -v
@@ -46,7 +46,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(brew bundler cap colorize encode64 gem git go gpg-agent jira jsontools osx pip pj pod pow rails redis-cli sublime sudo taskwarrior thor tmux urltools vagrant web-search wd)
 
 source $ZSH/oh-my-zsh.sh
-source "$HOME/.dotfiles/zsh/aliases"
+source "$DOTFILES/zsh/aliases"
 # Customize to your needs...
 
 autoload -U zmv
@@ -54,14 +54,14 @@ autoload -U zmv
 eval "$(rbenv init -)"
 
 BASE16_SCHEME="tomorrow"
-BASE16_SHELL="$HOME/.dotfiles/zsh/base16-shell/base16-$BASE16_SCHEME.dark.sh"
+BASE16_SHELL="$DOTFILES/zsh/base16-shell/base16-$BASE16_SCHEME.dark.sh"
 [[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
 
 export JIRA_URL="https://agilebits.atlassian.net"
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
 export HOMEBREW_PREFIX=$(brew --prefix)
-export PATH=":$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$HOMEBREW_PREFIX/bin/lib/prince/bin:$PATH"
+export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$HOMEBREW_PREFIX/bin/lib/prince/bin:$PATH"
 
 eval "$(rbenv init -)"
 
