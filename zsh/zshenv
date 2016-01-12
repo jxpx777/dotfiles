@@ -1,3 +1,4 @@
+export DOTFILES="$HOME/Projects/dotfiles"
 export EDITOR='vim'
 export GIT_EDITOR='vim'
 export BUNDLER_EDITOR='vim'
@@ -12,5 +13,5 @@ export PATH=$HOME/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:o
 
 export GIT_CONFIG_NOSYSTEM=1
 if [[ ! -L $HOME/.gitconfig ]] then
-	ln -nsf $HOME/Projects/dotfiles/git/gitconfig $HOME/.gitconfig
+	ln -nsf "$DOTFILES/git/gitconfig" $HOME/.gitconfig
 fi
