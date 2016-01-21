@@ -101,4 +101,4 @@
 [difftool "tower"]
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [init]
-	templatedir = /Users/j/.dotfiles/git/template
+	templatedir = ~/Projects/git/template
