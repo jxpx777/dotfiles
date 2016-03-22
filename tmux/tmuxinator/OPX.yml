@@ -1,7 +1,7 @@
 # ~/.tmuxinator/OPX.yml
 
 name: OPX
-root: ~/Projects/AG/onepassword4-extensions
+root: ~/Projects/onepassword4-extensions
 
 # Optional tmux socket
 # socket_name: foo
@@ -30,7 +30,7 @@ root: ~/Projects/AG/onepassword4-extensions
 windows:
     - jse: vim
     - brain: 
-        root: ~/Projects/AG/onepassword-brain  
+        root: ~/Projects/onepassword-brain  
         layout: main-vertical
         panes:
             - editor: vim
