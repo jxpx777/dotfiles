@@ -43,7 +43,7 @@
 	user = jxpx777
 	token = 3289514529438a440471c46ab0361bf8
 [core]
-    pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
+    pager = bash -lc '/opt/boxen/homebrew/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
     excludesfile = ~/Projects/dotfiles/git/gitignore
     attributesfile = ~/Projects/dotfiles/git/gitattributes
     editor = "vim"
@@ -101,4 +101,4 @@
 [difftool "tower"]
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [init]
-	templatedir = ~/Projects/git/template
+	templatedir = ~/Projects/dotfiles/git/template
