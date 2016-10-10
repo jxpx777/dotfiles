@@ -136,10 +136,12 @@ set backupdir=~/.tmp
 set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
 
 set relativenumber 
-set number  
-set background=light
-let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme base16-tomorrow
+set number
+
+if filereadable(expand("~/.vimrc_background"))
+	let base16colorspace=256
+	source ~/.vimrc_background
+endif
 
 syntax on
 
