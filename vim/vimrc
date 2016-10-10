@@ -112,6 +112,8 @@ vnoremap <leader>k :m '<-2<CR>gv=gv
 nnoremap <leader><tab> :tabnew<cr>
 vnoremap <leader><tab> y :tabnew<cr>P
 
+nmap <leader>[ lysiw"ysa"]hx
+
 " Make CtrlP use ag for listing the files. Way faster and no useless files.
 " The Silver Searcher
  if executable('ag')
