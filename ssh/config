@@ -1,9 +1,9 @@
 host jp
-	hostname glenallachie.dreamhost.com
+	hostname jamiephelps.com
 	user jrphelps
 
 host jxpx777
-	hostname glenallachie.dreamhost.com
+	hostname jxpx777.me
 	user jxpx777
 
 host em
@@ -23,3 +23,9 @@ host webtest
     Port 22
     User ec2-user
     IdentityFile ~/.ssh/id_rsa.pub
+
+host synapse
+	HostName synapse.agilebits.com
+	User ec2-user
+	Port 2233
+	IdentityFile ~/.ssh/id_rsa.pub
