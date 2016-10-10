@@ -71,3 +71,4 @@ export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/
 eval "$(rbenv init -)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
