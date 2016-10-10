@@ -1,0 +1,235 @@
+€˜scrollControllerrenderEditorselectionOverlay
+pasteStylepastePlainTextfloatingCursorResetControllershowToolbarrequestKeyboardselectWordAtPositionselectLineAtPositionpreferredLineHeightgetLocalRectForCaretgetPositionForOffsetgetEndpointsForSelectionsetFloatingCursorhandleTapDownselectWordsInRangeselectWordEdgeselectPositionAt
+selectWordselectPosition
+controller	focusNode
+scrollablescrollBottomInsetpadding	autoFocus
+showCursorpaintCursorAboveTextreadOnlyplaceholderenableInteractiveSelectionenableSelectionToolbar	minHeight	maxHeightmaxContentWidthcustomStylesexpandstextCapitalizationkeyboardAppearancescrollPhysicsonLaunchUrl	onTapDownonTapUponSingleLongTapStartonSingleLongTapMoveUpdateonSingleLongTapEndembedBuilderscustomStyleBuilderlocalelinkActionPickerDelegatefloatingCursorDisabledtextSelectionControlsonImagePastecreateState
+_editorKey _selectionGestureDetectorBuilder	initStatebuild_buildCustomBlockEmbededitableTextKeyforcePressEnabledselectionEnabled_requestKeyboard_stateonForcePressStartonForcePressEnd_isPositionSelectedisShiftClickonSingleTapUp_cursorControllerdocument	selection	_hasFocus_startHandleLayerLink_endHandleLayerLinkonSelectionChangedonSelectionCompleted_selectionStartInViewportselectionStartInViewportselectionEndInViewport_selectionEndInViewport!_updateSelectionExtentsVisibility_getOffsetForCaretsetDocumentsetHasFocus_paintOffsetoffset_offsetsetSelection_shiftPressedsetStartHandleLayerLinksetEndHandleLayerLinksetScrollBottomInset_maxContentWidth_lastTapDownPosition_extendSelectionOrigin_isDragginghandleDragStarthandleDragEnd_handleSelectionChangeextendSelectionperformLayoutpainthitTestChildren_paintHandleLayersgetOffsetToRevealCursor_floatingCursorPainter_floatingCursorOn_floatingCursorRectfloatingCursorTextPosition_floatingCursorTextPosition_relativeOrigin_previousOffset_resetOriginOnLeft_resetOriginOnRight_resetOriginOnTop_resetOriginOnBottom$calculateBoundedFloatingCursorOffset_paintFloatingCursorgetLineAtOffsetgetWordBoundarygetTextPositionAbovegetTextPositionBelowstartVerticalCaretMovementsystemFontsDidChange_currentTextPosition_editorcurrentmoveNextmovePrevious
+_containertextDirection_padding_resolvedPadding	containersetContainer
+getPadding
+setPaddingresolvedPaddingresolvePaddingchildAtPosition_markNeedsPaddingResolutionchildAtOffsetsetupParentData_getIntrinsicCrossAxis_getIntrinsicMainAxiscomputeMinIntrinsicWidthcomputeMaxIntrinsicWidthcomputeMinIntrinsicHeightcomputeMaxIntrinsicHeightcomputeDistanceToActualBaselineEditorStateRenderAbstractEditorQuillEditorQuillEditorState+_QuillEditorSelectionGestureDetectorBuilderTextSelectionChangedHandlerTextSelectionCompletedHandler_kFloatingCursorAddedMargin_kFloatingCaretSizeIncreaseRenderEditorQuillVerticalCaretMovementRunEditableContainerParentDataRenderEditableContainerBox{State	RawEditorTextSelectionDelegateScrollControllerEditorTextSelectionOverlayListTuple2intStyleStringAnimationControllerboolvoidTextLayoutMetricsTextSelectionTextPositiondoubleRectOffsetTextSelectionPointfloatingCursorResetControllerFloatingCursorDragStateignorePointerTapGestureRecognizer	onTapDownTapDownDetailsSelectionChangedCauseEditableTextTextEditingController	selectionStatefulWidgetTextCapitalization	sentences
+BrightnesslightdefaultLinkActionPickerDelegateKeykeyQuillControllerIterableEmbedBuilderLocale
+controllerscrollController
+scrollable	focusNode	FocusNode	autoFocusreadOnlyexpandspadding
+EdgeInsetszerokeyboardAppearancelocaleembedBuildersEdgeInsetsGeometryDefaultStylesExpandedSizedBoxScrollPhysics
+ScrollablephysicsValueChangedTapUpDetailsLongPressStartDetailsLongPressMoveUpdateDetailsLongPressEndDetailsCustomStyleBuildershowCupertinoModalPopupCupertinoActionSheetshowModalBottomSheetListTileLinkActionPickerDelegateTextSelectionControlsFuture	Uint8Listoverride1EditorTextSelectionGestureDetectorBuilderDelegate	GlobalKey)EditorTextSelectionGestureDetectorBuilder	initStateWidgetBuildContextThemeofTextSelectionThemeColorRadius	isAppleOSplatformCupertinoThemecupertinoTextSelectionControlscursorColorprimaryColorselectionColorwithOpacitycirculariOSHorizontalOffset
+MediaQuerydevicePixelRatiomaterialTextSelectionControlscolorSchemeprimarywidgetenableInteractiveSelectionenableSelectionToolbarscrollBottomInsetplaceholderonLaunchUrltoolbarOptionsToolbarOptionscopycutpaste	selectAllshowSelectionHandlesisMobile
+showCursorcursorStyleCursorStylecolorbackgroundColorColorsgreywidthradiusoffsetpaintAboveTextpaintCursorAboveTextopacityAnimatestextCapitalization	minHeight	maxHeightmaxContentWidthcustomStylesselectionCtrlstextSelectionControlsscrollPhysicsembedBuildernodelinkActionPickerDelegatecustomStyleBuilderfloatingCursorDisabledonImagePasteI18ninitialLocalechildbuildbehaviorHitTestBehaviortranslucentkIsWebRawKeyboardListeneronKeyKeyEventResultskipRemainingHandlersEmbedvaluetype
+BlockEmbed
+customTypeCustomBlockEmbedfromJsonStringdatabuilderUnimplementedErrorcurrentStaterequestKeyboarddelegateForcePressDetailsonForcePressStartselectionEnabledshouldShowSelectionToolbareditorshowToolbaronSingleLongTapMoveUpdaterenderEditorgetPositionForOffsetcontextselectPositionAtfromglobalPositioncause	longPressselectWordsInRangeoffsetFromOrigindocumentisEmptyquerySegmentLeafNodeitem1item2lengthupdateSelection	collapsedChangeSourceLOCALPointerDeviceKindRawKeyboardinstancekeysPressedmousecontainsLogicalKeyboardKey	shiftLeft
+shiftRightonTapUphideToolbar	isDesktopkindstylusinvertedStylusextendSelectiontaponSelectionCompletedselectPositiontouchunknownselectWordEdgetrackpad_requestKeyboardonSingleLongTapStart
+selectWordFeedbackforLongPressonSingleLongTapEndonSelectionChangedfromLTRB	symmetric
+horizontalverticalRenderEditableBox"RelayoutWhenSystemFontsChangeMixinTextDirection	LayerLink
+CursorContViewportOffsethasFocusstartHandleLayerLinkendHandleLayerLinkcursorControllerchildren	containerroottextDirectionDocumentValueNotifierValueListenablesizestartaffinityinflateendchildAtPositionglobalToLocalPosition
+parentDataBoxParentDatagetOffsetForCaretmarkNeedsLayoutmarkNeedsSemanticsUpdatepixelsattachedremoveListenermarkNeedsPaintaddListenerisCollapsedextentextentOffsetpreferredLineHeight
+_container
+queryChild
+firstChild
+childAfterlocalSelectiongetBaseEndpointForSelectionpoint	directiongetExtentEndpointForSelectionDragStartDetailsdragDragEndDetails
+baseOffsetbasekeyboardgetWordBoundary	TextRangeTextAffinityupstreamtominmaxfromPositionconstraintshasBoundedHeightFlutterError	fromPartsDiagnosticsNodeErrorSummaryErrorDescription	ErrorHinthasBoundedWidthresolvePaddingresolvedPaddingtopBoxConstraintstightForinfinitymaxWidthdeflatelayoutparentUsesSizeleftheightnextSiblingbottom	constrainSizeisFinitePaintingContextshowstyledefaultPaintBoxHitTestResultdefaultHitTestChildrenpositiondxclampdy	pushLayerLeaderLayerlinkpaintglobalToLocalchildAtOffsetfirstDragTextSelectionlastdocumentOffsetgetLocalRectForCaretshiftFloatingCursorPainterfloatingCursorRectrightStartEndresetLerpValuelerpgetCaretPrototypeinflateRectsetFloatingCursorTextPositioncanvasgetLineBoundarygetPositionAbovechildBeforegetPositionBelow_systemFontsDidChangeIteratorgetTextPositionBelowgetTextPositionAboveContainerBoxParentDataRenderEditableTextBlock	RenderBoxContainerRenderObjectMixinRenderBoxContainerDefaultsMixin	ContainerisNonNegativeaddAllresolvecopyWith	lastChild	translate
+StateErrorgetMinIntrinsicWidthgetMaxIntrinsicWidthgetMinIntrinsicHeightgetMaxIntrinsicHeightTextBaseline+defaultComputeDistanceToFirstActualBaselineStateTextSelectionDelegateTextLayoutMetricsStatefulWidget1EditorTextSelectionGestureDetectorBuilderDelegate)EditorTextSelectionGestureDetectorBuilderRenderEditableContainerBox"RelayoutWhenSystemFontsChangeMixinRenderAbstractEditorIteratorContainerBoxParentData	RenderBoxContainerRenderObjectMixinRenderBoxContainerDefaultsMixinyb_Î©˜#ë»HÕKÔ   	dart:math  dart:typed_data  package:flutter/cupertino.dart  package:flutter/foundation.dart  package:flutter/gestures.dart  package:flutter/material.dart  package:flutter/rendering.dart  package:flutter/services.dart  'package:i18n_extension/i18n_widget.dart  package:tuple/tuple.dart  !../models/documents/document.dart  (../models/documents/nodes/container.dart  )../models/documents/nodes/embeddable.dart  #../models/documents/nodes/leaf.dart  ../models/documents/style.dart  ../utils/platform.dart  box.dart  controller.dart  cursor.dart  default_styles.dart  delegate.dart  embeds.dart  float_cursor.dart  	link.dart  raw_editor.dart  text_selection.dart  	dart:coreÀ U¬ À úÁ‡g :TU~€¨€Ğ€ø!I{ŸË‚‚D‚r‚›‚¼‚Ï‚é‚ÿƒƒ5ƒKƒgƒ{ƒ•ƒ³ƒ´ƒû„„C„j„“„”„µ„¶„ê„ë………4…5…w…¿…ø…ù†††*†,†-†]† †İ†Ş‡‡‡a‡–‡—‡Ë‡ÑˆˆHˆIˆ–ˆœˆí‰=‰Š‰ÖŠ"ŠVŠWŠ¤ŠªŠû‹K‹˜‹äŒ0ŒeŒ‰ŒŠŒÖŒó2i¥äT­³ş(VW¨®ø(._z‹š»ÀÁı‘‘4‘h‘i‘o‘¸‘è‘î’’;’Œ’’Ë’Ñ““2“3“n“t“¨“ö”D”“”™”ß•&•;•z•|•}•¨•½•Ş•ı–#–C–`–––º–Ñ–ò—
+—8—b—„—š—°—Ì—å˜#˜U˜o˜‡˜˜±˜Ò˜ø™™1™x™—™ª™Õ™÷šš!š:š;šYš‚ššÂšíšî›:››•›œ›´›Ò›şœœ4œKœeœ{œ›œİœó"#qˆ¦ÊË l—˜èîŸ=ŸiŸoŸ½  F _  ‚ ¼ à á¡*¡9¡?¡‹¡×¡İ¢
+¢"¢#¢A¢G¢‘¢«¢Ï¢Ğ¢÷¢ı£;£†£Œ£»£Ò£ï£ğ¤4¤J¤P¤•¤Ğ¥¥¥Y¥Ÿ¥È¥Î¦¦&¦O¦P¦“¦¸¦¹¦ñ¦÷§D§Z§u§v§®§´¨¨¨2¨3¨y¨¨Ï©©n©©©µ©¶©ûªª>ªDª“ªÓªÙ«#«1«7«R«h«i«°«Ê«Ğ¬¬O¬U¬›¬Ê¬Ë¬ñ¬÷­*­0­V­}­~­Ä­Ê®®®W®]®}®£®¤®Ş¯	¯
+¯2¯I¯™¯š¯Â¯Ù°%°&°N°e°µ°Ñ°Ò°ú±4±|±¤±»²	²#²$²S²ƒ²„²Î³³(³)³s³š³ ³ë´(´.´|´¯´µµµMµ“µ¯µêµë¶¶¶H¶—¶ª¶à¶á···`·¦·§·³·ë·í·î¸ ¸c¸©¸Ú¹¹¹¹$¹;¹b¹¹¡¹¢¹®¹Õ¹úº5º6ºgº†º¦ºÀºØºò»»»2»k»©»Ì»ğ¼A¼y¼²¼ã½ ½M½Z½—½»½à¾/¾g¾¾¤¾¥¾Æ¿¿¿0¿G¿l¿¿À¿åÀ @À @7À @XÀ @À @¦À @ÌÀ @ğÀ AÀ A8À AaÀ AjÀ A À AÅÀ AåÀ BÀ B'À B9À BWÀ BuÀ BÂÀ BòÀ BûÀ C0À CSÀ CvÀ C¥À CÎÀ CíÀ DÀ D6À DƒÀ D¸À DıÀ E(À E>À EOÀ EcÀ EqÀ EƒÀ EÀ EÕÀ FÀ FKÀ FˆÀ F±À F¸À F¹À FÒÀ FöÀ GÀ GHÀ G}À G™À G§À GºÀ GÁÀ GÂÀ GÔÀ H$À HhÀ H°À HùÀ IÀ I2À IPÀ I˜À I£À IºÀ IÃÀ IÉÀ IÊÀ IİÀ IáÀ IâÀ J$À JWÀ J‚À JƒÀ JŸÀ J·À J¸À JçÀ KÀ KfÀ KnÀ KoÀ K—À KÆÀ LÀ LÀ LÀ L$À L%À LCÀ LÀ LÒÀ MÀ MÀ M#À M$À M0À MlÀ MmÀ MyÀ M À M¡À M­À MïÀ MğÀ NÀ N<À N@À NBÀ NCÀ NuÀ N­À NèÀ O	À O
+À O+À O,À O8À OnÀ O”À O×À OôÀ OúÀ OşÀ OÿÀ PÀ P@À PAÀ PMÀ P”À PÏÀ PñÀ Q%À QcÀ QsÀ Q{À QÀ Q§À QµÀ Q»À Q¼À QõÀ RÀ R;À RaÀ R‘À RšÀ R§À RÏÀ S
+À S*À SSÀ S\À SbÀ SfÀ SgÀ SšÀ SÑÀ SåÀ SëÀ T7À TJÀ T—À T¶À TÎÀ TâÀ TèÀ UÀ UAÀ UrÀ U¾À UÑÀ U×À UéÀ UíÀ UîÀ UúÀ V%À VPÀ VrÀ V–À VÔÀ VäÀ VìÀ VòÀ WÀ WÀ WÀ WIÀ WÀ W³À WîÀ X,À X0À X1À X=À XjÀ X“À X³À YÀ YÀ YÀ YÀ Y2À Y3À Y=À Y…À YÂÀ YõÀ ZCÀ ZeÀ ZÀ ZºÀ ZíÀ [=À [mÀ [ À [ĞÀ [îÀ \*À \bÀ \À \¥À \ÃÀ ]À ]4À ]DÀ ]EÀ ]ZÀ ]„À ]°À ]ÿÀ ^À ^9À ^uÀ ^ŸÀ ^´À ^áÀ _
+À _À _+À _<À _TÀ _“À _¹À _ÃÀ _ËÀ _ÛÀ _üÀ `À `À `À `À `PÀ `†À `¨À `×À aÀ a%À a-À a3À a4À aYÀ a”À a¶À aŞÀ bÀ b8À bCÀ bRÀ b•À bÄÀ bÌÀ bÒÀ bÖÀ b×À bãÀ cÀ cPÀ crÀ c¡À cİÀ cïÀ cùÀ cúÀ d#À dSÀ d]À deÀ dkÀ d’À d–À d˜À d™À déÀ eÀ eÀ eAÀ evÀ e±À e²À fÀ fOÀ f À fëÀ g:À gŠÀ gÒÀ gÖÀ hÀ h@À hAÀ h‰À h¨À høÀ hùÀ iGÀ izÀ i©À iáÀ iâÀ j)À j:À j>À j‡À j½À jéÀ kÀ k À k<À kfÀ k‚À kŸÀ k½À kêÀ lÀ l>À lhÀ lÀ l¶À lİÀ mÀ m#À mJÀ muÀ m¤À mÁÀ mßÀ nÀ nAÀ nsÀ n¡À nÍÀ nÜÀ núÀ oÀ oFÀ ovÀ o’À oÀ oÀ oÄÀ oéÀ pÀ pÀ pÀ p3À pMÀ ppÀ p‘À p’À p»À píÀ q#À q[À q|À q}À qµÀ qÖÀ q×À r&À rwÀ rxÀ r»À réÀ sÀ sPÀ s‹À sÒÀ tÀ tiÀ t·À tğÀ uAÀ uÀ u±À uåÀ v	À v;À v<À vTÀ vŸÀ vÖÀ wÀ w,À w\À w`À waÀ w©À wÊÀ wÿÀ x,À xmÀ xªÀ xòÀ y)À y-À y.À yQÀ ylÀ yzÀ y€À y”À y«À y¯À y°À yÍÀ yçÀ yõÀ yûÀ zÀ z.À z2À z3À zuÀ zvÀ zŸÀ zºÀ z»À záÀ {À {>À {SÀ {‹À {¢À {¦À {§À {ÎÀ {èÀ {öÀ {üÀ |À |%À |&À |PÀ |À |ÆÀ |ğÀ |öÀ |úÀ |ûÀ }À }hÀ }¸À }¹À }ëÀ ~À ~#À ~)À ~LÀ ~bÀ ~fÀ ~gÀ ~—À ~¿À ~ÍÀ ~ÓÀ ~ôÀ 
+À À À ;À aÀ oÀ uÀ ”À ªÀ ®À ¯À ËÀ òÀ €À €;À €RÀ €VÀ €WÀ €cÀ €˜À €½À €âÀ À GÀ À ÑÀ ‚À ‚0À ‚LÀ ‚À ‚¬À ‚ÏÀ ‚áÀ ‚êÀ ‚ğÀ ‚ñÀ ƒ>À ƒ?À ƒ_À ƒÀ ƒ¬À ƒ»À ƒÃÀ ƒìÀ ƒòÀ „À „À „UÀ „oÀ „±À „ûÀ …À …fÀ …gÀ …´À …äÀ †À †7À †FÀ †NÀ †{À †À †¢À †£À †êÀ ‡À ‡JÀ ‡`À ‡¤À ‡ÊÀ ˆÀ ˆÀ ˆQÀ ˆUÀ ˆVÀ ˆvÀ ˆwÀ ˆÂÀ ‰À ‰À ‰HÀ ‰IÀ ‰UÀ ‰„À ‰·À ‰»À ‰¼À ‰ØÀ ‰ÙÀ ŠÀ Š$À Š%À ŠPÀ ŠtÀ ŠÀ Š¤À Š¥À ŠËÀ ‹	À ‹4À ‹8À ‹9À ‹hÀ ‹À ‹À ‹¡À ‹¢À ‹®À ‹ÉÀ ‹ÚÀ ‹êÀ ŒÀ ŒÀ ŒGÀ Œ‚À Œ—À ŒèÀ ŒéÀ À À EÀ sÀ ™À ¢À ¯À ¶À ºÀ »À ÚÀ ûÀ À "À ]À ˆÀ œÀ ÂÀ õÀ À À #À QÀ UÀ VÀ £À ïÀ 9À xÀ ¤À ÓÀ ÔÀ ‘À ‘2À ‘IÀ ‘pÀ ‘®À ‘ÖÀ ‘áÀ ‘ğÀ ‘ùÀ ’BÀ ’`À ’wÀ ’±À ’ÚÀ “À “À “À “%À “+À “/À “0À “<À “qÀ “›À “İÀ ”
+À ”9À ”aÀ ”À ”°À ”·À ”óÀ •À •:À •aÀ •hÀ ••À •³À •èÀ •÷À – À –À –+À –LÀ –ŒÀ –›À –¤À –ªÀ –®À –¯À –»À –ßÀ –ùÀ —#À —3À —:À —oÀ —´À —µÀ —ßÀ ˜À ˜)À ˜nÀ ˜µÀ ˜»À ˜¼À ˜äÀ ™À ™$À ™KÀ ™RÀ ™SÀ ™À ™ÏÀ ™èÀ ™ìÀ ™íÀ ™ùÀ š*À šfÀ šjÀ škÀ šwÀ š·À šøÀ šüÀ šıÀ ›	À ›GÀ ›sÀ ›ÃÀ ›êÀ œÀ œ#À œmÀ œqÀ œrÀ œ~À œ¼À œèÀ œéÀ 9À `À “À ™À ãÀ çÀ èÀ ôÀ À À bÀ ˜À ÕÀ Ÿ À ŸgÀ ŸšÀ ŸİÀ ŸóÀ  À  VÀ  À  ÁÀ  ËÀ  ÕÀ  åÀ ¡À ¡OÀ ¡•À ¡ÅÀ ¢À ¢\À ¢¦À ¢ÒÀ ¢ÜÀ ¢æÀ ¢çÀ ¢ıÀ £"À £#À £RÀ £nÀ £¤À £ÁÀ ¤À ¤1À ¤aÀ ¤oÀ ¤¶À ¤ÒÀ ¥À ¥\À ¥«À ¥ÖÀ ¦	À ¦4À ¦:À ¦iÀ ¦·À ¦¸À ¦ÓÀ ¦×À ¦ØÀ ¦äÀ §À §0À §XÀ §‹À §¸À §¾À §áÀ ¨À ¨eÀ ¨fÀ ¨{À ¨£À ¨ÕÀ ©À ©À ©À ©À ©À ©gÀ ©¦À ©ªÀ ©«À ©ÆÀ ªÀ ª4À ªMÀ ªyÀ ª¦À ª­À ªÄÀ «À «À «.À «5À «VÀ «À «˜À «ÄÀ «ñÀ «úÀ ¬À ¬UÀ ¬jÀ ¬À ¬ˆÀ ¬À ¬’À ¬“À ¬ŸÀ ¬ÕÀ ­À ­(À ­qÀ ­uÀ ­vÀ ­‚À ­·À ­àÀ ®À ®	À ®CÀ ®vÀ ®¹À ®ÒÀ ¯À ¯7À ¯>À ¯BÀ ¯CÀ ¯À ¯“À ¯âÀ °,À °bÀ °hÀ °µÀ °»À ±À ±À ±#À ±rÀ ±ÁÀ ²À ²^À ²À ²…À ²¾À ²áÀ ³.À ³zÀ ³ÇÀ ´À ´_À ´šÀ ´›À ´ŞÀ ´ÿÀ µ À µBÀ µOÀ µ{À µµÀ µÓÀ µñÀ ¶ À ¶$À ¶,À ¶2À ¶3À ¶WÀ ¶ŒÀ ¶¥À ¶¦À ¶ÏÀ ¶ÿÀ ·OÀ ·aÀ ·|À ·—À ·¯À ·ûÀ ¸À ¸.À ¸CÀ ¸À ¸ªÀ ¸°À ¸ÆÀ ¸ÙÀ ¸ßÀ ¹'À ¹CÀ ¹GÀ ¹HÀ ¹TÀ ¹‰À ¹¼À ºÀ ºÀ ºPÀ ºQÀ º”À ºÙÀ ºİÀ ºŞÀ ºùÀ ºúÀ »GÀ »xÀ » À »©À »ªÀ »ÌÀ »éÀ »êÀ ¼8À ¼iÀ ¼jÀ ¼ºÀ ¼æÀ ½À ½UÀ ½}À ½˜À ½»À ½ßÀ ¾À ¾&À ¾'À ¾vÀ ¾¥À ¾áÀ ¿À ¿<À ¿TÀ ¿¤À ¿ÜÀ À#À À$À ÀGÀ ÀÀ À‡À ÀˆÀ À¾À ÀíÀ Á*À Á`À ÁxÀ Á¾À ÁàÀ ÂÀ Â6À Â}À Â À Â¦À ÂÛÀ ÂóÀ Ã8À ÃYÀ Ã˜À Ã°À ÃøÀ ÄÀ Ä"À Ä#À ÄaÀ ÄŸÀ Ä¼À ÄùÀ ÅÀ ÅSÀ ÅŒÀ ÅÀ ÅÅÀ ÅæÀ Æ&À ÆHÀ ÆNÀ Æ…À Æ¥À ÆæÀ Ç	À ÇÀ ÇÀ Ç7À Ç8À ÇSÀ ÇWÀ ÇXÀ ÇdÀ Ç À Ç×À ÇùÀ È!À È"À ÈXÀ È}À È›À È¿À ÈàÀ ÉÀ É'À É-À ÉoÀ ÉŒÀ É¾À ÉòÀ ÊÀ Ê\À Ê…À Ê¸À ÊÕÀ Ë#À Ë?À ËŠÀ Ë¢À ËéÀ ËöÀ ÌÀ ÌUÀ Ì[À Ì_À Ì`À Ì¦À ÌØÀ ÌÜÀ ÌİÀ ÌöÀ Ì÷À Í#À Í$À ÍtÀ Í€À Í¹À ÍæÀ ÎÀ Î=À Î‰À ÎÊÀ ÎæÀ ÏÀ ÏBÀ ÏIÀ Ï“À Ï—À Ï˜À Ï¤À ÏÙÀ ĞÀ Ğ5À Ğ]À Ğ©À ĞåÀ ĞûÀ Ñ&À ÑMÀ ÑTÀ ÑXÀ ÑYÀ ÑÀ Ñ¤À ÑîÀ ÒÀ ÒÀ ÒYÀ Ò†À Ò À ÒğÀ ÒñÀ Ó.À Ó/À ÓNÀ Ó–À Ó¨À ÓÒÀ ÓïÀ Ô)À ÔDÀ ÔyÀ ÔˆÀ ÔÌÀ ÕÀ ÕaÀ Õ¤À ÕïÀ ÖÀ ÖcÀ ÖkÀ ÖxÀ ÖšÀ ÖâÀ ÖèÀ × À ×À ×À ×JÀ ×PÀ ×˜À ×ºÀ ×ÆÀ ØÀ Ø0À ØJÀ ØšÀ Ø›À ØØÀ ØÙÀ ØøÀ Ù@À ÙRÀ Ù{À Ù˜À ÙÒÀ ÙìÀ Ú-À Ú<À Ú€À Ú¶À ÚúÀ Û=À ÛˆÀ Û¬À ÛüÀ ÜÀ ÜÀ Ü3À Ü{À ÜÀ Ü™À ÜÀ ÜÀ ÜÈÀ ÜÉÀ İÀ İ)À İUÀ İaÀ İvÀ İ}À İÀ İ‚À İÀ İ®À İĞÀ İçÀ İëÀ İíÀ İîÀ Ş3À ŞVÀ ŞhÀ Ş‡À ŞŒÀ ŞÀ Ş²À Ş³À ŞÑÀ ŞÒÀ ŞŞÀ ŞûÀ ßÀ ß À ß!À ß-À ßAÀ ßÀ ß¡À ß¥À ß¦À ß¾À àÀ àÀ à"À à$À à%À àGÀ à€À àÀ à±À àµÀ àûÀ á.À á7À ámÀ á—À áÒÀ áıÀ âÀ âOÀ ârÀ â™À âÄÀ âîÀ ãÀ ã5À ãRÀ ãhÀ ãlÀ ãmÀ ã”À ã³À ãÒÀ ãîÀ äÀ äÀ äGÀ äHÀ äzÀ ä•À ä£À ä©À ä½À äÔÀ äØÀ äÙÀ åÀ å	À å7À åXÀ åuÀ åƒÀ å‰À åŸÀ åÂÀ åÆÀ åÇÀ åşÀ åÿÀ æÀ æ=À æKÀ æQÀ æ‰À æÚÀ æÛÀ çÀ çÀ çÀ çJÀ çjÀ çkÀ çµÀ ç¶À çØÀ çúÀ è+À è:À èBÀ èrÀ èÀ èŸÀ è§À èÅÀ èËÀ èêÀ éÀ éÀ é6À é:À é;À ébÀ éÀ é–À éšÀ é›À éêÀ éğÀ ê:À ê„À ê¢À êÕÀ êõÀ ëÀ ëÀ ë:À ëTÀ ëZÀ ë™À ë²À ë¸À ë¹À ëÕÀ ëğÀ ìÀ ì0À ìlÀ ì‚À ìŠÀ ì©À ìÊÀ ìĞÀ íÀ í	À í
+À íÀ í@À í{À í‰À íÀ íÀ íÆÀ íÊÀ íËÀ í×À íğÀ îÀ î/À îUÀ îVÀ î†À î¢À î¿À îüÀ ï%À ïAÀ ï}À ïÍÀ ğÀ ğ;À ğnÀ ğ™À ğŸÀ ğÏÀ ñÀ ñÀ ñ9À ñ=À ñ>À ñŒÀ ñ¢À ñ¾À ñÚÀ òÀ ò\À ò‡À òÀ ò À ò¤À ò¥À òòÀ óÀ ó$À ó@À óbÀ ó±À óÜÀ óâÀ óõÀ óùÀ óúÀ ôÀ ô9À ôOÀ ô{À ô§À ôğÀ õ'À õJÀ õmÀ õuÀ õyÀ õzÀ õ†À õ¹À õÏÀ õûÀ ö'À öpÀ ö§À öÊÀ öíÀ öõÀ öùÀ öúÀ ÷À ÷9À ÷OÀ ÷zÀ ÷¥À ÷íÀ ø$À øFÀ øjÀ ørÀ øvÀ øwÀ øƒÀ ø¶À øÌÀ ø÷À ù"À ùjÀ ù¡À ùÃÀ ùçÀ ùïÀ ùóÀ ùôÀ ú À úBÀ úXÀ úœÀ ú»À ú¿À úÁ      :  U  ~  €¨  €Ğ  €ø  !  I  {  Ÿ  Ë‚ ‚  ‚D  ‚r  ‚›  ‚¼  ‚Ï  ‚é  ‚ÿ  ƒ  ƒ5  ƒK  ƒg  ƒ{  ƒ•    	ƒ´‚w„Z/// Base interface for the editor state which defines contract used by
+/// various mixins.   „l&„    „–„§    „¸1„Ø    „í(…
+    ……$    …7€À…Ù€…/// Controls the floating cursor animation when it is released.
+/// The floating cursor is animated to merge with the regular cursor.   …û†     ††     †-N†l//// Base interface for editable render objects.    †¢:†°  †Å†Ó   †à:†î  ‡‡   ‡w‡jB/// Returns preferred line height at specified `position` in text. ‡~‡Œ   ‡™€®ˆv/// Returns [Rect] for caret in local coordinates
+///
+/// Useful to enforce visibility of full caret at given position ˆ0ˆ>   ˆK‚
+Š1Ê/// Returns the local coordinates of the endpoints of the given selection.
+///
+/// If the selection is collapsed (and therefore occupies a single point), the
+/// returned list is of length one. Otherwise, the selection is not collapsed
+/// and the returned list is of length two. In this case, however, the two
+/// points might actually be co-located (e.g., because of a bidirectional
+/// selection that contains some text but whose ends meet in the middle). ŠFŠN   ŠY‚/ŒKÊ/// Returns the local coordinates of the endpoints of the given selection.
+///
+/// If the selection is collapsed (and therefore occupies a single point), the
+/// returned list is of length one. Otherwise, the selection is not collapsed
+/// and the returned list is of length two. In this case, however, the two
+/// points might actually be co-located (e.g., because of a bidirectional
+/// selection that contains some text but whose ends meet in the middle). ŒkŒz   ŒŒxp€Ö/// Sets the screen position of the floating cursor and the text position
+/// closest to the cursor.
+/// `resetLerpValue` drives the size of the floating cursor.
+/// See [EditorState.floatingCursorResetController]. ‚!›  «³  ÅÓ  ëô   M//// If [ignorePointer] is false (the default) then this method is called by
+/// the internal gesture recognizer's [TapGestureRecognizer.onTapDown]
+/// callback.
+///
+/// When [ignorePointer] is true, an ancestor widget must respond to tap
+/// down events by calling this method. =M   Yff€û/// Selects the set words of a paragraph in a given range of global positions.
+///
+/// The first and last endpoints of the selection will always be at the
+/// beginning and end of a word respectively.
+///
+/// {@macro flutter.rendering.editable.select} ~†  	—  µ   Ã€¤‘;l/// Move the selection to the beginning or end of a word.
+///
+/// {@macro flutter.rendering.editable.select} ‘J‘a   ‘k ’)€¤///
+/// Returns the new selection. Note that the returned value may not be
+/// yet reflected in the latest widget state.
+///
+/// Returns null if no change occurred. ’B’S  ’X$’x  ’~
+’‡   ’€¢“	n/// Select a word around the location of the last tap down.
+///
+/// {@macro flutter.rendering.editable.select} ““+   “5‚D•Bó/// Move selection to the location of the last tap down.
+///
+/// {@template flutter.rendering.editable.select}
+/// This method is mainly used to translate user inputs in global positions
+/// into a [TextSelection]. When used in conjunction with a [EditableText],
+/// the selection change is fed back into [TextEditingController.selection].
+///
+/// If you have a [TextEditingController], it's generally easier to
+/// programmatically manipulate its `value` or `selection` directly.
+/// {@endtemplate} •R$•r    •}¢o•ƒ  •ª„ •°•» #•Ä•Ó  •ä•ó  ––  –)–8  –I–X  –f–u  –…–”  –£–²  –À–Æ  –×–İ  –ø–ş  —&—  —>"—D  —h—n  —Š—  — —¦  —¶—¼  —Ò—Ø  —ë6—ñ  ˜)*˜/  ˜[˜a  ˜u˜{  ˜˜“  ˜£˜©  ˜·˜½  ˜Ø˜Ş  ˜ş™  ™™#  ™7?™=  ™~™„  ™™£  ™°#™¶  ™Û™á  ™ıš  šš  —2—\—˜˜˜˜C˜M˜N™W™Îš)š.š7š2š/š4š=‚äšPšQšV š]#šw  š†š•  š¢š¯  šÆ%šß  ›…›   "%€£¾z/// Controller object which establishes a link between a rich text document
+/// and this editor.
+///
+/// Must not be null. ÍP4/// Controls whether this editor has keyboard focus. "s…I/// The [ScrollController] to use when vertically scrolling the contents. šÃ S/// Whether this editor should create a scrollable container for its content.
+///
+/// When set to `true` the editor's height can be controlled by [minHeight],
+/// [maxHeight] and [expands] properties.
+///
+/// When set to `false` the editor always expands to fit the entire content
+/// of the document and should normally be placed as a child of another
+/// scrollable widget, otherwise the content may be clipped.  a n   „Z ×7/// Additional space around the content of this editor.  ã=¢/// Whether this editor should focus itself if nothing else is already
+/// focused.
+///
+/// If true, the keyboard will open as soon as this editor obtains focus.
+/// Otherwise, the keyboard is only shown after the user taps the editor.
+///
+/// Defaults to `false`. Cannot be `null`. ¢%€„¢Ÿg/// Whether to show cursor.
+///
+/// The cursor refers to the blinking caret when the editor is focused. ¢­ ¢¹  ¢Ò€ş£È€Ş/// Whether the text can be changed.
+///
+/// When this is set to `true`, the text cannot be modified
+/// by any shortcut or keyboard operation. The text is still selectable.
+///
+/// Defaults to `false`. Must not be `null`. £Ô£â  £ò‚[¦3‚/// Whether to enable user interface affordances for changing the
+/// text selection.
+///
+/// For example, setting this to true will enable features such as
+/// long-pressing the editor to select text and show the
+/// cut/copy/paste menu, and tapping to move the text cursor.
+///
+/// When this is false, the text selection cannot be adjusted by
+/// the user, text cannot be copied, and the user cannot paste into
+/// the text field from the clipboard.
+///
+/// To disable just the selection toolbar, set enableSelectionToolbar
+/// to false. ¦Rd¦ @/// Whether to show the cut/copy/paste menu when selecting text. ¦»€¸§j€˜/// The minimum height to be occupied by this editor.
+///
+/// This only has effect if [scrollable] is set to `true` and [expands] is
+/// set to `false`. §x€¸¨'€˜/// The maximum height to be occupied by this editor.
+///
+/// This only has effect if [scrollable] is set to `true` and [expands] is
+/// set to `false`. ¨5X©~0/// The maximum width to be occupied by the content of this editor.
+///
+/// If this is not null and and this editor's width is larger than this value
+/// then the contents will be constrained to the provided maximum width and
+/// horizontally centered. This is mostly useful on devices with wide screens. ©’!©§  ©¸®«_…/// Whether this editor's height will be sized to fill its parent.
+///
+/// This only has effect if [scrollable] is set to `true`.
+///
+/// If expands is set to true and wrapped in a parent widget like [Expanded]
+/// or [SizedBox], the editor will expand to fill the parent.
+///
+/// [maxHeight] and [minHeight] must both be `null` when this is set to
+/// `true`.
+///
+/// Defaults to `false`. «k]¬¶#/// Configures how the platform keyboard will select an uppercase or
+/// lowercase keyboard.
+///
+/// Only supports text keyboards, other keyboard types will ignore this
+/// configuration. Capitalization is locale-aware.
+///
+/// Defaults to [TextCapitalization.sentences]. Must not be `null`. ¬Í€®­i€€/// The appearance of the keyboard.
+///
+/// This setting is only honored on iOS devices.
+///
+/// Defaults to [Brightness.light]. ­€!®”€ğ/// The [ScrollPhysics] to use when vertically scrolling the input.
+///
+/// This only has effect if [scrollable] is set to `true`.
+///
+/// If not specified, it will behave according to the current platform.
+///
+/// See [Scrollable.physics]. ®¦a®ü7/// Callback to invoke when user wants to launch a URL. ¯4c¯  ¯Ä_°  °P°»  °ü~±a  ±¦{²  ²&+²D  ²U,²o  ²†€ ³ €‡/// The locale to use for the editor toolbar, defaults to system locale
+/// More https://github.com/singerdmx/flutter-quill#translation ³+‚½µĞ‚k/// Delegate function responsible for showing menu with link actions on
+/// mobile platforms (iOS, Android).
+///
+/// The menu is triggered in editing mode ([readOnly] is set to `false`)
+/// when the user long-presses a link-styled text segment.
+///
+/// FlutterQuill provides default implementation which can be overridden by
+/// this field to customize the user experience.
+///
+/// By default on iOS the menu is displayed with [showCupertinoModalPopup]
+/// which constructs an instance of [CupertinoActionSheet]. For Android,
+/// the menu is displayed with [showModalBottomSheet] and a list of
+/// Material [ListTile]s. µí!µø  ¶€Ë¶É€’/// allows to create a custom textSelectionControls,
+/// if this is null a default textSelectionControls based on the app's theme
+/// will be used ¶ã€Á·˜x/// Callback when the user pastes the given image.
+///
+/// Returns the url of the image if the image should be inserted.  ·©A·Æ   ·©·ª ·î–S·ô   ¸eB¸‚ ¸¸˜¸¤¸™¸¥¸¦¸«U¸à  À M&EÀ MM   À M&À M'À Mo0À M„   À MoÀ MpÀ M£KÀ M¸   À M£À M¤¹€›¹   ¹¹¹¤<¹·  ¹½¹Ë  ¹¤¹¥À Iäƒ>À Ië  À J
+À J	  À JÀ J  À J*À J;  À JFÀ JL   À MòMÀ M÷     À NC–TÀ NI  À N¯Y À N¯À NÚ À NÛÀ Ná  À NğÀ NõÀ OÀ NşÀ NöÀ O À OÀ O#   	À O.€ÏÀ O?  À OQÀ Od  À O.À O/À P>À P  À P"À P5  À PÀ PÀ PCƒ"À PT  À Pn"À PŠ  À PCÀ PDÀ Si‚ƒÀ Sn  À S‚À S   À Uğ#À V  À VÀ V  À UğÀ UñÀ WÀ W  À W)À W<   À X3‡ÒÀ XD  À XRÀ X`  À X3À X4À `	‚ÌÀ `  À `/À `F  À `	À `
+À bÙ¼À bê  À bıÀ c  À bÙÀ bÚ À iâÀ t
+À j€¤/// Displays a document as a vertical list of document segments (lines
+/// and blocks).
+///
+/// Children of [RenderEditor] must be instances of [RenderEditableBox]. À k„‹ À kÀ k À k$À k3  À k@$À kX  À kjÀ ky  À k†À k•  À k£À k²  À kÁ'À kÕ  À kî%À l  À l#À l6  À lB$À lW  À ll À l{  À l’"À l¡  À lº!À lË  À lá$À lğ  À mÀ m  À m'!À mA  À mNTÀ mZ  À m¨À m±  0À m}À mƒÀ mÀ mÀ m–À m¡À m—À mšÀ mÀ m À mÓÀ mÉÀ mÕÀ mşÀ mçÀ n À n)À nÀ n+À n]À nIÀ n_À nÀ n{À nÀ nºÀ n©À n¼À nÕÀ nÚÀ ošÀ nîÀ næÀ nğÀ oÀ oÀ oÀ oÀ oÀ o5À o(À o7À oaÀ oPÀ ocÀ o‡À o€À o‰À o "À o±  À oÆ!À oÑ  À oëÀ oö  À pÀ p  À pÀ p(  À p5À p: À pFÀ pOÀ pY  À prÀ p|  À p”WÀ pÙ&/// Called when the selection changes. À pï2À q  À q%UÀ q? À qaÀ qnÀ qsÀ qoÀ qtÀ qyÀ quÀ r(MÀ rB À r\À riÀ rnÀ rjÀ roÀ rtÀ rpÀ z¡À z±  À ±À ¹  À ˆXÀ ˆ`  À ‰!%À ‰0  À ‰¾À ‰Ã À ‰ÑÀ »¬À »± À »ÅÀ »ÎÀ »Ô  À ¼:-À ¼L  À ½W$À ½^ À ½pÀ ½vÀ ½wÀ ½À ½‡  À ½šÀ ½Ÿ À ½´À ½½ À ½Â À ½ØÀ ½áÀ ½æ À ½úÀ ¾!À ¾ À ¾	À qVÀ q™    À qÙLÀ qó    À z5?À z@    À zx&À zŒ    À z½€èÀ zÁ  À zÈÀ zÙ   À |ı€ºÀ }    À Í€ˆÀ Ñ  À áÀ ê   À ºü€¬À »    À »ìKÀ »ı    &À rz„åÀ r  À r¡À r©   À wÌ`À wÓ  À wæÀ wô   À y0~À y5  À yAÀ yK   À y²À y·  À yÃÀ yÉ   À {©PÀ {®  À {»À {Ê   À }»€ªÀ }À  À }ØÀ }ã   À ~i€¤À ~n  À ~„À ~   À €œÀ   À +À 3   À €Y‡ûÀ €~  À €À €­  À €YÀ €ZÀ ‰KoÀ ‰\  À ‰jÀ ‰z  À ‰KÀ ‰LÀ ‰Û\À ‰à  À ‰ğÀ Š   À ‹;eÀ ‹@  À ‹NÀ ‹^   À ‹¤‚À ‹µ  À ‹ÍÀ ‹Õ  À ‹Ş
+À ‹ç  À ‹îÀ Œ  À ‹¤À ‹¥À ½—À Â  À ŞÀ í  À ÿÀ    À XƒÖÀ ªJ/// Extends current selection to the position closest to specified offset. À º	À Â  À Æ$À æ   À “2ƒ{À “C  À “RÀ “i  À “2À “3À –±ƒ:À –Ì  À –ãÀ –ô  À –ı$À —  À —'
+À —0  À –±À –²À ™ïzÀ š   À šÀ š"  À ™ïÀ ™ğÀ šm€À š~  À š$À š®  À šmÀ šnÀ šÿqÀ ›  À ›.À ›<  À šÿÀ › À œtrÀ œ  À œ£À œ±  À œtÀ œuÀ êˆìÀ û   À êÀ ëÀ ¦Ú‚1À ¦ë  À ¦ñÀ §  À §
+À §  À ¦ÚÀ ¦ÛÀ ©€šÀ ©   À ©0À ©B  À ©JÀ ©[  À ©À ©À ©­‚äÀ ©²  À ©ÌÀ ©İ  À ©å"À ©ÿ   À ¬•€ßÀ ¬¨  À ¬¼À ¬Ê  À ¬•À ¬–À ­xÉÀ ­‘  À ­¦À ­®  À ­xÀ ­yÀ ¯EŠÀ ²ÈƒV/// Returns the y-offset of the editor at which [selection] is visible.
+///
+/// The offset is the distance from the top of the editor and is the minimum
+/// from the current scroll position until [selection] becomes visible.
+/// Returns null if [selection] is already visible.
+///
+/// Finds the closest scroll offset that fully reveals the editing cursor.
+///
+/// The `scrollOffset` parameter represents current scroll offset in the
+/// parent viewport.
+///
+/// The `offsetInViewport` parameter represents the editor's vertical offset
+/// in the parent viewport. This value should normally be 0.0 if this editor
+/// is the only child of the viewport or if it's the topmost child. Otherwise
+/// it should be a positive value equal to total height of all siblings of
+/// this editor from above it.
+///
+/// Returns `null` if the cursor is currently visible. À ²çÀ ²ï  À ²şÀ ³  À ³À ³   À ¹J’À ¹[  À ¹pÀ ¹~  À ¹JÀ ¹KÀ ¾)‰-À ¾L/// Returns the position within the editor closest to the raw cursor offset. À ¾«À ¾³  À ¾ÃÀ ¾Ë   À ÇZ…À Çk  À Ç}!À Ç–  À Ç¦À Ç®  À Ç¼À ÇÊ  À ÇŞÀ Çç  À ÇZÀ Ç[À ÌbyÀ Ìg  À Ì|À Ì  À Ì•À Ì   À Í&‚pÀ ÍM/// Return a [TextSelection] containing the line of the given [TextPosition]. À Í À Í®  À ÍvÀ ÍwÀ Ïš½À Ï°  À ÏÀÀ ÏÎ  À ÏšÀ Ï›À Ñ[…¨À Ò+€®/// Returns the TextPosition above the given offset into the text.
+///
+/// If the offset is already on the first line, the offset of the first
+/// character will be returned. À Ò@À ÒN  À ÒÀ ÒÀ ×…•À ×Õ€¬/// Returns the TextPosition below the given offset into the text.
+///
+/// If the offset is already on the last line, the offset of the last
+/// character will be returned. À ×êÀ ×ø  À ×¼À ×½À ÜË€µÀ Üé  À İÀ İ   À İ„fÀ İ•   À İ„À İ… À İî‚5À İô  À Ş5VÀ ŞRÀ ŞSÀ ŞT À ŞZÀ Ş`  À ŞlÀ Şr   À Ş!À Şœ  À ŞµÀ ŞÈ  À ŞÔKÀ Şñ   À ŞÔÀ ŞÕÀ ß#€À ß4   À ß#À ß$À ß¨yÀ ß­     À à%ZÀ à+       À àš?À áy/// Multi-child render box of editable content.
+///
+/// Common ancestor for [RenderEditor] and [RenderEditableTextBlock]. À áÿl À áÿÀ â À â"+À âE  À âUÀ âd  À âxÀ â‡  À âŸ#À â¼  À âÊ!À âä  À âöÀ âüÀ ãÀ âıÀ ãÀ ãÀ ã(À ãÀ ã*À ãFÀ ã=À ãHÀ ão#À ãˆ  À ã–À ã¤  À ãµÀ ãÈ  À ãÔÀ ãÛ  À ãğÀ ãü  À ä5À ä.    À åÉ4À åÙ    À äJ€À äO  À ä\À äv   À äÛ,À äî    À å€ºÀ å  À åÀ å/   À æ
+À æ    À ç‚*À ç!  À ç1À ç?   À é=\À éB    À éƒkÀ ê¶€ü/// Returns child of this container located at the specified local `offset`.
+///
+/// If `offset` is above this container (offset.dy is negative) returns
+/// the first child. Likewise, if `offset` is below this container then
+/// returns the last child. À êÄÀ êÌ   À í€½À í  À í-À í8  À íÀ íÀ íÍƒoÀ íŞ   À íÍÀ íÎÀ ñ@cÀ ñG  À ñ^*À ñ€   À ò§QÀ ò®  À òÄ*À òæ   À óü|À ô  À ô(À ô0  À óüÀ óıÀ õ||À õ  À õ¨À õ°  À õ|À õ}À öüyÀ ÷  À ÷)À ÷1  À öüÀ öıÀ øyyÀ øŒ  À ø¦À ø®  À øyÀ øzÀ ùö€ÈÀ ú	  À ú)À ú7  À ùöÀ ù÷       À d™À eI€§/// Signature for the callback that reports when the user changes the selection
+/// (including the cursor location).
+///
+/// Used by [RenderEditor.onSelectionChanged].  À ezÀ e‰  À e“À eª   À e²‚À h‚T/// Signature for the callback that reports when a selection action is actually
+/// completed and ratified. Completion is defined as when the user input has
+/// concluded for an entire selection action. For simple taps and keyboard input
+/// events that change the selection, this callback is invoked immediately
+/// following the TextSelectionChangedHandler. For long taps, the selection is
+/// considered complete at the up event of a long tap. For drag selections, the
+/// selection completes once the drag/pan event ends or is interrupted.
+///
+/// Used by [RenderEditor.onSelectionCompleted].     À h¨NÀ h¹ 	À h×À háÀ hâÀ hêÀ hõÀ hëÀ hîÀ hñÀ hôÀ izeÀ i‹ À i­À i·À i¸À iÁÀ iŞÀ iÌÀ iÂÀ iÎÀ iÛÀ iÓÀ iİ  ‡g :TU~€¨€Ğ€ø!I{ŸË‚‚D‚r‚›‚¼‚Ï‚é‚ÿƒƒ5ƒKƒgƒ{ƒ•ƒ³ƒ´ƒû„„C„j„“„”„µ„¶„ê„ë………4…5…w…¿…ø…ù†††*†,†-†]† †İ†Ş‡‡‡a‡–‡—‡Ë‡ÑˆˆHˆIˆ–ˆœˆí‰=‰Š‰ÖŠ"ŠVŠWŠ¤ŠªŠû‹K‹˜‹äŒ0ŒeŒ‰ŒŠŒÖŒó2i¥äT­³ş(VW¨®ø(._z‹š»ÀÁı‘‘4‘h‘i‘o‘¸‘è‘î’’;’Œ’’Ë’Ñ““2“3“n“t“¨“ö”D”“”™”ß•&•;•z•|•}•¨•½•Ş•ı–#–C–`–––º–Ñ–ò—
+—8—b—„—š—°—Ì—å˜#˜U˜o˜‡˜˜±˜Ò˜ø™™1™x™—™ª™Õ™÷šš!š:š;šYš‚ššÂšíšî›:››•›œ›´›Ò›şœœ4œKœeœ{œ›œİœó"#qˆ¦ÊË l—˜èîŸ=ŸiŸoŸ½  F _  ‚ ¼ à á¡*¡9¡?¡‹¡×¡İ¢
+¢"¢#¢A¢G¢‘¢«¢Ï¢Ğ¢÷¢ı£;£†£Œ£»£Ò£ï£ğ¤4¤J¤P¤•¤Ğ¥¥¥Y¥Ÿ¥È¥Î¦¦&¦O¦P¦“¦¸¦¹¦ñ¦÷§D§Z§u§v§®§´¨¨¨2¨3¨y¨¨Ï©©n©©©µ©¶©ûªª>ªDª“ªÓªÙ«#«1«7«R«h«i«°«Ê«Ğ¬¬O¬U¬›¬Ê¬Ë¬ñ¬÷­*­0­V­}­~­Ä­Ê®®®W®]®}®£®¤®Ş¯	¯
+¯2¯I¯™¯š¯Â¯Ù°%°&°N°e°µ°Ñ°Ò°ú±4±|±¤±»²	²#²$²S²ƒ²„²Î³³(³)³s³š³ ³ë´(´.´|´¯´µµµMµ“µ¯µêµë¶¶¶H¶—¶ª¶à¶á···`·¦·§·³·ë·í·î¸ ¸c¸©¸Ú¹¹¹¹$¹;¹b¹¹¡¹¢¹®¹Õ¹úº5º6ºgº†º¦ºÀºØºò»»»2»k»©»Ì»ğ¼A¼y¼²¼ã½ ½M½Z½—½»½à¾/¾g¾¾¤¾¥¾Æ¿¿¿0¿G¿l¿¿À¿åÀ @À @7À @XÀ @À @¦À @ÌÀ @ğÀ AÀ A8À AaÀ AjÀ A À AÅÀ AåÀ BÀ B'À B9À BWÀ BuÀ BÂÀ BòÀ BûÀ C0À CSÀ CvÀ C¥À CÎÀ CíÀ DÀ D6À DƒÀ D¸À DıÀ E(À E>À EOÀ EcÀ EqÀ EƒÀ EÀ EÕÀ FÀ FKÀ FˆÀ F±À F¸À F¹À FÒÀ FöÀ GÀ GHÀ G}À G™À G§À GºÀ GÁÀ GÂÀ GÔÀ H$À HhÀ H°À HùÀ IÀ I2À IPÀ I˜À I£À IºÀ IÃÀ IÉÀ IÊÀ IİÀ IáÀ IâÀ J$À JWÀ J‚À JƒÀ JŸÀ J·À J¸À JçÀ KÀ KfÀ KnÀ KoÀ K—À KÆÀ LÀ LÀ LÀ L$À L%À LCÀ LÀ LÒÀ MÀ MÀ M#À M$À M0À MlÀ MmÀ MyÀ M À M¡À M­À MïÀ MğÀ NÀ N<À N@À NBÀ NCÀ NuÀ N­À NèÀ O	À O
+À O+À O,À O8À OnÀ O”À O×À OôÀ OúÀ OşÀ OÿÀ PÀ P@À PAÀ PMÀ P”À PÏÀ PñÀ Q%À QcÀ QsÀ Q{À QÀ Q§À QµÀ Q»À Q¼À QõÀ RÀ R;À RaÀ R‘À RšÀ R§À RÏÀ S
+À S*À SSÀ S\À SbÀ SfÀ SgÀ SšÀ SÑÀ SåÀ SëÀ T7À TJÀ T—À T¶À TÎÀ TâÀ TèÀ UÀ UAÀ UrÀ U¾À UÑÀ U×À UéÀ UíÀ UîÀ UúÀ V%À VPÀ VrÀ V–À VÔÀ VäÀ VìÀ VòÀ WÀ WÀ WÀ WIÀ WÀ W³À WîÀ X,À X0À X1À X=À XjÀ X“À X³À YÀ YÀ YÀ YÀ Y2À Y3À Y=À Y…À YÂÀ YõÀ ZCÀ ZeÀ ZÀ ZºÀ ZíÀ [=À [mÀ [ À [ĞÀ [îÀ \*À \bÀ \À \¥À \ÃÀ ]À ]4À ]DÀ ]EÀ ]ZÀ ]„À ]°À ]ÿÀ ^À ^9À ^uÀ ^ŸÀ ^´À ^áÀ _
+À _À _+À _<À _TÀ _“À _¹À _ÃÀ _ËÀ _ÛÀ _üÀ `À `À `À `À `PÀ `†À `¨À `×À aÀ a%À a-À a3À a4À aYÀ a”À a¶À aŞÀ bÀ b8À bCÀ bRÀ b•À bÄÀ bÌÀ bÒÀ bÖÀ b×À bãÀ cÀ cPÀ crÀ c¡À cİÀ cïÀ cùÀ cúÀ d#À dSÀ d]À deÀ dkÀ d’À d–À d˜À d™À déÀ eÀ eÀ eAÀ evÀ e±À e²À fÀ fOÀ f À fëÀ g:À gŠÀ gÒÀ gÖÀ hÀ h@À hAÀ h‰À h¨À høÀ hùÀ iGÀ izÀ i©À iáÀ iâÀ j)À j:À j>À j‡À j½À jéÀ kÀ k À k<À kfÀ k‚À kŸÀ k½À kêÀ lÀ l>À lhÀ lÀ l¶À lİÀ mÀ m#À mJÀ muÀ m¤À mÁÀ mßÀ nÀ nAÀ nsÀ n¡À nÍÀ nÜÀ núÀ oÀ oFÀ ovÀ o’À oÀ oÀ oÄÀ oéÀ pÀ pÀ pÀ p3À pMÀ ppÀ p‘À p’À p»À píÀ q#À q[À q|À q}À qµÀ qÖÀ q×À r&À rwÀ rxÀ r»À réÀ sÀ sPÀ s‹À sÒÀ tÀ tiÀ t·À tğÀ uAÀ uÀ u±À uåÀ v	À v;À v<À vTÀ vŸÀ vÖÀ wÀ w,À w\À w`À waÀ w©À wÊÀ wÿÀ x,À xmÀ xªÀ xòÀ y)À y-À y.À yQÀ ylÀ yzÀ y€À y”À y«À y¯À y°À yÍÀ yçÀ yõÀ yûÀ zÀ z.À z2À z3À zuÀ zvÀ zŸÀ zºÀ z»À záÀ {À {>À {SÀ {‹À {¢À {¦À {§À {ÎÀ {èÀ {öÀ {üÀ |À |%À |&À |PÀ |À |ÆÀ |ğÀ |öÀ |úÀ |ûÀ }À }hÀ }¸À }¹À }ëÀ ~À ~#À ~)À ~LÀ ~bÀ ~fÀ ~gÀ ~—À ~¿À ~ÍÀ ~ÓÀ ~ôÀ 
+À À À ;À aÀ oÀ uÀ ”À ªÀ ®À ¯À ËÀ òÀ €À €;À €RÀ €VÀ €WÀ €cÀ €˜À €½À €âÀ À GÀ À ÑÀ ‚À ‚0À ‚LÀ ‚À ‚¬À ‚ÏÀ ‚áÀ ‚êÀ ‚ğÀ ‚ñÀ ƒ>À ƒ?À ƒ_À ƒÀ ƒ¬À ƒ»À ƒÃÀ ƒìÀ ƒòÀ „À „À „UÀ „oÀ „±À „ûÀ …À …fÀ …gÀ …´À …äÀ †À †7À †FÀ †NÀ †{À †À †¢À †£À †êÀ ‡À ‡JÀ ‡`À ‡¤À ‡ÊÀ ˆÀ ˆÀ ˆQÀ ˆUÀ ˆVÀ ˆvÀ ˆwÀ ˆÂÀ ‰À ‰À ‰HÀ ‰IÀ ‰UÀ ‰„À ‰·À ‰»À ‰¼À ‰ØÀ ‰ÙÀ ŠÀ Š$À Š%À ŠPÀ ŠtÀ ŠÀ Š¤À Š¥À ŠËÀ ‹	À ‹4À ‹8À ‹9À ‹hÀ ‹À ‹À ‹¡À ‹¢À ‹®À ‹ÉÀ ‹ÚÀ ‹êÀ ŒÀ ŒÀ ŒGÀ Œ‚À Œ—À ŒèÀ ŒéÀ À À EÀ sÀ ™À ¢À ¯À ¶À ºÀ »À ÚÀ ûÀ À "À ]À ˆÀ œÀ ÂÀ õÀ À À #À QÀ UÀ VÀ £À ïÀ 9À xÀ ¤À ÓÀ ÔÀ ‘À ‘2À ‘IÀ ‘pÀ ‘®À ‘ÖÀ ‘áÀ ‘ğÀ ‘ùÀ ’BÀ ’`À ’wÀ ’±À ’ÚÀ “À “À “À “%À “+À “/À “0À “<À “qÀ “›À “İÀ ”
+À ”9À ”aÀ ”À ”°À ”·À ”óÀ •À •:À •aÀ •hÀ ••À •³À •èÀ •÷À – À –À –+À –LÀ –ŒÀ –›À –¤À –ªÀ –®À –¯À –»À –ßÀ –ùÀ —#À —3À —:À —oÀ —´À —µÀ —ßÀ ˜À ˜)À ˜nÀ ˜µÀ ˜»À ˜¼À ˜äÀ ™À ™$À ™KÀ ™RÀ ™SÀ ™À ™ÏÀ ™èÀ ™ìÀ ™íÀ ™ùÀ š*À šfÀ šjÀ škÀ šwÀ š·À šøÀ šüÀ šıÀ ›	À ›GÀ ›sÀ ›ÃÀ ›êÀ œÀ œ#À œmÀ œqÀ œrÀ œ~À œ¼À œèÀ œéÀ 9À `À “À ™À ãÀ çÀ èÀ ôÀ À À bÀ ˜À ÕÀ Ÿ À ŸgÀ ŸšÀ ŸİÀ ŸóÀ  À  VÀ  À  ÁÀ  ËÀ  ÕÀ  åÀ ¡À ¡OÀ ¡•À ¡ÅÀ ¢À ¢\À ¢¦À ¢ÒÀ ¢ÜÀ ¢æÀ ¢çÀ ¢ıÀ £"À £#À £RÀ £nÀ £¤À £ÁÀ ¤À ¤1À ¤aÀ ¤oÀ ¤¶À ¤ÒÀ ¥À ¥\À ¥«À ¥ÖÀ ¦	À ¦4À ¦:À ¦iÀ ¦·À ¦¸À ¦ÓÀ ¦×À ¦ØÀ ¦äÀ §À §0À §XÀ §‹À §¸À §¾À §áÀ ¨À ¨eÀ ¨fÀ ¨{À ¨£À ¨ÕÀ ©À ©À ©À ©À ©À ©gÀ ©¦À ©ªÀ ©«À ©ÆÀ ªÀ ª4À ªMÀ ªyÀ ª¦À ª­À ªÄÀ «À «À «.À «5À «VÀ «À «˜À «ÄÀ «ñÀ «úÀ ¬À ¬UÀ ¬jÀ ¬À ¬ˆÀ ¬À ¬’À ¬“À ¬ŸÀ ¬ÕÀ ­À ­(À ­qÀ ­uÀ ­vÀ ­‚À ­·À ­àÀ ®À ®	À ®CÀ ®vÀ ®¹À ®ÒÀ ¯À ¯7À ¯>À ¯BÀ ¯CÀ ¯À ¯“À ¯âÀ °,À °bÀ °hÀ °µÀ °»À ±À ±À ±#À ±rÀ ±ÁÀ ²À ²^À ²À ²…À ²¾À ²áÀ ³.À ³zÀ ³ÇÀ ´À ´_À ´šÀ ´›À ´ŞÀ ´ÿÀ µ À µBÀ µOÀ µ{À µµÀ µÓÀ µñÀ ¶ À ¶$À ¶,À ¶2À ¶3À ¶WÀ ¶ŒÀ ¶¥À ¶¦À ¶ÏÀ ¶ÿÀ ·OÀ ·aÀ ·|À ·—À ·¯À ·ûÀ ¸À ¸.À ¸CÀ ¸À ¸ªÀ ¸°À ¸ÆÀ ¸ÙÀ ¸ßÀ ¹'À ¹CÀ ¹GÀ ¹HÀ ¹TÀ ¹‰À ¹¼À ºÀ ºÀ ºPÀ ºQÀ º”À ºÙÀ ºİÀ ºŞÀ ºùÀ ºúÀ »GÀ »xÀ » À »©À »ªÀ »ÌÀ »éÀ »êÀ ¼8À ¼iÀ ¼jÀ ¼ºÀ ¼æÀ ½À ½UÀ ½}À ½˜À ½»À ½ßÀ ¾À ¾&À ¾'À ¾vÀ ¾¥À ¾áÀ ¿À ¿<À ¿TÀ ¿¤À ¿ÜÀ À#À À$À ÀGÀ ÀÀ À‡À ÀˆÀ À¾À ÀíÀ Á*À Á`À ÁxÀ Á¾À ÁàÀ ÂÀ Â6À Â}À Â À Â¦À ÂÛÀ ÂóÀ Ã8À ÃYÀ Ã˜À Ã°À ÃøÀ ÄÀ Ä"À Ä#À ÄaÀ ÄŸÀ Ä¼À ÄùÀ ÅÀ ÅSÀ ÅŒÀ ÅÀ ÅÅÀ ÅæÀ Æ&À ÆHÀ ÆNÀ Æ…À Æ¥À ÆæÀ Ç	À ÇÀ ÇÀ Ç7À Ç8À ÇSÀ ÇWÀ ÇXÀ ÇdÀ Ç À Ç×À ÇùÀ È!À È"À ÈXÀ È}À È›À È¿À ÈàÀ ÉÀ É'À É-À ÉoÀ ÉŒÀ É¾À ÉòÀ ÊÀ Ê\À Ê…À Ê¸À ÊÕÀ Ë#À Ë?À ËŠÀ Ë¢À ËéÀ ËöÀ ÌÀ ÌUÀ Ì[À Ì_À Ì`À Ì¦À ÌØÀ ÌÜÀ ÌİÀ ÌöÀ Ì÷À Í#À Í$À ÍtÀ Í€À Í¹À ÍæÀ ÎÀ Î=À Î‰À ÎÊÀ ÎæÀ ÏÀ ÏBÀ ÏIÀ Ï“À Ï—À Ï˜À Ï¤À ÏÙÀ ĞÀ Ğ5À Ğ]À Ğ©À ĞåÀ ĞûÀ Ñ&À ÑMÀ ÑTÀ ÑXÀ ÑYÀ ÑÀ Ñ¤À ÑîÀ ÒÀ ÒÀ ÒYÀ Ò†À Ò À ÒğÀ ÒñÀ Ó.À Ó/À ÓNÀ Ó–À Ó¨À ÓÒÀ ÓïÀ Ô)À ÔDÀ ÔyÀ ÔˆÀ ÔÌÀ ÕÀ ÕaÀ Õ¤À ÕïÀ ÖÀ ÖcÀ ÖkÀ ÖxÀ ÖšÀ ÖâÀ ÖèÀ × À ×À ×À ×JÀ ×PÀ ×˜À ×ºÀ ×ÆÀ ØÀ Ø0À ØJÀ ØšÀ Ø›À ØØÀ ØÙÀ ØøÀ Ù@À ÙRÀ Ù{À Ù˜À ÙÒÀ ÙìÀ Ú-À Ú<À Ú€À Ú¶À ÚúÀ Û=À ÛˆÀ Û¬À ÛüÀ ÜÀ ÜÀ Ü3À Ü{À ÜÀ Ü™À ÜÀ ÜÀ ÜÈÀ ÜÉÀ İÀ İ)À İUÀ İaÀ İvÀ İ}À İÀ İ‚À İÀ İ®À İĞÀ İçÀ İëÀ İíÀ İîÀ Ş3À ŞVÀ ŞhÀ Ş‡À ŞŒÀ ŞÀ Ş²À Ş³À ŞÑÀ ŞÒÀ ŞŞÀ ŞûÀ ßÀ ß À ß!À ß-À ßAÀ ßÀ ß¡À ß¥À ß¦À ß¾À àÀ àÀ à"À à$À à%À àGÀ à€À àÀ à±À àµÀ àûÀ á.À á7À ámÀ á—À áÒÀ áıÀ âÀ âOÀ ârÀ â™À âÄÀ âîÀ ãÀ ã5À ãRÀ ãhÀ ãlÀ ãmÀ ã”À ã³À ãÒÀ ãîÀ äÀ äÀ äGÀ äHÀ äzÀ ä•À ä£À ä©À ä½À äÔÀ äØÀ äÙÀ åÀ å	À å7À åXÀ åuÀ åƒÀ å‰À åŸÀ åÂÀ åÆÀ åÇÀ åşÀ åÿÀ æÀ æ=À æKÀ æQÀ æ‰À æÚÀ æÛÀ çÀ çÀ çÀ çJÀ çjÀ çkÀ çµÀ ç¶À çØÀ çúÀ è+À è:À èBÀ èrÀ èÀ èŸÀ è§À èÅÀ èËÀ èêÀ éÀ éÀ é6À é:À é;À ébÀ éÀ é–À éšÀ é›À éêÀ éğÀ ê:À ê„À ê¢À êÕÀ êõÀ ëÀ ëÀ ë:À ëTÀ ëZÀ ë™À ë²À ë¸À ë¹À ëÕÀ ëğÀ ìÀ ì0À ìlÀ ì‚À ìŠÀ ì©À ìÊÀ ìĞÀ íÀ í	À í
+À íÀ í@À í{À í‰À íÀ íÀ íÆÀ íÊÀ íËÀ í×À íğÀ îÀ î/À îUÀ îVÀ î†À î¢À î¿À îüÀ ï%À ïAÀ ï}À ïÍÀ ğÀ ğ;À ğnÀ ğ™À ğŸÀ ğÏÀ ñÀ ñÀ ñ9À ñ=À ñ>À ñŒÀ ñ¢À ñ¾À ñÚÀ òÀ ò\À ò‡À òÀ ò À ò¤À ò¥À òòÀ óÀ ó$À ó@À óbÀ ó±À óÜÀ óâÀ óõÀ óùÀ óúÀ ôÀ ô9À ôOÀ ô{À ô§À ôğÀ õ'À õJÀ õmÀ õuÀ õyÀ õzÀ õ†À õ¹À õÏÀ õûÀ ö'À öpÀ ö§À öÊÀ öíÀ öõÀ öùÀ öúÀ ÷À ÷9À ÷OÀ ÷zÀ ÷¥À ÷íÀ ø$À øFÀ øjÀ ørÀ øvÀ øwÀ øƒÀ ø¶À øÌÀ ø÷À ù"À ùjÀ ù¡À ùÃÀ ùçÀ ùïÀ ùóÀ ùôÀ ú À úBÀ úXÀ úœÀ ú»À ú¿À úÁ    EditorStateRenderAbstractEditorQuillEditorQuillEditorState+_QuillEditorSelectionGestureDetectorBuilder_kFloatingCursorAddedMargin_kFloatingCaretSizeIncreaseRenderEditorQuillVerticalCaretMovementRunEditableContainerParentDataRenderEditableContainerBox ²€
