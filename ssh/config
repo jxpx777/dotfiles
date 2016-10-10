@@ -1,3 +1,7 @@
 host *
-AddKeysToAgent yes
-UseKeychain yes
+  AddKeysToAgent yes
+  UseKeychain yes
+
+host jxpx777
+  hostname jxpx777.me
+  user jxpx777
