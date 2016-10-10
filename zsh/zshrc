@@ -53,9 +53,14 @@ autoload -U zmv
 
 eval "$(rbenv init -)"
 
-BASE16_SCHEME="tomorrow"
-BASE16_SHELL="$DOTFILES/zsh/base16-shell/base16-$BASE16_SCHEME.dark.sh"
-[[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
+BASE16_SHELL="$DOTFILES/zsh/base16-shell/"
+[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+base16_tomorrow
+
+
+# BASE16_SCHEME="tomorrow"
+# BASE16_SHELL="$DOTFILES/zsh/base16-shell/base16-$BASE16_SCHEME.light.sh"
+# [[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
 
 export JIRA_URL="https://agilebits.atlassian.net"
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
