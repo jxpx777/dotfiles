@@ -1,0 +1,1 @@
+../lib/erl_docgen-1.3/priv/bin/xml_from_edoc.escript

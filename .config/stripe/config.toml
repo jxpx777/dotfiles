@@ -1,0 +1,10 @@
+color = ""
+
+[default]
+  account_id = "acct_1KKS7aCaOUhtkW3k"
+  device_name = "Jamies-MacBook-Pro-2.local"
+  display_name = "Kode Health"
+  live_mode_api_key = "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"
+  live_mode_publishable_key = "pk_live_51KKS7aCaOUhtkW3kdbnwj9YsXnDA1DhCfPkPrO40ntRcT4Z9kE6kQQUGFyC8Stnghqsd7humMirNnnkoo6FjvvtS00YtSKie0R"
+  test_mode_api_key = "rk_test_51KKS7aCaOUhtkW3k7mqVGEKHGKaDpw8IbukCedN6MC2RpRLgLQbv7qWISHEYRg7a8q3ABxGDxfJGENqWMzLNeSP5003bBGzByr"
+  test_mode_publishable_key = "pk_test_51KKS7aCaOUhtkW3kn7iJKfBmlF36KM0lqIkJgWhqo1GtJlZXubPBkTbDdMp9x5iuBo7DXXe1644l5OonVRhIVWmH004kedU21r"
