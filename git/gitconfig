@@ -68,8 +68,6 @@
   insteadOf = gh:
 [url "git@bitbucket.org:"]
   insteadOf = bb:
-[url "git@github.com:AgileBits/"]
-  insteadOf = agilebits:
 [merge "railsschema"]
 	name = newer Rails schema version
 	driver = "ruby -e '\n\
