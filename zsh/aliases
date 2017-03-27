@@ -60,23 +60,23 @@ alias gc='git commit -v'
 alias gca='git commit -v -a'
 # Commit pending changes and quote all args as message
 function gg() { 
-    git commit -v -a -m "$*"
+    git commit -S -v -a -m "$*"
 }
-alias gco='git checkout'
-alias gd='git d'
-alias gdt='git difftool -y'
-alias gdc='gdt -t Changes'
-alias gdk='gdt -t Kaleidoscope'
-alias gdm='git diff master'
-alias gl='git pull'
-alias glr='git pull --rebase'
-alias gsl='git submodule foreach git pull && git pull'
+alias gco="git checkout"
+alias gd="git d"
+alias gdt="git difftool -y"
+alias gdc="gdt -t Changes"
+alias gdk="gdt -t Kaleidoscope"
+alias gdm="git diff master"
+alias gl="git pull"
+alias glr="git pull --rebase"
+alias gsl="git submodule foreach git pull && git pull"
 alias gnp="git-notpushed"
-alias gp='git push'
-alias gst='git status'
-alias gt='git status'
-alias g='git'
-alias eg='subl .git/config'
+alias gp="git push"
+alias gst="git status"
+alias gt="git status"
+alias g="git"
+alias eg="$EDITOR .git/config"
 # Git clone from GitHub
 function gch() {
   git clone git://github.com/$USER/$1.git

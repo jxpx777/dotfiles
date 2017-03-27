@@ -14,11 +14,11 @@
 
 [include]
     # For username / github token / etc
+    path = /Volumes/PhelpsUnlimited128/DevSecrets/git/gitconfig
     path = ~/.gitconfig.local
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
-	signingkey = 2101CA8EC4725403
 [color]
 	ui = always
 	diff = always
@@ -45,7 +45,7 @@
 	token = 3289514529438a440471c46ab0361bf8
 [core]
     pager = bash -lc '/opt/boxen/homebrew/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
-    excludesfile = ~/Projects/dotfiles/git/gitignore
+    excludesfile = /opt/boxen/config/git/gitignore
     attributesfile = ~/Projects/dotfiles/git/gitattributes
     editor = "vim"
 [branch]
@@ -68,8 +68,6 @@
   insteadOf = gh:
 [url "git@bitbucket.org:"]
   insteadOf = bb:
-[url "git@github.com:AgileBits/"]
-  insteadOf = agilebits:
 [merge "railsschema"]
 	name = newer Rails schema version
 	driver = "ruby -e '\n\
