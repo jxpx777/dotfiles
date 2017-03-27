@@ -14,11 +14,11 @@
 
 [include]
     # For username / github token / etc
+    path = /Volumes/PhelpsUnlimited128/DevSecrets/git/gitconfig
     path = ~/.gitconfig.local
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
-	signingkey = 2101CA8EC4725403
 [color]
 	ui = always
 	diff = always
