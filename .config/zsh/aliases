@@ -37,6 +37,7 @@ marked() {
 
 # Finder
 alias o='open .'
+alias ff='open -a Firefox'
 
 function bundleid() {
   defaults read "$1/Contents/Info.plist" CFBundleIdentifier
