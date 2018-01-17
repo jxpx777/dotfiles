@@ -93,8 +93,6 @@ let g:vim_markdown_frontmatter=1
 nmap j gj
 nmap k gk
 imap jj <esc>
-imap jk <esc>
-imap kj <esc>
 
 noremap <C-s> <esc>:w<cr>
 inoremap <C-s> <esc>:w<cr>
