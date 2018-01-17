@@ -1,7 +1,5 @@
 set nocompatible
-if $TMUX == ''
-	set clipboard=unnamed
-endif
+set clipboard=unnamed
 let mapleader=","
 set splitright
 
