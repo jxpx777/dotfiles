@@ -172,4 +172,5 @@ set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
 nmap <leader><space> :set list!<CR>
 
+set autowrite
 set tags=./tags,./.git/tags,tags;
