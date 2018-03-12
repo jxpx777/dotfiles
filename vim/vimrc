@@ -14,62 +14,6 @@ call vundle#begin("$DOTFILES/vim/plugins")
 autocmd VimResized * :wincmd =
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'szw/vim-tags'
-Plugin 'davidoc/taskpaper.vim'
-
-Plugin 'chriskempson/base16-vim'
-
-Plugin 'rking/ag.vim'
-
-Plugin 'vim-scripts/move'
-
-"Javascript
-Plugin 'pangloss/vim-javascript'
-
-"Typescript
-Plugin 'leafgarland/typescript-vim'
-
-"ReactJS
-Plugin 'mxw/vim-jsx'
-
-"JSON
-Plugin 'elzr/vim-json'
-
-" Ruby and Rails
-Plugin 'vim-ruby/vim-ruby'
-
-"Lua
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-lua-ftplugin'
-
-" Tim Pope Joints
-Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-commentary'
-
-"Golang
-Plugin 'fatih/vim-go'
-
-"Markdown
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'tmux-plugins/vim-tmux-focus-events'
-
-" Text objects
-Plugin 'tommcdo/vim-exchange'
-Plugin 'vim-scripts/ReplaceWithRegister'
-Plugin 'christoomey/vim-sort-motion'
-Plugin 'kana/vim-textobj-user'
-Plugin 'kana/vim-textobj-entire'
-Plugin 'kana/vim-textobj-indent'
-Plugin 'kana/vim-textobj-line'
 
 " All of your Plugins must be added before the following line
 cal vundle#end()            " required

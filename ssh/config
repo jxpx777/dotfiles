@@ -2,6 +2,12 @@ host *
 AddKeysToAgent yes
 UseKeychain yes
 
+host office
+	HostName 96.40.48.203
+	User jp
+	Port 22222
+	IdentityFile ~/.ssh/id_rsa.pub
+
 host jp
 	hostname jamiephelps.com
 	user jrphelps
