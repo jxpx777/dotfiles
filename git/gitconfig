@@ -45,7 +45,7 @@
 	token = 3289514529438a440471c46ab0361bf8
 [core]
     pager = bash -lc 'diff-highlight | less -r' -
-    excludesfile = /opt/boxen/config/git/gitignore
+	excludesfile = /Users/jp/.gitignore
     attributesfile = ~/Projects/dotfiles/git/gitattributes
     editor = "vim"
 [branch]
