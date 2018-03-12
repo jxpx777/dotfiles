@@ -5,3 +5,4 @@ vim/plugins
 vim/.netrwhist
 configstore
 nvim/plugged
+fish/fishd.*
