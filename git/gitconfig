@@ -109,3 +109,5 @@ protocol = https
 helper = /opt/boxen/bin/boxen-git-credential
 [commit]
 	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
