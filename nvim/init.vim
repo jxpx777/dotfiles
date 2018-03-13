@@ -1,4 +1,6 @@
-let &packpath = &runtimepath
+"set runtimepath^=~/.vim runtimepath+=~/.vim/after
+"let &packpath = &runtimepath
+"source ~/.vimrc
 
 " Syntastic options
 set statusline+=%#warningmsg#
@@ -13,8 +15,8 @@ let g:syntastic_check_on_wq = 0
 call plug#begin('~/.local/nvim/plugged')
 Plug 'sebdah/vim-delve'
 Plug 'vim-syntastic/syntastic'
+Plug 'universal-ctags/ctags'
 
-Plug 'szw/vim-tags'
 Plug 'davidoc/taskpaper.vim'
 
 Plug 'chriskempson/base16-vim'
@@ -49,22 +51,18 @@ Plug 'tpope/vim-commentary'
 "Golang
 Plug 'fatih/vim-go'
 
-"Markdown
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
-
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 
-" Text objects
-Plug 'tommcdo/vim-exchange'
-Plug 'vim-scripts/ReplaceWithRegister'
-Plug 'christoomey/vim-sort-motion'
-Plug 'kana/vim-textobj-user'
-Plug 'kana/vim-textobj-entire'
-Plug 'kana/vim-textobj-indent'
-Plug 'kana/vim-textobj-line'
+" " Text objects
+" Plug 'tommcdo/vim-exchange'
+" Plug 'vim-scripts/ReplaceWithRegister'
+" Plug 'christoomey/vim-sort-motion'
+" Plug 'kana/vim-textobj-user'
+" Plug 'kana/vim-textobj-entire'
+" Plug 'kana/vim-textobj-indent'
+" Plug 'kana/vim-textobj-line'
 call plug#end()
 
 let g:airline_theme = 'base16-tomorrow'
