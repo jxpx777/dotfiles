@@ -5,6 +5,7 @@ source ~/.vimrc
 call plug#begin('~/.local/nvim/plugged')
 Plug 'sebdah/vim-delve'
 Plug 'vim-syntastic/syntastic'
+Plug 'universal-ctags/ctags'
 call plug#end()
 
 " Syntastic options
