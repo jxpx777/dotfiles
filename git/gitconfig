@@ -47,7 +47,7 @@
     excludesfile = /Users/jp/.config/git/gitignore
     pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
     attributesfile = ~/Projects/dotfiles/git/gitattributes
-    editor = "vim"
+    editor = "nvim"
 [branch]
 	autosetupmerge = true
 [difftool "Kaleidoscope"]
