@@ -44,7 +44,7 @@
 	user = jxpx777
 	token = 3289514529438a440471c46ab0361bf8
 [core]
-    excludesfile = /Users/jp/.gitignore
+    excludesfile = /Users/jp/.config/git/gitignore
     pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
     attributesfile = ~/Projects/dotfiles/git/gitattributes
     editor = "vim"
