@@ -15,7 +15,7 @@
 [include]
     # For username / github token / etc
     path = /Volumes/PhelpsUnlimited128/DevSecrets/git/gitconfig
-    path = ~/.gitconfig.local
+    path = /Users/jp/.gitconfig.local
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
@@ -42,7 +42,6 @@
 	default = tracking
 [github]
 	user = jxpx777
-	token = 3289514529438a440471c46ab0361bf8
 [core]
     pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
     excludesfile = /Users/jp/.config/git/gitignore
