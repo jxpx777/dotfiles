@@ -2,5 +2,3 @@ if status --is-interactive
 	source $HOME/.config/base16-shell/profile_helper.fish
 	eval sh $HOME/.config/base16-shell/scripts/base16-tomorrow.sh
 end
-
-complete --command p --arguments '(__fish_complete_directories ~/Projects/ ~/go/src/github.com/agilebits)'
