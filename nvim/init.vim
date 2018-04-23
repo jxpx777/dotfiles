@@ -125,4 +125,4 @@ let g:syntastic_typescript_tsc_fname = ''
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
+set laststatus=2
