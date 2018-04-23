@@ -140,3 +140,9 @@ let g:neoformat_php_phpcbf = {
       \ 'no_append': 1
       \ }
 let g:neoformat_enabled_php = ['phpcbf']
+nnoremap <leader>nf :Neoformat<cr>
+
+" augroup fmt
+"   autocmd!
+"   autocmd BufWritePre * undojoin | Neoformat
+" augroup END
