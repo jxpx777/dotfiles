@@ -39,6 +39,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 set rtp+=~/.fzf
+set rtp+=/usr/local/opt/fzf
 "When vim is resized, equalize the windows. Useful in tmux context
 autocmd VimResized * :wincmd =
 
