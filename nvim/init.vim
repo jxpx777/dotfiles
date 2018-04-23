@@ -6,16 +6,31 @@ let mapleader=","
 set splitright
 
 call plug#begin('~/.local/nvim/plugged')
+	" General
+Plug 'chriskempson/base16-vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+	" File nav and search
+Plug 'universal-ctags/ctags'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
-Plug 'sbdchd/neoformat'
-Plug 'tpope/vim-surround'
-Plug 'chriskempson/base16-vim'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+	" Git
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-git'
+	" Golang
 Plug 'fatih/vim-go'
 Plug 'sebdah/vim-delve'
+	" Typescript
 Plug 'leafgarland/typescript-vim'
+	" Formatting
+Plug 'editorconfig/editorconfig-vim'
 Plug 'vim-syntastic/syntastic'
-Plug 'universal-ctags/ctags'
+Plug 'sbdchd/neoformat'
+Plug 'tpope/vim-commentary'
+	"Ruby, Rails, Sinatra
+Plug 'tpope/vim-rails'
 call plug#end()
 
 let g:syntastic_always_populate_loc_list = 1
