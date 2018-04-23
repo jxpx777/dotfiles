@@ -126,3 +126,17 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set laststatus=2
+
+let g:neoformat_php_phpcbf = {
+      \ 'exe': 'phpcbf',
+      \ 'args': [
+      \ '--standard=WordPress',
+      \ '--extensions=php',
+      \ '%',
+      \ '||',
+      \ 'true'
+      \ ],
+      \ 'stdin': 1,
+      \ 'no_append': 1
+      \ }
+let g:neoformat_enabled_php = ['phpcbf']
