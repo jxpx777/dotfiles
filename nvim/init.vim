@@ -116,6 +116,7 @@ set shiftwidth=4
 set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
 nmap <leader><space> :set list!<CR>
+nnoremap <esc> :noh<return><esc>
 
 set autowrite
 set tags=./tags,./.git/tags,tags;
