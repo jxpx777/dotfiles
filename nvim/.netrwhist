@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/jp/go/src/github.com/agilebits/b5brain'
-let g:netrw_dirhist_2='/Users/jp/go/src/github.com/agilebits'
-let g:netrw_dirhist_3='/Users/jp/go/src/github.com/agilebits/b5brain'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/jp/Projects/app-updates'
+let g:netrw_dirhist_2='/Users/jp/go/src/github.com/agilebits/b5brain'
+let g:netrw_dirhist_3='/Users/jp/Projects/b5x/src/content'
+let g:netrw_dirhist_4='/Users/jp/go/src/gitlab.com/1password/b5brain'
+let g:netrw_dirhist_5='/Users/jp/Projects/b5x'
+let g:netrw_dirhist_6='/Users/jp/go/src/gitlab.com/1password/b5brain/domains'
