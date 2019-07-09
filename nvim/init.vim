@@ -25,14 +25,15 @@ Plug 'sebdah/vim-delve'
 	" Typescript
 Plug 'leafgarland/typescript-vim'
 	" Formatting
-Plug 'editorconfig/editorconfig-vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'sbdchd/neoformat'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-commentary'
 	"Ruby, Rails, Sinatra
 Plug 'tpope/vim-rails'
 call plug#end()
 
+let g:delve_backend = "native"
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
@@ -141,8 +142,9 @@ let g:neoformat_php_phpcbf = {
       \ 'no_append': 1
       \ }
 let g:neoformat_enabled_php = ['phpcbf']
+let g:neoformat_enabled_typescript = ['prettier', 'tslint', 'tsfmt']
 
 augroup fmt
   autocmd!
-  autocmd BufWritePre * undojoin | Neoformat
+  autocmd BufWritePre,TextChanged,InsertLeave * undojoin | Neoformat
 augroup END
