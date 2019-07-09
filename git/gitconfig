@@ -6,19 +6,19 @@
     df = diff
 	l = pull
 	p = push
-    g = log
-    g0 = log --pretty=format:"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s" --date=local
+    g = log --graph
+    g0 = log --graph --pretty=format:"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s" --date=local
     g1 = log --graph --all --pretty=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)" --abbrev-commit --date=relative
 	d = diff --abbrev=10 --ignore-all-space --ignore-blank-lines
 	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
 
 [include]
     # For username / github token / etc
-    path = /Volumes/PhelpsUnlimited128/DevSecrets/git/gitconfig
-    path = /Users/jp/.gitconfig.local
+    path = /Volumes/Secrets-B/DevSecrets/git/gitconfig
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
+	signingkey = B7754A71
 [color]
 	ui = always
 	diff = always
