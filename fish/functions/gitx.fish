@@ -1,7 +1,8 @@
 function gitx
-	if $argv[0] == ""
-		gittower (git rev-parse --show-toplevel)
+	if count $argv > 0
+		set target = $argv[0]
 	else
-		gittower $argv[0]
+		set target = (git rev-parse --show-toplevel)
 	end
+	gittower $target
 end
