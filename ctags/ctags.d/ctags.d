@@ -1,1 +1,0 @@
-.config/ctags/ctags.d
