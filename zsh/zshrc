@@ -1,8 +1,6 @@
 # Disable flow control so <C-s> works in vim
 stty -ixon
 
-# Path to your oh-my-zsh configuration.
-export ZSH=$DOTFILES/zsh/oh-my-zsh
 export ZSH_CUSTOM=$DOTFILES/zsh/customization
 
 
@@ -10,12 +8,12 @@ export ZSH_CUSTOM=$DOTFILES/zsh/customization
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="jxpx777"
+# ZSH_THEME="jxpx777"
 
-PROJECT_PATHS=(~/Projects ~/Projects/AG ~/Dropbox/Projects ~/go/src/github.com/agilebits)
+PROJECT_PATHS=(~/Projects ~/code)
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias zshconfig="$EDITOR ~/.zshrc"
+# alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -39,13 +37,12 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler cap colorize encode64 gem git go gpg-agent jira jsontools osx pip pj pod pow rails redis-cli sublime sudo taskwarrior thor tmux urltools vagrant web-search wd)
+plugins=(brew bundler cap colorize gem git go gpg-agent rails redis-cli sudo taskwarrior tmux urltools)
 
 source $ZSH/oh-my-zsh.sh
-source "$DOTFILES/zsh/aliases"
-# Customize to your needs...
 
-autoload -U zmv
+# Customize to your needs...
+source "$DOTFILES/zsh/aliases"
 
 eval "$(rbenv init -)"
 
@@ -55,4 +52,3 @@ export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/
 eval "$(rbenv init -)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
