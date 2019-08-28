@@ -1,4 +1,4 @@
-export DOTFILES="$HOME/Projects/dotfiles"
+export DOTFILES="$HOME/dotfiles"
 export EDITOR='vim'
 export GIT_EDITOR='vim'
 export BUNDLER_EDITOR='vim'

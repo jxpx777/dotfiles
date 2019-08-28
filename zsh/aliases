@@ -1,23 +1,12 @@
-# Command Enhancements
-source "$DOTFILES/zsh/agilebits"
-
-# For bridging my homegrown Projects plugin to PJ plugin
-alias p='pj'
-alias po='pjo'
 # Utility
 alias reload='source $DOTFILES/zsh/aliases'
 alias ea="$EDITOR $DOTFILES/zsh/aliases && reload" # Edit aliases
 alias ee="$EDITOR $DOTFILES/zsh/zshenv"
 
 # Common -- Some are from Damian Conway
-alias a='ls -A' # -A all except literal . ..
 alias la="ls -A -l -G"
 alias c='clear'
 alias cdd='cd -'  # goto last dir cd'ed from
-alias cl='clear; l'
-function cdc() { 
-    cd $1; ls 
-}
 alias h='history'
 alias l.='ls -d .[^.]*'
 alias l='ls -lhGt'  # -l long listing, most recent first
@@ -25,7 +14,6 @@ alias l='ls -lhGt'  # -l long listing, most recent first
 alias lh="ls -lh"
 alias ll='ls -lhG'  # -l long listing, human readable, no group info
 alias lt='ls -lt' # sort with recently modified first
-alias md='mkdir -p'
 
 function take() {
     mkdir -p "$1"
@@ -42,17 +30,13 @@ function zipr() {
 }
 
 # Finder
-alias o='open . &'
-alias ff='open -a Firefox'
-
-# General code
+alias o='open .'
 
 # Processes
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
 
 # Git
-alias gitx="gittower ."
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
 alias gb='git branch'
 alias gba='git branch -a'
@@ -92,51 +76,14 @@ function grf() {
   git checkout $1 
 }
 
-# Regenerate TAGS file from file arguments
-function ct() {
-  rm -f TAGS
-  etags --append --output=TAGS $*
-}
-
 # Give silver_searcher a default set of ignore files
 alias ag='ag -p $DOTFILES/ag/ignore"'
-
-# TextMate points to sublime text now
-alias m="s"
-alias mm="ss"
-
-# Sublime Text
-alias s="subl"
-alias ss="if [ "$(find . -name '*.sublime-project' -maxdepth 1 | wc -l)" == "1" ]; then find . -name '*.sublime-project' -maxdepth 1 -exec subl --project "{}" \+; else subl .; fi"
 
 # Ruby
 alias r="rake"
 alias be="bundle exec"
 function mmd() { 
 mmd $1 > $1.html 
-}
-
-# Rails
-alias rp='touch tmp/restart.txt'
-alias sc='rails c'
-alias sg='rails g'
-alias tl='tail -f log/*.log'
-alias rt='rake test:all'
-alias rta='rt'
-alias rtm='rake test:models'
-alias rtf='rake test:functionals'
-alias rti='rake test:integration'
-
-
-# TDD / BDD
-
-alias aa='autotest'
-alias aaf='autotest -f' # Don't run all at start
-alias aas="./script/autospec"
-
-# Setup a tunnel
-function haproxyssh() { 
-  ssh -L7997:127.0.0.1:7997 deploy@$1.com 
 }
 
 function aiff2mp3() { 
