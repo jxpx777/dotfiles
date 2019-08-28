@@ -97,3 +97,9 @@
 [submodule ".config/zsh/ohmyzsh"]
 	path = .config/zsh/ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "vim/pack/start/ctrlp"]
+	path = .config/vim/pack/start/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "vim/pack/start/typescript-vim"]
+	path = .config/vim/pack/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
