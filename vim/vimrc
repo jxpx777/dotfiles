@@ -4,19 +4,9 @@ let mapleader=","
 set splitright
 
 set rtp+=~/.fzf
-" ============================================================
-" Vundle
-" ============================================================
-set rtp+=$DOTFILES/vim/bundle/Vundle.vim
-call vundle#begin("$DOTFILES/vim/plugins")
 
 "When vim is resized, equalize the windows. Useful in tmux context
 autocmd VimResized * :wincmd =
-
-" let Vundle manage Vundle, required
-
-" All of your Plugins must be added before the following line
-cal vundle#end()            " required
 
 function! s:DiffWithSaved()
   let filetype=&ft
@@ -31,8 +21,6 @@ com! DiffSaved call s:DiffWithSaved()
 let g:vim_markdown_folding_disabled=1
 let g:markdown_fenced_languages = ['html', 'ruby', 'javascript', 'go', 'python', 'bash=sh', 'zsh']
 let g:vim_markdown_frontmatter=1
-
-
 
 nmap j gj
 nmap k gk
