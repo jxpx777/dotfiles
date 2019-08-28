@@ -18,7 +18,7 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
-set rtp+=~/.fzf
+set rtp+=/usr/local/opt/fzf
 
 "When vim is resized, equalize the windows. Useful in tmux context
 autocmd VimResized * :wincmd =
