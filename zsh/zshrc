@@ -1,5 +1,6 @@
 # Disable flow control so <C-s> works in vim
 stty -ixon
+export ZSH=$DOTFILES/../.oh-my-zsh
 
 export ZSH_CUSTOM=$DOTFILES/zsh/customization
 
@@ -37,7 +38,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler cap colorize gem git go gpg-agent rails redis-cli sudo taskwarrior tmux urltools)
+plugins=(brew bundler colorize gem git go gpg-agent redis-cli sudo taskwarrior tmux urltools)
 
 source $ZSH/oh-my-zsh.sh
 
