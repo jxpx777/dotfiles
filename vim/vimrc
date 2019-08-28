@@ -2,6 +2,21 @@ set nocompatible
 set clipboard=unnamed
 let mapleader=","
 set splitright
+set splitbelow
+
+colorscheme base16-tomorrow
+
+set background=light
+
+" No arrow key movement
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
 
 set rtp+=~/.fzf
 
@@ -55,6 +70,10 @@ nmap <leader>[ lysiw"ysa"]hx
 
 	"ag is fast enough that CtrlP doesn't need to cache
 	let g:ctrlp_use_caching = 0
+	cnoreabbrev ag Ack
+	cnoreabbrev aG Ack
+	cnoreabbrev Ag Ack
+	cnoreabbrev AG Ack  
 endif
 
 filetype off                  " required
@@ -65,13 +84,8 @@ set backspace=indent,eol,start " allow backspacing over everything in insert mod
 set backupdir=~/.tmp
 set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
 
-set relativenumber 
 set number
-
-if filereadable(expand("~/.vimrc_background"))
-	let base16colorspace=256
-	source ~/.vimrc_background
-endif
+set relativenumber 
 
 syntax on
 
