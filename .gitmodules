@@ -1,0 +1,33 @@
+[submodule "vim/pack/jxpx777/start/base16-vim"]
+	path = vim/pack/jxpx777/start/base16-vim
+	url = git@github.com:chriskempson/base16-vim
+[submodule "vim/pack/jxpx777/start/ale"]
+	path = vim/pack/jxpx777/start/ale
+	url = git@github.com:dense-analysis/ale
+[submodule "vim/pack/jxpx777/start/typescript-vim"]
+	path = vim/pack/jxpx777/start/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim
+[submodule "vim/pack/jxpx777/start/vim-go"]
+	path = vim/pack/jxpx777/start/vim-go
+	url = git@github.com:fatih/vim-go
+[submodule "vim/pack/jxpx777/start/vim-surround"]
+	path = vim/pack/jxpx777/start/vim-surround
+	url = git@github.com:tpope/vim-surround
+[submodule "vim/pack/jxpx777/start/vim-rails"]
+	path = vim/pack/jxpx777/start/vim-rails
+	url = git@github.com:tpope/vim-rails
+[submodule "vim/pack/jxpx777/start/vim-repeat"]
+	path = vim/pack/jxpx777/start/vim-repeat
+	url = git@github.com:tpope/vim-repeat
+[submodule "vim/pack/jxpx777/start/vim-git"]
+	path = vim/pack/jxpx777/start/vim-git
+	url = git@github.com:tpope/vim-git
+[submodule "vim/pack/jxpx777/start/vim-fugitive"]
+	path = vim/pack/jxpx777/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive
+[submodule "vim/pack/jxpx777/start/editorconfig-vim"]
+	path = vim/pack/jxpx777/start/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim
+[submodule "vim/pack/jxpx777/start/ctrlp.vim"]
+	path = vim/pack/jxpx777/start/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
