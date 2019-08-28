@@ -1,5 +1,0 @@
-set nocompatible
-let mapleader=","
-set splitbelow
-set splitright
-call janus#disable_plugin('nerdtree')
