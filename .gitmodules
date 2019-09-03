@@ -28,6 +28,9 @@
 [submodule "vim/pack/jxpx777/start/editorconfig-vim"]
 	path = vim/pack/jxpx777/start/editorconfig-vim
 	url = git@github.com:editorconfig/editorconfig-vim
-[submodule "vim/pack/jxpx777/start/ctrlp.vim"]
-	path = vim/pack/jxpx777/start/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim.git
+[submodule "vim/pack/jxpx777/start/fzf.vim"]
+	path = vim/pack/jxpx777/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim
+[submodule "vim/pack/jxpx777/start/ack.vim"]
+	path = vim/pack/jxpx777/start/ack.vim
+	url = git@github.com:mileszs/ack.vim.git
