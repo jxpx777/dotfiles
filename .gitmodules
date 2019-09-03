@@ -34,3 +34,9 @@
 [submodule "vim/pack/jxpx777/start/ack.vim"]
 	path = vim/pack/jxpx777/start/ack.vim
 	url = git@github.com:mileszs/ack.vim.git
+[submodule "vim/pack/jxpx777/start/tsuquyomi"]
+	path = vim/pack/jxpx777/start/tsuquyomi
+	url = git@github.com:Quramy/tsuquyomi.git
+[submodule "vim/pack/jxpx777/start/syntastic"]
+	path = vim/pack/jxpx777/start/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
