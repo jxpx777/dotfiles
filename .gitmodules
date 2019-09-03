@@ -103,3 +103,9 @@
 [submodule "vim/pack/start/typescript-vim"]
 	path = .config/vim/pack/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim
+[submodule "vim/pack/jxpx777/start/tsuquyomi"]
+	path = vim/pack/jxpx777/start/tsuquyomi
+	url = git@github.com:Quramy/tsuquyomi.git
+[submodule "vim/pack/jxpx777/start/syntastic"]
+	path = vim/pack/jxpx777/start/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
