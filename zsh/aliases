@@ -29,6 +29,11 @@ function zipr() {
   zip -r $1.zip $1
 }
 
+# Markdown
+marked() {
+	open "x-marked://open/$1?raise=true"
+}
+
 # Finder
 alias o='open .'
 
