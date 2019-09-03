@@ -35,11 +35,6 @@ function! s:DiffWithSaved()
 endfunction
 com! DiffSaved call s:DiffWithSaved()
 
-"Markdown
-let g:vim_markdown_folding_disabled=1
-let g:markdown_fenced_languages = ['html', 'ruby', 'javascript', 'go', 'python', 'bash=sh', 'zsh']
-let g:vim_markdown_frontmatter=1
-
 nmap j gj
 nmap k gk
 imap jj <esc>
