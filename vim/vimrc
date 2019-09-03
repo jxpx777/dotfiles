@@ -85,11 +85,6 @@ set relativenumber
 
 syntax on
 
-
-" Sane default code indentation
-set tabstop=4
-set shiftwidth=4
-
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
