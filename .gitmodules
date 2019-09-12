@@ -46,3 +46,6 @@
 [submodule "vim/pack/jxpx777/start/vim-commentary"]
 	path = vim/pack/jxpx777/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary
+[submodule "vim/pack/typescript/start/vim-jsx-typescript"]
+	path = vim/pack/typescript/start/vim-jsx-typescript
+	url = git@github.com:peitalin/vim-jsx-typescript.git
