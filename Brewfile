@@ -21,6 +21,7 @@ brew "ruby"
 brew "ruby-build"
 brew "the_silver_searcher"
 brew "spark"
+tap  "Goles/battery"
 brew "battery"
 brew "reattach-to-user-namespace" # To support tmux
 brew "tldr"
