@@ -84,7 +84,7 @@ iterm2_print_user_vars
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 
-export GPG_TTY=$(tty)
+export FZF_DEFAULT_COMMAND="ag -g ''"
 
 source "$XDG_CONFIG_HOME/zsh/ruby.env"
 source "$XDG_CONFIG_HOME/zsh/node.env"
