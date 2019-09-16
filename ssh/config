@@ -15,27 +15,3 @@ host jp
 host jxpx777
 	hostname jxpx777.me
 	user jxpx777
-
-host em
-	hostname epiphanymedia.net
-	user epiphanymedia
-
-host imageserver
-	user web
-	hostname richicons-origin.agilebits.com
-
-host learn
-  user docs
-  hostname learn-origin.agilebits.com
-
-host webtest
-	HostName 54.210.41.41
-    Port 22
-    User ec2-user
-    IdentityFile ~/.ssh/id_rsa.pub
-
-host synapse
-	HostName synapse.agilebits.com
-	User ec2-user
-	Port 2233
-	IdentityFile ~/.ssh/id_rsa.pub
