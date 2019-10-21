@@ -5,3 +5,9 @@ host *
 host jxpx777
   hostname jxpx777.me
   user jxpx777
+
+host grainger
+	HostName bitbucket.org
+	User git
+	IdentityFile ~/.ssh/grainger
+	IdentitiesOnly yes
