@@ -9,9 +9,15 @@ host office
 	IdentityFile ~/.ssh/id_rsa.pub
 
 host jp
-	hostname jamiephelps.com
-	user jrphelps
+	HostName jamiephelps.com
+	User jrphelps
 
 host jxpx777
-	hostname jxpx777.me
-	user jxpx777
+	Hostname jxpx777.me
+	User jxpx777
+
+host grainger
+	HostName bitbucket.org
+	User git
+	IdentityFile ~/.ssh/grainger
+	IdentitiesOnly yes
