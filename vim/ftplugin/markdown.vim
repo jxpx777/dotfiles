@@ -4,8 +4,6 @@ setlocal softtabstop=4 tabstop=4
 setlocal expandtab
 setlocal makeprg=open\ -a\ Marked\\\ 2.app\ '%:p'
 
-let g:vim_markdown_folding_disabled=1
+set nofoldenable
 let g:markdown_fenced_languages = ['html', 'ruby', 'javascript', 'go', 'python', 'bash=sh', 'zsh']
 let g:vim_markdown_frontmatter=1
-
-autocmd Goyo

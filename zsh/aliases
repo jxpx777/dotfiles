@@ -31,7 +31,7 @@ function zipr() {
 
 # Markdown
 marked() {
-	open "x-marked://open/$1?raise=true"
+	open -a "Marked 2" $1
 }
 
 # Finder
