@@ -49,3 +49,6 @@
 [submodule "vim/pack/java/start/vim-javacomplete2"]
 	path = vim/pack/java/start/vim-javacomplete2
 	url = git@github.com:artur-shaik/vim-javacomplete2.git
+[submodule "vim/pack/tmux/start/vim-tmux-navigator"]
+	path = vim/pack/tmux/start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
