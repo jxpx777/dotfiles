@@ -30,6 +30,10 @@ let g:fzf_action = { 'ctrl-e': 'edit' }
 "When vim is resized, equalize the windows. Useful in tmux context
 autocmd VimResized * :wincmd =
 
+"" Tmux Navigator
+" Disable when zooming the Vim pane
+let g:tmux_navigator_disable_when_zoomed = 1
+
 function! s:DiffWithSaved()
   let filetype=&ft
   diffthis
