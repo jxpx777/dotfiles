@@ -52,3 +52,6 @@
 [submodule "vim/pack/tmux/start/vim-tmux-navigator"]
 	path = vim/pack/tmux/start/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule "vim/pack/markdown/start/vim-markdown"]
+	path = vim/pack/markdown/start/vim-markdown
+	url = git@github.com:plasticboy/vim-markdown.git
