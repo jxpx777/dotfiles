@@ -51,14 +51,11 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 source "$DOTFILES/zsh/aliases"
 
-eval "$(rbenv init -)"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_COMMAND="ag -g ''"
 
 export HOMEBREW_PREFIX=$(brew --prefix)
-export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$HOMEBREW_PREFIX/bin/lib/prince/bin:$PATH"
-export PATH="$HOME/.nodenv/bin:$PATH"
+export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
 
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export FZF_DEFAULT_COMMAND="ag -g ''"
