@@ -65,7 +65,6 @@ source $XDG_CONFIG_HOME/zsh/customization/base16-tomorrow.fzf.config
 
 export HOMEBREW_PREFIX=$(brew --prefix)
 export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$PATH"
-export PATH="$HOME/.nodenv/bin:$PATH"
 
 gpgconf --launch gpg-agent
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
