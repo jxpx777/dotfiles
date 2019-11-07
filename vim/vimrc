@@ -83,6 +83,7 @@ if executable('ag')
 	cnoreabbrev Ag Ack
 	cnoreabbrev AG Ack  
 endif
+let g:ctrlp_working_path_mode = 'ra'
 
 filetype off                  " required
 filetype plugin indent on    " required
