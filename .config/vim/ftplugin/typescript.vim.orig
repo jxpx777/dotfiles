@@ -1,0 +1,7 @@
+<<<<<<< HEAD:.config/vim/ftplugin/typescript.vim
+let b:ale_linters = [ 'standard']
+let b:ale_fixers = ['prettier_standard']
+let b:ale_completion_autoimport = 1
+=======
+let g:ale_fixers = {'typescript': ['prettier']}
+>>>>>>> 46b9cced (Remove Syntastic):vim/after/ftplugin/typescript.vim
