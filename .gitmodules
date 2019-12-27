@@ -55,3 +55,6 @@
 [submodule "vim/pack/markdown/start/vim-markdown"]
 	path = vim/pack/markdown/start/vim-markdown
 	url = git@github.com:plasticboy/vim-markdown.git
+[submodule "vim/pack/jxpx777/start/vim-test"]
+	path = vim/pack/jxpx777/start/vim-test
+	url = git@github.com:janko/vim-test.git
