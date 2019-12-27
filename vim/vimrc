@@ -121,4 +121,4 @@ set listchars=tab:▸\ ,eol:¬
 nmap <leader><space> :set list!<CR>
 
 set autowrite
-set tags=./tags,./.git/tags,tags;
+set tags=./tags,.git/tags,tags;
