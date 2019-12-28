@@ -61,3 +61,9 @@ gpgconf --launch gpg-agent
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
+
+test -e "${DOTFILES}/iTerm/shell_integration" && source "${DOTFILES}/iTerm/shell_integration"
+iterm2_print_user_vars() {
+  iterm2_set_user_var gitBranch $((git branch --no-color 2> /dev/null) | grep \* | cut -c3-)
+}
+iterm2_print_user_vars
