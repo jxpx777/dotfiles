@@ -115,7 +115,7 @@ set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
 nmap <leader><space> :set list!<CR>
 
-exec 'source' vimrc_path . '/fzf.vim'
+source ~/.vim/fzf.vim
 
 set autowrite
 set tags=./tags,.git/tags,tags;
