@@ -4,11 +4,9 @@ let mapleader=","
 set splitright
 set splitbelow
 
-let vimrc_path = expand('%:p:h')
-
-colorscheme base16-tomorrow
-
 set background=light
+set termguicolors
+colorscheme base16-tomorrow
 
 " No arrow key movement
 nnoremap <up> <nop>
