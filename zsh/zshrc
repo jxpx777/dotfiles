@@ -44,7 +44,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler colorize gem git go gpg-agent redis-cli sudo taskwarrior tmux urltools)
+plugins=(bundler colorize gem git go gpg-agent redis-cli sudo taskwarrior tmux urltools)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -53,6 +53,7 @@ source "$DOTFILES/zsh/aliases"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND="ag -g ''"
+source $DOTFILES/zsh/customization/base16-tomorrow.fzf.config
 
 export HOMEBREW_PREFIX=$(brew --prefix)
 export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
