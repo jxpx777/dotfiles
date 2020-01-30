@@ -5,10 +5,6 @@ set splitright
 set splitbelow
 
 let vimrc_path = expand('%:p:h')
-if filereadable(expand("~/.vimrc_background"))
-  let base16colorspace=256
-  source ~/.vimrc_background
-endif
 
 colorscheme base16-tomorrow
 
@@ -107,7 +103,6 @@ set relativenumber
 
 syntax on
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:ale_sign_column_always = 1
