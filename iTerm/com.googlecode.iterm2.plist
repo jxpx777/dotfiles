@@ -14,6 +14,8 @@
 	<false/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -620,7 +622,7 @@
 	<key>MaxVertically</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/iTerm</string>
+	<string>~/Pictures/code</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -1492,20 +1494,9 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
-			<array>
-				<dict>
-					<key>action</key>
-					<string>BounceTrigger</string>
-					<key>regex</key>
-					<string>CPOW</string>
-				</dict>
-				<dict>
-					<key>action</key>
-					<string>BounceTrigger</string>
-					<key>regex</key>
-					<string>Error detaching worker</string>
-				</dict>
-			</array>
+			<array/>
+			<key>Triggers Use Interpolated Strings</key>
+			<true/>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -1529,6 +1520,7 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.2</string>
+		<string>3.3.8beta5</string>
 		<string>3.3.4</string>
 		<string>3.3.7</string>
 		<string>3.3.3</string>
@@ -1556,7 +1548,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{513, 815}</string>
+		<string>{468, 770}</string>
 	</dict>
 	<key>NoSyncInstallUtilitiesPackage</key>
 	<true/>
@@ -1565,7 +1557,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>0A965C86-AC73-4624-8662-C4CBF4942972</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>35</integer>
+	<integer>41</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2346,16 +2338,6 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSearchHistory2</key>
-	<array>
-		<string>testTask</string>
-		<string>testTe</string>
-		<string>sinon</string>
-		<string>test.db</string>
-		<string>8080</string>
-		<string>build</string>
-		<string>jdk</string>
-	</array>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>588552405.15378201</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -2425,7 +2407,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-12-28T00:27:04Z</date>
+	<date>2020-01-30T18:10:27Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -2503,7 +2485,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.7</string>
+	<string>3.3.8beta5</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>
