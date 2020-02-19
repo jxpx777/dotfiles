@@ -1435,7 +1435,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
-			<array>
+			<array/>
 				<dict>
 					<key>action</key>
 					<string>CaptureTrigger</string>
