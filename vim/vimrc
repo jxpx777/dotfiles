@@ -71,11 +71,11 @@ vnoremap <leader><tab> y :tabnew<cr>P
 
 nmap <leader>[ lysiw"ysa"]hx
 
-" Make CtrlP use ag for listing the files. Way faster and no useless files.
+noreabbrev Ack Ack!
+nnoremap <Leader>a :Ack!<Space>
 " The Silver Searcher
 if executable('ag')
-	" Use ag over grep
-	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-agignore=~/.agignore
+	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-ignore=~/dotfiles/ag/ignore
 
 	" Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
 	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
@@ -83,10 +83,10 @@ if executable('ag')
 
 	"ag is fast enough that CtrlP doesn't need to cache
 	let g:ctrlp_use_caching = 0
-	cnoreabbrev ag Ack
-	cnoreabbrev aG Ack
-	cnoreabbrev Ag Ack
-	cnoreabbrev AG Ack  
+	cnoreabbrev ag Ack!
+	cnoreabbrev aG Ack!
+	cnoreabbrev Ag Ack!
+	cnoreabbrev AG Ack!
 endif
 let g:ctrlp_working_path_mode = 'ra'
 
