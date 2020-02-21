@@ -48,6 +48,8 @@
 [core]
     pager = bash -lc '/opt/homebrew/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
     editor = "vim"
+    excludesfile = ~/.config/git/ignore
+    attributesfile = ~/.config/git/attributes
 [branch]
 	autosetupmerge = true
 [difftool "Kaleidoscope"]
@@ -64,21 +66,26 @@
 [mergetool]
 	prompt = false
 	keepBackup = true
-[url "git@github.com:"]
-	insteadOf = gh:
-[url "git@bitbucket.org:"]
-	insteadOf = bb:
 [merge "railsschema"]
 	name = newer Rails schema version
 	driver = "ruby -e '\n\
 		system %(git), %(merge-file), %(--marker-size=%L), %(%A), %(%O), %(%B)\n\
 		b = File.read(%(%A))\n\
-		b.sub!(/^<+.*\\nActiveRecord::Schema\\.define.version: ([0-9_]+). do\\s*=+\\s*ActiveRecord::Schema\\.define.version: ([0-9_]+). do\\s*>+.*?$/m) do\n\
-		%(ActiveRecord::Schema.define(version: #{[$1, $2].max}) do)\n\
+		b.sub!(/^<+ .*\\nActiveRecord::Schema\\.define.:version => (\\d+). do\\n=+\\nActiveRecord::Schema\\.define.:version => (\\d+). do\\n>+ .*/) do\n\
+		  %(ActiveRecord::Schema.define(:version => #{[$1, $2].max}) do)\n\
 		end\n\
 		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
 		exit 1 if b.include?(%(<)*%L)'"
-
+[merge "safariextensioninfoplist"]
+  name = newer Builder Version
+	driver = "ruby -e '\n\
+		system %(git), %(merge-file), %(--marker-size=%L), %(%A), %(%O), %(%B)\n\
+		b = File.read(%(%A))\n\
+    b.sub!(%r{^\t<key>Builder Version</key>\n<+ .*\n\\t<string>((?:\\d+\\.)+\\d+)</string>\n=+\n\\t<string>((?:\\d+\\.)+\\d+)</string>\n>+ .*}) do\n\
+		  %(<key>Builder Version</key>\n\t<string>#{[$1, $2].max}</string>)\n\
+		end\n\
+		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
+		exit 1 if b.include?(%(<)*%L)'"
 [merge "gemfilelock"]
   name = relocks the gemfile.lock
   driver = bundle lock
@@ -94,7 +101,7 @@
 [difftool "tower"]
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [init]
-	templatedir = /Users/jp/.git-templates
+	templatedir = ~/.config/git/template
 
 [hub]
 protocol = https
