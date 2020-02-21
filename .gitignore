@@ -2,5 +2,3 @@
 ssh/known_hosts
 vim/.netrwhist
 configstore
-nvim/plugged
-fish/fishd.*
