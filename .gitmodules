@@ -38,7 +38,7 @@
 	path = vim/pack/typescript/start/tsuquyomi
 	url = git@github.com:Quramy/tsuquyomi.git
 [submodule "shell/base16-shell"]
-	path = iTerm/base16-shell
+	path = .config/iTerm/base16-shell
 	url = https://github.com/chriskempson/base16-shell.git
 [submodule "vim/pack/jxpx777/start/vim-commentary"]
 	path = vim/pack/jxpx777/start/vim-commentary
