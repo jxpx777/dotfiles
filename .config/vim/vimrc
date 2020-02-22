@@ -98,7 +98,7 @@ noreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
 " The Silver Searcher
 if executable('ag')
-	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-ignore=~/.agignore
+	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-ignore=~/dotfiles/ag/ignore
 
 	" Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
 	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
@@ -117,6 +117,9 @@ filetype off                  " required
 filetype plugin indent on    " required
 
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
+
+set backupdir=~/.tmp
+set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
 
 set number
 set relativenumber 

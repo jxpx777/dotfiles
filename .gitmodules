@@ -3,6 +3,9 @@
 	url = https://github.com/chriskempson/base16-vim
 [submodule "vim/pack/jxpx777/start/ale"]
 	path = .config/vim/pack/jxpx777/start/ale
+	url = git@github.com:dense-analysis/ale
+[submodule "vim/pack/jxpx777/start/typescript-vim"]
+	path = .config/vim/pack/typescript/start/typescript-vim
 	url = https://github.com/dense-analysis/ale
 [submodule "vim/pack/jxpx777/start/vim-go"]
 	path = .config/vim/pack/jxpx777/start/vim-go
@@ -30,9 +33,18 @@
 	url = https://github.com/junegunn/fzf.vim
 [submodule "vim/pack/jxpx777/start/ack.vim"]
 	path = .config/vim/pack/jxpx777/start/ack.vim
+	url = git@github.com:mileszs/ack.vim.git
+[submodule "vim/pack/jxpx777/start/tsuquyomi"]
+	path = .config/vim/pack/typescript/start/tsuquyomi
+	url = git@github.com:Quramy/tsuquyomi.git
+[submodule "shell/base16-shell"]
+	path = .config/iTerm/base16-shell
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/pack/jxpx777/start/vim-commentary"]
 	path = .config/vim/pack/jxpx777/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary
+[submodule "vim/pack/typescript/start/vim-jsx-typescript"]
+	path = .config/vim/pack/typescript/start/vim-jsx-typescript
 	url = https://github.com/tpope/vim-commentary
 [submodule "vim/pack/java/start/vim-javacomplete2"]
 	path = .config/vim/pack/java/start/vim-javacomplete2
