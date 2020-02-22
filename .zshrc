@@ -49,7 +49,7 @@ plugins=(bundler colorize gem git go gpg-agent redis-cli sudo taskwarrior tmux u
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-source "$DOTFILES/zsh/aliases"
+source "$XDG_CONFIG_HOME/zsh/aliases"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND="ag -g ''"
