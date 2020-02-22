@@ -1,4 +1,4 @@
 .DS_Store
 ssh/known_hosts
-vim/.netrwhist
+.config/vim/.netrwhist
 configstore

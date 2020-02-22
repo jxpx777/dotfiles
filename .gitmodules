@@ -1,60 +1,60 @@
 [submodule "vim/pack/jxpx777/start/base16-vim"]
-	path = vim/pack/jxpx777/start/base16-vim
+	path = .config/vim/pack/jxpx777/start/base16-vim
 	url = git@github.com:chriskempson/base16-vim
 [submodule "vim/pack/jxpx777/start/ale"]
-	path = vim/pack/jxpx777/start/ale
+	path = .config/vim/pack/jxpx777/start/ale
 	url = git@github.com:dense-analysis/ale
 [submodule "vim/pack/jxpx777/start/typescript-vim"]
-	path = vim/pack/typescript/start/typescript-vim
+	path = .config/vim/pack/typescript/start/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim
 [submodule "vim/pack/jxpx777/start/vim-go"]
-	path = vim/pack/jxpx777/start/vim-go
+	path = .config/vim/pack/jxpx777/start/vim-go
 	url = git@github.com:fatih/vim-go
 [submodule "vim/pack/jxpx777/start/vim-surround"]
-	path = vim/pack/jxpx777/start/vim-surround
+	path = .config/vim/pack/jxpx777/start/vim-surround
 	url = git@github.com:tpope/vim-surround
 [submodule "vim/pack/jxpx777/start/vim-rails"]
-	path = vim/pack/jxpx777/start/vim-rails
+	path = .config/vim/pack/jxpx777/start/vim-rails
 	url = git@github.com:tpope/vim-rails
 [submodule "vim/pack/jxpx777/start/vim-repeat"]
-	path = vim/pack/jxpx777/start/vim-repeat
+	path = .config/vim/pack/jxpx777/start/vim-repeat
 	url = git@github.com:tpope/vim-repeat
 [submodule "vim/pack/jxpx777/start/vim-git"]
-	path = vim/pack/jxpx777/start/vim-git
+	path = .config/vim/pack/jxpx777/start/vim-git
 	url = git@github.com:tpope/vim-git
 [submodule "vim/pack/jxpx777/start/vim-fugitive"]
-	path = vim/pack/jxpx777/start/vim-fugitive
+	path = .config/vim/pack/jxpx777/start/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive
 [submodule "vim/pack/jxpx777/start/editorconfig-vim"]
-	path = vim/pack/jxpx777/start/editorconfig-vim
+	path = .config/vim/pack/jxpx777/start/editorconfig-vim
 	url = git@github.com:editorconfig/editorconfig-vim
 [submodule "vim/pack/jxpx777/start/fzf.vim"]
-	path = vim/pack/jxpx777/start/fzf.vim
+	path = .config/vim/pack/jxpx777/start/fzf.vim
 	url = git@github.com:junegunn/fzf.vim
 [submodule "vim/pack/jxpx777/start/ack.vim"]
-	path = vim/pack/jxpx777/start/ack.vim
+	path = .config/vim/pack/jxpx777/start/ack.vim
 	url = git@github.com:mileszs/ack.vim.git
 [submodule "vim/pack/jxpx777/start/tsuquyomi"]
-	path = vim/pack/typescript/start/tsuquyomi
+	path = .config/vim/pack/typescript/start/tsuquyomi
 	url = git@github.com:Quramy/tsuquyomi.git
 [submodule "shell/base16-shell"]
 	path = .config/iTerm/base16-shell
 	url = https://github.com/chriskempson/base16-shell.git
 [submodule "vim/pack/jxpx777/start/vim-commentary"]
-	path = vim/pack/jxpx777/start/vim-commentary
+	path = .config/vim/pack/jxpx777/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary
 [submodule "vim/pack/typescript/start/vim-jsx-typescript"]
-	path = vim/pack/typescript/start/vim-jsx-typescript
+	path = .config/vim/pack/typescript/start/vim-jsx-typescript
 	url = git@github.com:peitalin/vim-jsx-typescript.git
 [submodule "vim/pack/java/start/vim-javacomplete2"]
-	path = vim/pack/java/start/vim-javacomplete2
+	path = .config/vim/pack/java/start/vim-javacomplete2
 	url = git@github.com:artur-shaik/vim-javacomplete2.git
 [submodule "vim/pack/tmux/start/vim-tmux-navigator"]
-	path = vim/pack/tmux/start/vim-tmux-navigator
+	path = .config/vim/pack/tmux/start/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
 [submodule "vim/pack/markdown/start/vim-markdown"]
-	path = vim/pack/markdown/start/vim-markdown
+	path = .config/vim/pack/markdown/start/vim-markdown
 	url = git@github.com:plasticboy/vim-markdown.git
 [submodule "vim/pack/jxpx777/start/vim-test"]
-	path = vim/pack/jxpx777/start/vim-test
+	path = .config/vim/pack/jxpx777/start/vim-test
 	url = git@github.com:janko/vim-test.git
