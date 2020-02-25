@@ -10,7 +10,7 @@ then
 mkdir -p $XDG_CACHE_HOME
 fi
 
-#export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 
 export DOTFILES="$HOME"
 export EDITOR='vim'
