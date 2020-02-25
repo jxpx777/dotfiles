@@ -1,8 +1,8 @@
 # Disable flow control so <C-s> works in vim
 stty -ixon
-export ZSH=$DOTFILES/../.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
-export ZSH_CUSTOM=$DOTFILES/zsh/customization
+export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
 
 
 # Set name of the theme to load.
@@ -12,7 +12,7 @@ export ZSH_CUSTOM=$DOTFILES/zsh/customization
 ZSH_THEME="robbyrussell"
 
 # Base16 Shell
-BASE16_SHELL="$HOME/dotfiles/iTerm/base16-shell/"
+BASE16_SHELL="$XDG_CONFIG_HOME/iTerm/base16-shell/"
 [ -n "$PS1" ] && \
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         eval "$("$BASE16_SHELL/profile_helper.sh")"
@@ -53,7 +53,7 @@ source "$XDG_CONFIG_HOME/zsh/aliases"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND="ag -g ''"
-source $DOTFILES/zsh/customization/base16-tomorrow.fzf.config
+source $XDG_CONFIG_HOME/zsh/customization/base16-tomorrow.fzf.config
 
 export HOMEBREW_PREFIX=$(brew --prefix)
 export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
@@ -63,7 +63,7 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
 
-test -e "${DOTFILES}/iTerm/shell_integration" && source "${DOTFILES}/iTerm/shell_integration"
+test -e "${XDG_CONFIG_HOME}/iTerm/shell_integration" && source "${XDG_CONFIG_HOME}/iTerm/shell_integration"
 iterm2_print_user_vars() {
   iterm2_set_user_var gitBranch $((git branch --no-color 2> /dev/null) | grep \* | cut -c3-)
 }
