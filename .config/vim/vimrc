@@ -5,7 +5,7 @@ set splitright
 set splitbelow
 
 set background=light
-" set termguicolors
+set termguicolors
 colorscheme base16-tomorrow
 let base16colorspace=256
 
