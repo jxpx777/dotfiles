@@ -1,5 +1,6 @@
 tap "universal-ctags/universal-ctags"
 tap "homebrew/cask-versions"
+tap "homebrew/cask-fonts"
 tap "Goles/battery"
 brew "mas"
 
@@ -41,6 +42,7 @@ cask "postico"
 cask "rocket"
 cask "slack"
 cask "sequel-pro"
+cask "tower"
 cask "transmit"
 cask "zoomus"
 
@@ -50,3 +52,9 @@ mas "Drafts", id: 1435957248
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074 
 mas "Xcode", id: 497799835
+
+# Fonts
+cask "font-source-sans-pro"
+cask "font-fira-code"
+cask "font-fira-mono"
+cask "font-fira-sans"
