@@ -1,7 +1,16 @@
-if [! -v $XDG_CONFIG_HOME ]
+export XDG_CONFIG_HOME=$HOME/.config
+if [ ! -d $XDG_CONFIG_HOME ]
 then
-XDG_CONFIG_HOME=$HOME/.config
+mkdir -p $XDG_CONFIG_HOME
 fi
+
+export XDG_CACHE_HOME=$HOME/Library/Caches
+if [ ! -d $XDG_CACHE_HOME ]
+then
+mkdir -p $XDG_CACHE_HOME
+fi
+
+#export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 
 export DOTFILES="$HOME"
 export EDITOR='vim'
