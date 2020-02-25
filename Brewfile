@@ -25,6 +25,7 @@ brew "vim"
 
 cask_args appdir: "/Applications"
 cask "1password-beta"
+cask "basecamp"
 cask "choosy"
 cask "coderunner"
 cask "docker"
