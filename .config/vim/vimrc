@@ -95,9 +95,6 @@ filetype plugin indent on    " required
 
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 
-set backupdir=~/.tmp
-set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
-
 set number
 set relativenumber 
 
@@ -118,6 +115,11 @@ set listchars=tab:▸\ ,eol:¬
 nmap <leader><space> :set list!<CR>
 
 source ~/.vim/fzf.vim
+
+" Don't clutter my dirs up with swp and tmp files
+set backupdir=$XDG_CACHE_HOME/vim/backup
+set directory=$XDG_CACHE_HOME/vim/swp 
+set undodir=$XDG_CACHE_HOME/vim/undo
 
 set autowrite
 set tags=./tags,.git/tags,tags;
