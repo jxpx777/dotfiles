@@ -4,6 +4,15 @@ let mapleader=","
 set splitright
 set splitbelow
 
+" Adjust runtime path per https://stackoverflow.com/a/3384476/34386
+" set default 'runtimepath' (without ~/.vim folders)
+let &runtimepath = printf('%s/vimfiles,%s,%s/vimfiles/after', $VIM, $VIMRUNTIME, $VIM)
+" what is the name of the directory containing this file?
+let s:portable = expand('<sfile>:p:h')
+" add the directory to 'runtimepath'
+let &runtimepath = printf('%s,%s,%s/after', s:portable, &runtimepath, s:portable)
+set packpath+=$XDG_CONFIG_HOME/vim
+
 set background=light
 set termguicolors
 colorscheme base16-tomorrow
@@ -114,7 +123,7 @@ set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
 nmap <leader><space> :set list!<CR>
 
-source ~/.vim/fzf.vim
+source $XDG_CONFIG_HOME/vim/fzf.vim
 
 " Don't clutter my dirs up with swp and tmp files
 set backupdir=$XDG_CACHE_HOME/vim/backup
