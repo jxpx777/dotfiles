@@ -153,6 +153,7 @@ end
 set backupdir=$XDG_CACHE_HOME/vim/backup
 set directory=$XDG_CACHE_HOME/vim/swp 
 set undodir=$XDG_CACHE_HOME/vim/undo
+set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 
 set autowrite
 set tags+=./tags,.git/tags,tags;
