@@ -12,13 +12,9 @@
 	d = diff --abbrev=10 --ignore-all-space --ignore-blank-lines
 	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
 
-[include]
-    # For username / github token / etc
-    path = /Volumes/Secrets-B/DevSecrets/git/gitconfig
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
-	signingkey = B7754A71
 [color]
 	ui = always
 	diff = always
@@ -99,7 +95,7 @@
 [difftool "tower"]
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [init]
-	templatedir = ~/dotfiles/git/template
+	templatedir = ./template
 
 [hub]
 protocol = https
@@ -108,3 +104,7 @@ protocol = https
 	gpgsign = true
 [gpg]
 	program = /usr/local/bin/gpg
+[include]
+	path = ../../.local/share/git/config
+[include]
+	path = /Volumes/Secrets-B/DevSecrets/git/gitconfig
