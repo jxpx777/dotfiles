@@ -3,10 +3,10 @@
 	url = https://github.com/chriskempson/base16-vim
 [submodule "vim/pack/jxpx777/start/ale"]
 	path = .config/vim/pack/jxpx777/start/ale
-	url = git@github.com:dense-analysis/ale
+	url = https://github.com/dense-analysis/ale
 [submodule "vim/pack/jxpx777/start/typescript-vim"]
 	path = .config/vim/pack/typescript/start/typescript-vim
-	url = https://github.com/dense-analysis/ale
+	url = https://github.com/leafgarland/typescript-vim
 [submodule "vim/pack/jxpx777/start/vim-go"]
 	path = .config/vim/pack/jxpx777/start/vim-go
 	url = https://github.com/fatih/vim-go
@@ -14,7 +14,7 @@
 	path = .config/vim/pack/jxpx777/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "vim/pack/jxpx777/start/vim-rails"]
-	path = .config/vim/pack/ruby/start/vim-rails
+	path = .config/vim/pack/jxpx777/start/vim-rails
 	url = https://github.com/tpope/vim-rails
 [submodule "vim/pack/jxpx777/start/vim-repeat"]
 	path = .config/vim/pack/jxpx777/start/vim-repeat
@@ -33,19 +33,19 @@
 	url = https://github.com/junegunn/fzf.vim
 [submodule "vim/pack/jxpx777/start/ack.vim"]
 	path = .config/vim/pack/jxpx777/start/ack.vim
-	url = git@github.com:mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/pack/jxpx777/start/tsuquyomi"]
 	path = .config/vim/pack/typescript/start/tsuquyomi
-	url = git@github.com:Quramy/tsuquyomi.git
+	url = https://github.com/Quramy/tsuquyomi.git
 [submodule "shell/base16-shell"]
 	path = .config/iTerm/base16-shell
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/pack/jxpx777/start/vim-commentary"]
 	path = .config/vim/pack/jxpx777/start/vim-commentary
-	url = git@github.com:tpope/vim-commentary
+	url = https://github.com/tpope/vim-commentary
 [submodule "vim/pack/typescript/start/vim-jsx-typescript"]
 	path = .config/vim/pack/typescript/start/vim-jsx-typescript
-	url = https://github.com/tpope/vim-commentary
+	url = https://github.com/peitalin/vim-jsx-typescript.git
 [submodule "vim/pack/java/start/vim-javacomplete2"]
 	path = .config/vim/pack/java/start/vim-javacomplete2
 	url = https://github.com/artur-shaik/vim-javacomplete2.git
