@@ -121,3 +121,9 @@
 [submodule "vim/pack/typescript/start/vim-jsx-typescript"]
 	path = vim/pack/typescript/start/vim-jsx-typescript
 	url = https://github.com/peitalin/vim-jsx-typescript.git
+[submodule ".config/vim/pack/jxpx777/YouCompleteMe"]
+	path = .config/vim/pack/jxpx777/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule ".config/vim/pack/jxpx777/ultisnips"]
+	path = .config/vim/pack/jxpx777/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
