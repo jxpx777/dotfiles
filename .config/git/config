@@ -95,7 +95,7 @@
 [difftool "tower"]
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [init]
-	templatedir = ./template
+	templatedir = ~/.config/git/template
 
 [hub]
 protocol = https
