@@ -58,3 +58,12 @@
 [submodule "vim/pack/jxpx777/start/vim-test"]
 	path = .config/vim/pack/jxpx777/start/vim-test
 	url = https://github.com/janko/vim-test.git
+[submodule ".config/vim/pack/jxpx777/start/supertab"]
+	path = .config/vim/pack/jxpx777/start/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule ".config/vim/pack/jxpx777/YouCompleteMe"]
+	path = .config/vim/pack/jxpx777/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule ".config/vim/pack/jxpx777/ultisnips"]
+	path = .config/vim/pack/jxpx777/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
