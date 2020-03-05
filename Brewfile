@@ -5,6 +5,7 @@ tap "Goles/battery"
 brew "mas"
 
 brew "fzf"
+brew "jrnl"
 brew "mysql"
 brew "node"
 brew "nodenv"
