@@ -5,3 +5,4 @@ dist
 vendor
 .tmp
 swagger
+node_modules
