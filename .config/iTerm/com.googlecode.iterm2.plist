@@ -923,7 +923,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>Recycle</string>
+			<string>No</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
@@ -1435,7 +1435,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
-			<array/>
+			<array>
 				<dict>
 					<key>action</key>
 					<string>CaptureTrigger</string>
@@ -1542,7 +1542,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
