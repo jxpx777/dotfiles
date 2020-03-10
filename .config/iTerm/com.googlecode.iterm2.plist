@@ -584,7 +584,7 @@
 	<key>HideActivityIndicator</key>
 	<true/>
 	<key>HideMenuBarInFullscreen</key>
-	<true/>
+	<false/>
 	<key>HideScrollbar</key>
 	<true/>
 	<key>HideTab</key>
@@ -669,7 +669,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>7 293 1666 734 0 0 1680 1027 </string>
+	<string>0 84 1680 943 0 0 1680 1050 </string>
 	<key>NeverWarnAboutShortLivedSessions_806281C4-7EA0-418B-B3B9-90C07266C9C6</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_806281C4-7EA0-418B-B3B9-90C07266C9C6_selection</key>
@@ -1490,7 +1490,16 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
-			<array/>
+			<array>
+				<dict>
+					<key>action</key>
+					<string>CaptureTrigger</string>
+					<key>partial</key>
+					<true/>
+					<key>regex</key>
+					<string>(?i)catalina.*started</string>
+				</dict>
+			</array>
 			<key>Triggers Use Interpolated Strings</key>
 			<true/>
 			<key>Unlimited Scrollback</key>
@@ -1525,12 +1534,12 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{518, 823}</string>
+		<string>{517, 840}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>B566645A-376B-41DF-A934-03B400A2A429</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>13</integer>
+	<integer>14</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>604945880.74174905</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2384,7 +2393,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-03-02T16:03:30Z</date>
+	<date>2020-03-10T01:16:26Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
@@ -2396,7 +2405,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowNewOutputIndicator</key>
 	<false/>
 	<key>ShowPaneTitles</key>
