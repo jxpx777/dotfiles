@@ -1,5 +1,8 @@
 # Disable flow control so <C-s> works in vim
 stty -ixon
+if [[ $TERM == xterm ]]; then
+	TERM=xterm-256color
+fi
 export ZSH=$HOME/.oh-my-zsh
 
 export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
@@ -67,4 +70,9 @@ test -e "${XDG_CONFIG_HOME}/iTerm/shell_integration" && source "${XDG_CONFIG_HOM
 iterm2_print_user_vars() {
   iterm2_set_user_var gitBranch $((git branch --no-color 2> /dev/null) | grep \* | cut -c3-)
 }
+
+function killport () {
+	lsof -i :$1 | tail -n1 | awk '{print $2}' | xargs kill
+}
+
 iterm2_print_user_vars
