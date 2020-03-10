@@ -15,6 +15,7 @@ set packpath+=$XDG_CONFIG_HOME/vim
 
 set background=light
 set termguicolors
+set term=xterm-256color
 colorscheme base16-tomorrow
 let base16colorspace=256
 
@@ -95,7 +96,7 @@ noreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
 " The Silver Searcher
 if executable('ag')
-	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-ignore=~/dotfiles/ag/ignore
+	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-ignore=~/.agignore
 
 	" Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
 	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
