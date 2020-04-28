@@ -4,7 +4,6 @@
 	b = branch
 	co = checkout
 	df = diff --color
-	l = pull
 	ull = pull
 	lr = pull --rebase
 	p = push
@@ -17,7 +16,6 @@
 	tree = log --graph --oneline --all
 	root = rev-parse --git-dir
 	tower = !/usr/local/bin/gittower $(git root)/..
-
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
