@@ -38,6 +38,10 @@
 	<true/>
 	<key>Control</key>
 	<integer>1</integer>
+	<key>Coprocess MRU</key>
+	<array>
+		<string></string>
+	</array>
 	<key>CopyLastNewline</key>
 	<false/>
 	<key>CopySelection</key>
@@ -567,6 +571,8 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<true/>
+	<key>EnableProxyIcon</key>
+	<true/>
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FlashTabBarInFullscreen</key>
@@ -582,7 +588,7 @@
 	<key>HiddenAdvancedFontRendering</key>
 	<false/>
 	<key>HideActivityIndicator</key>
-	<true/>
+	<false/>
 	<key>HideMenuBarInFullscreen</key>
 	<false/>
 	<key>HideScrollbar</key>
@@ -669,7 +675,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 84 1680 943 0 0 1680 1050 </string>
+	<string>0 0 1666 1027 0 0 1680 1027 </string>
 	<key>NeverWarnAboutShortLivedSessions_806281C4-7EA0-418B-B3B9-90C07266C9C6</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_806281C4-7EA0-418B-B3B9-90C07266C9C6_selection</key>
@@ -978,7 +984,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
@@ -1330,7 +1336,7 @@
 			<key>Normal Font</key>
 			<string>FiraCode-Regular 14</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
@@ -1497,7 +1503,19 @@
 					<key>partial</key>
 					<true/>
 					<key>regex</key>
-					<string>(?i)catalina.*started</string>
+					<string>.*Catalina start Server startup</string>
+				</dict>
+				<dict>
+					<key>action</key>
+					<string>CaptureTrigger</string>
+					<key>regex</key>
+					<string>org.springframework.web.client.HttpClientErrorException</string>
+				</dict>
+				<dict>
+					<key>action</key>
+					<string>CaptureTrigger</string>
+					<key>regex</key>
+					<string>\s*Time: \d+ms</string>
 				</dict>
 			</array>
 			<key>Triggers Use Interpolated Strings</key>
@@ -1525,7 +1543,9 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.9</string>
+		<string>3.3.10beta2</string>
 		<string>3.3.10beta1</string>
+		<string>3.3.10beta3</string>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
@@ -1534,12 +1554,16 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{517, 840}</string>
+		<string>{531, 738}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>B566645A-376B-41DF-A934-03B400A2A429</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>14</integer>
+	<integer>21</integer>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>604945880.74174905</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1912,6 +1936,30 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.currentSession.tmuxClientName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.tmuxRole</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.tmuxWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1939,6 +1987,14 @@
 				<string>currentTab</string>
 				<key>nonterminalContext</key>
 				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.tmuxPaneTitle</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
@@ -2065,11 +2121,11 @@
 		<array>
 			<dict>
 				<key>isTerminal</key>
-				<true/>
+				<false/>
 				<key>name</key>
-				<string>currentSession.terminalWindowName</string>
+				<string>currentSession</string>
 				<key>nonterminalContext</key>
-				<integer>0</integer>
+				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
@@ -2116,6 +2172,22 @@
 				<true/>
 				<key>name</key>
 				<string>currentSession.presentationName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.tmuxClientName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.tmuxRole</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2219,6 +2291,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentSession.tmuxPaneTitle</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentSession.username</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -2244,6 +2324,14 @@
 				<true/>
 				<key>name</key>
 				<string>titleOverrideFormat</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2287,14 +2375,6 @@
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<false/>
-				<key>name</key>
-				<string>currentSession</string>
-				<key>nonterminalContext</key>
-				<integer>1</integer>
-			</dict>
 		</array>
 		<key>4</key>
 		<array>
@@ -2324,8 +2404,28 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSuppressCaptureOutputToolNotVisibleWarning</key>
+	<true/>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>604455200.37879896</real>
+	<key>NoSyncToolbeltProportions</key>
+	<dict>
+		<key>proportions</key>
+		<array>
+			<dict>
+				<key>heightAsFraction</key>
+				<real>0.5</real>
+				<key>name</key>
+				<string>Captured Output</string>
+			</dict>
+			<dict>
+				<key>heightAsFraction</key>
+				<real>0.5</real>
+				<key>name</key>
+				<string>Notes</string>
+			</dict>
+		</array>
+	</dict>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -2372,6 +2472,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/yjxp110/.config/iTerm</string>
+	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
+	<true/>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -2393,7 +2495,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-03-10T01:16:26Z</date>
+	<date>2020-04-23T16:26:28Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
@@ -2401,13 +2503,15 @@
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SavePasteHistory</key>
-	<false/>
+	<true/>
+	<key>SeparateStatusBarsPerPane</key>
+	<true/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>ShowNewOutputIndicator</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -2417,7 +2521,7 @@
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.41419020432692311</real>
 	<key>StretchTabsToFillBar</key>
-	<false/>
+	<true/>
 	<key>SwitchPaneModifier</key>
 	<integer>5</integer>
 	<key>SwitchTabModifier</key>
@@ -2426,21 +2530,22 @@
 	<integer>6</integer>
 	<key>TabStyle</key>
 	<integer>2</integer>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>6</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
+	<key>TabsHaveCloseButton</key>
+	<true/>
 	<key>ThreeFingerEmulates</key>
 	<false/>
 	<key>TmuxDashboardLimit</key>
 	<integer>10</integer>
 	<key>TmuxUsesDedicatedProfile</key>
-	<false/>
+	<true/>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Paste History</string>
-		<string>Command History</string>
-		<string>Jobs</string>
+		<string>Captured Output</string>
 		<string>Notes</string>
-		<string>Recent Directories</string>
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
@@ -2453,7 +2558,7 @@
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>UseTmuxStatusBar</key>
-	<false/>
+	<true/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>WebKitDefaultFontSize</key>
@@ -2473,7 +2578,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.10beta1</string>
+	<string>3.3.10beta3</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>
