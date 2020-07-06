@@ -43,7 +43,7 @@
 	user = jxpx777
 [core]
     pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
-    editor = "nvim"
+    editor = "vim"
 [branch]
 	autosetupmerge = true
 [difftool "Kaleidoscope"]
