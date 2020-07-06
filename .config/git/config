@@ -42,8 +42,6 @@
 	user = jxpx777
 [core]
     pager = bash -lc '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
-    excludesfile = /Users/jp/.config/git/gitignore
-    attributesfile = ~/Projects/dotfiles/git/gitattributes
     editor = "nvim"
 [branch]
 	autosetupmerge = true
