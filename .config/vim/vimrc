@@ -144,4 +144,5 @@ set undodir=$XDG_CACHE_HOME/vim/undo
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 
 set autowrite
-set tags=./tags,.git/tags,tags;
+set tags+=./tags,.git/tags,tags;
+set tags+=../../.git/tags "This is a hack for current project, 2020-06-30
