@@ -61,9 +61,6 @@
 [submodule ".config/vim/pack/jxpx777/start/supertab"]
 	path = .config/vim/pack/jxpx777/start/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule ".config/vim/pack/jxpx777/YouCompleteMe"]
-	path = .config/vim/pack/jxpx777/start/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule ".config/vim/pack/jxpx777/ultisnips"]
 	path = .config/vim/pack/jxpx777/start/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
