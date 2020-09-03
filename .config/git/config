@@ -4,6 +4,7 @@
 	b = branch
 	co = checkout
 	df = diff --color
+	l = pull
 	ull = pull
 	lr = pull --rebase
 	p = push
