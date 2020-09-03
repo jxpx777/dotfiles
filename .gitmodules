@@ -4,9 +4,6 @@
 [submodule "vim/pack/jxpx777/start/ale"]
 	path = .config/vim/pack/jxpx777/start/ale
 	url = https://github.com/dense-analysis/ale
-[submodule "vim/pack/jxpx777/start/typescript-vim"]
-	path = .config/vim/pack/typescript/start/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim
 [submodule "vim/pack/jxpx777/start/vim-go"]
 	path = .config/vim/pack/jxpx777/start/vim-go
 	url = https://github.com/fatih/vim-go
@@ -40,9 +37,6 @@
 [submodule "vim/pack/jxpx777/start/vim-commentary"]
 	path = .config/vim/pack/jxpx777/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
-[submodule "vim/pack/typescript/start/vim-jsx-typescript"]
-	path = .config/vim/pack/typescript/start/vim-jsx-typescript
-	url = https://github.com/peitalin/vim-jsx-typescript.git
 [submodule "vim/pack/java/start/vim-javacomplete2"]
 	path = .config/vim/pack/java/start/vim-javacomplete2
 	url = https://github.com/artur-shaik/vim-javacomplete2.git
