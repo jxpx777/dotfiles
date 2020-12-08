@@ -27,3 +27,5 @@ export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abb
 export DEVSECRETS_PATH=/Volumes/PhelpsUnlimited128/DevSecrets
 
 export GIT_CONFIG_NOSYSTEM=1
+
+source "$DOTFILES/.config/zsh/ruby.env"
