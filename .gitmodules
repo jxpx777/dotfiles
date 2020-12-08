@@ -11,7 +11,7 @@
 	path = .config/vim/pack/jxpx777/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "vim/pack/jxpx777/start/vim-rails"]
-	path = .config/vim/pack/jxpx777/start/vim-rails
+	path = .config/vim/pack/ruby/start/vim-rails
 	url = https://github.com/tpope/vim-rails
 [submodule "vim/pack/jxpx777/start/vim-repeat"]
 	path = .config/vim/pack/jxpx777/start/vim-repeat
