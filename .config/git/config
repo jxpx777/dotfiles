@@ -20,6 +20,7 @@
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
+	signingkey = 12CF1193E7A6F7E14EB5126B35B75D9CE7C31F7B
 [color]
 	ui = always
 	status = always
