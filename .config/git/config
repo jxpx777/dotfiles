@@ -111,3 +111,8 @@ protocol = https
 	path = ../../.local/share/git/config
 [include]
 	path = /Volumes/Secrets-B/DevSecrets/git/gitconfig
+[pull]
+	ff = only
+	rebase = true
+[http]
+	postBuffer = 524288000
