@@ -88,3 +88,6 @@ iOSInjectionProject/
 
 tags
 
+# Ruby projects
+/vendor/bundle
+
