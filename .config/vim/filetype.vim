@@ -9,8 +9,8 @@ autocmd bufnewfile,bufreadpost *.markdown set filetype=markdown
 autocmd bufnewfile,bufreadpost *.mdown set filetype=markdown
 
 " - reactjs
-au! bufread,bufnewfile *.react.ts set filetype=typescript
-au! bufread,bufnewfile *.react.js set filetype=javascript
+au! bufread,bufnewfile *.react.ts set filetype=typescriptreact
+au! bufread,bufnewfile *.react.js set filetype=javascriptreact
 
 ""json
 au! bufread,bufnewfile *.json set filetype=json
