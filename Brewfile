@@ -4,6 +4,8 @@ tap "homebrew/cask-fonts"
 tap "Goles/battery"
 brew "mas"
 
+brew "git"
+brew "gh"
 brew "cmake"
 brew "fzf"
 brew "go"
