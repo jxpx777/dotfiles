@@ -63,8 +63,6 @@ export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/
 
 gpgconf --launch gpg-agent
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-eval "$(rbenv init -)"
-eval "$(nodenv init -)"
 
 test -e "${XDG_CONFIG_HOME}/iTerm/shell_integration" && source "${XDG_CONFIG_HOME}/iTerm/shell_integration"
 iterm2_print_user_vars() {
@@ -81,3 +79,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+source "$XDG_CONFIG_HOME/zsh/ruby.env"
+eval "$(nodenv init -)"
+
