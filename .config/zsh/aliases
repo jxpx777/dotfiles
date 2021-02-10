@@ -37,6 +37,10 @@ marked() {
 # Finder
 alias o='open .'
 
+function bundleid() {
+  defaults read "$1/Contents/Info.plist" CFBundleIdentifier
+}
+
 # Processes
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
