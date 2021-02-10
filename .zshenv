@@ -5,10 +5,7 @@ mkdir -p $XDG_CONFIG_HOME
 fi
 
 export XDG_CACHE_HOME=$HOME/Library/Caches
-if [ ! -d $XDG_CACHE_HOME ]
-then
-mkdir -p $XDG_CACHE_HOME
-fi
+[[ -d $XDG_CACHE_HOME ]] || mkdir -p $XDG_CACHE_HOME
 
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 export RBENV_ROOT="/usr/local/rbenv"
