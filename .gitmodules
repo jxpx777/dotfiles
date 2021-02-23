@@ -61,9 +61,6 @@
 [submodule ".config/vim/pack/javascript/tern.vim"]
 	path = .config/vim/pack/javascript/tern.vim
 	url = https://github.com/ternjs/tern_for_vim
-[submodule ".config/vim/pack/graphql/vim-graphql"]
-	path = .config/vim/pack/graphql/start/vim-graphql
-	url = https://github.com/jparise/vim-graphql.git
 [submodule ".config/vim/pack/jxpx777/start/coc"]
 	path = .config/vim/pack/jxpx777/start/coc
 	url = https://github.com/neoclide/coc.nvim.git
@@ -73,3 +70,6 @@
 [submodule ".config/vim/pack/ruby/start/vim-ruby"]
 	path = .config/vim/pack/ruby/start/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule ".config/vim/pack/graphql/start/vim-graphql"]
+	path = .config/vim/pack/graphql/start/vim-graphql
+	url = https://github.com/jparise/vim-graphql.git
