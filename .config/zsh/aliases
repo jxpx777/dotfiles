@@ -1,4 +1,5 @@
 # Utility
+alias 'shopt=:'
 alias reload='source $XDG_CONFIG_HOME/zsh/aliases'
 alias ea="$EDITOR $XDG_CONFIG_HOME/zsh/aliases && reload" # Edit aliases
 alias ee="$EDITOR $XDG_CONFIG_HOME/zsh/zshenv"
