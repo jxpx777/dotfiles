@@ -81,5 +81,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 source "$XDG_CONFIG_HOME/zsh/ruby.env"
-eval "$(nodenv init -)"
+source "$XDG_CONFIG_HOME/zsh/node.env"
 
