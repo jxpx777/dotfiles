@@ -7,6 +7,8 @@ fi
 export XDG_CACHE_HOME=$HOME/Library/Caches
 [[ -d $XDG_CACHE_HOME ]] || mkdir -p $XDG_CACHE_HOME
 
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 export RBENV_ROOT="/usr/local/rbenv"
 
@@ -17,12 +19,11 @@ export BUNDLER_EDITOR='vim'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export NODE_PATH="/usr/local/lib/node"
 
+export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
 export PATH="$HOME/.nodenv/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
 # Delete after Chicago engagement
 export PATH="$PATH:$HOME/Library/Python/3.7/bin"
-export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
 export DEVSECRETS_PATH=/Volumes/PhelpsUnlimited128/DevSecrets
 
 export GIT_CONFIG_NOSYSTEM=1
-
-source "$DOTFILES/.config/zsh/ruby.env"
