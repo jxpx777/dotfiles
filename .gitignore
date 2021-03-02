@@ -20,3 +20,4 @@ configstore
 /.locks
 /.docker
 /.gnupg
+/.config/.zsh_history
