@@ -91,3 +91,5 @@ tags
 # Ruby projects
 /vendor/bundle
 
+# Node
+**/node_modules
