@@ -15,6 +15,7 @@ export RBENV_ROOT="/usr/local/rbenv"
 export DOTFILES="$HOME"
 export EDITOR='vim'
 export GIT_EDITOR='vim'
+export GIT_DUET_AUTHORS_FILE="$XDG_CONFIG_HOME/git/authors"
 export BUNDLER_EDITOR='vim'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export NODE_PATH="/usr/local/lib/node"
