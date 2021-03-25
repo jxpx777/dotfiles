@@ -12,7 +12,7 @@
 	g0 = log --graph --pretty=format:"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s" --date=local
 	g1 = log --graph --all --pretty=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)" --abbrev-commit --date=relative
 	d = diff --color --abbrev=10 --ignore-all-space --ignore-blank-lines
-	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
+	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-main}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
 	tree = log --graph --oneline --all
 	root = rev-parse --git-dir
 	tower = !/usr/local/bin/gittower $(git root)/..
