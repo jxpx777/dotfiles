@@ -56,6 +56,10 @@ source $ZSH/oh-my-zsh.sh
 source "$XDG_CONFIG_HOME/zsh/aliases"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+function zvm_after_init() {
+  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+}
+
 export FZF_DEFAULT_COMMAND="ag -g ''"
 source $XDG_CONFIG_HOME/zsh/customization/base16-tomorrow.fzf.config
 
