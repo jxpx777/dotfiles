@@ -124,3 +124,6 @@
 [submodule ".config/zsh/customization/plugins/zsh-vi-mode"]
 	path = .config/zsh/customization/plugins/zsh-vi-mode
 	url = https://github.com/jeffreytse/zsh-vi-mode
+[submodule ".config/vim/pack/ruby/start/vim-ruby-heredoc-syntax"]
+	path = .config/vim/pack/ruby/start/vim-ruby-heredoc-syntax
+	url = https://github.com/joker1007/vim-ruby-heredoc-syntax.git
