@@ -192,5 +192,10 @@ set-window-title() {
 set-tab-title() {
 	echo -ne "\e]1;$PWD\a"
 }
+
+nsedit () {
+  kubectl edit ns $1
+}
+
 chpwd_functions+=(set-window-title set-tab-title)
 preexec_functions+=(set-window-title set-tab-title)
