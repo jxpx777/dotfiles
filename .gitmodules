@@ -127,3 +127,6 @@
 [submodule ".config/vim/pack/ruby/start/vim-ruby-heredoc-syntax"]
 	path = .config/vim/pack/ruby/start/vim-ruby-heredoc-syntax
 	url = https://github.com/joker1007/vim-ruby-heredoc-syntax.git
+[submodule ".config/vim/pack/jxpx777/start/bufexplorer"]
+	path = .config/vim/pack/jxpx777/start/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
