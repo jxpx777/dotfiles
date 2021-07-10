@@ -4,7 +4,6 @@ tap "Goles/battery"
 brew "mas"
 
 brew "git"
-brew "gh"
 brew "cmake"
 brew "fzf"
 brew "go"
@@ -35,7 +34,7 @@ cask "choosy"
 cask "coderunner"
 cask "docker"
 cask "firefox-developer-edition"
-cask "gpg-suite-no-mail"
+cask "gpg-suite"
 cask "iterm2"
 cask "kaleidoscope"
 cask "keybase"
@@ -49,13 +48,13 @@ cask "postico"
 cask "rocket"
 cask "slack"
 cask "sequel-pro"
+cask "tableplus"
 cask "tower"
 cask "transmit"
 cask "zoomus"
 
 mas "Base", id: 402383384
 mas "Better", id: 1121192229
-mas "Drafts", id: 1435957248
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074 
 mas "Xcode", id: 497799835
