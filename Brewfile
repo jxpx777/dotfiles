@@ -1,4 +1,3 @@
-tap "universal-ctags/universal-ctags"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "Goles/battery"
@@ -27,7 +26,6 @@ brew "battery"
 brew "reattach-to-user-namespace" # To support tmux
 brew "tldr"
 brew "tmux"
-brew "universal-ctags", args: [ "HEAD" ]
 brew "vim"
 
 cask_args appdir: "/Applications"
