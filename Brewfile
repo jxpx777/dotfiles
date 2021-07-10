@@ -1,4 +1,3 @@
-tap "universal-ctags/universal-ctags"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "Goles/battery"
