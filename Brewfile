@@ -35,7 +35,7 @@ cask "coderunner"
 cask "docker"
 cask "fantastical"
 cask "firefox-developer-edition"
-cask "gpg-suite-no-mail"
+cask "gpg-suite"
 cask "iterm2"
 cask "kaleidoscope"
 cask "keybase"
@@ -56,7 +56,6 @@ cask "zoom"
 
 mas "Base", id: 402383384
 mas "Better", id: 1121192229
-mas "Paprika", id: 1303222628
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074 
 mas "Xcode", id: 497799835
