@@ -17,7 +17,6 @@ brew "prettier"
 brew "python"
 brew "rbenv"
 brew "redis"
-brew "ruby"
 brew "ruby-build"
 brew "the_silver_searcher"
 brew "spark"
@@ -33,6 +32,7 @@ cask "basecamp"
 cask "choosy"
 cask "coderunner"
 cask "docker"
+cask "fantastical"
 cask "firefox-developer-edition"
 cask "gpg-suite"
 cask "iterm2"
@@ -44,17 +44,16 @@ cask "marked"
 cask "monodraw"
 cask "mosaic"
 cask "paw"
-cask "postico"
 cask "rocket"
 cask "slack"
-cask "sequel-pro"
 cask "tableplus"
 cask "tower"
 cask "transmit"
-cask "zoomus"
+cask "zoom"
 
 mas "Base", id: 402383384
 mas "Better", id: 1121192229
+mas "Paprika", id: 1303222628
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074 
 mas "Xcode", id: 497799835
