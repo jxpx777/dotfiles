@@ -77,6 +77,10 @@
 		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
 		exit 1 if b.include?(%(<)*%L)'"
 
+[merge "gemfilelock"]
+  name = relocks the gemfile.lock
+  driver = bundle lock
+
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
