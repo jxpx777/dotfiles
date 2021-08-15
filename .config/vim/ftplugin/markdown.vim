@@ -5,7 +5,7 @@ setlocal expandtab
 setlocal makeprg=open\ -a\ Marked\\\ 2.app\ '%:p'
 
 set nofoldenable
-let g:markdown_fenced_languages = ['html', 'ruby', 'javascript', 'go', 'python', 'bash=sh', 'zsh']
-let g:vim_markdown_frontmatter=1
+let b:markdown_fenced_languages = ['html', 'ruby', 'javascript', 'go', 'python', 'bash=sh', 'zsh']
+let b:vim_markdown_frontmatter=1
 
 " autocmd BufWritePre * :call markdownlint.fixAll()
