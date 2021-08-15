@@ -71,18 +71,8 @@
 	driver = "ruby -e '\n\
 		system %(git), %(merge-file), %(--marker-size=%L), %(%A), %(%O), %(%B)\n\
 		b = File.read(%(%A))\n\
-		b.sub!(/^<+ .*\\nActiveRecord::Schema\\.define.:version => (\\d+). do\\n=+\\nActiveRecord::Schema\\.define.:version => (\\d+). do\\n>+ .*/) do\n\
-		  %(ActiveRecord::Schema.define(:version => #{[$1, $2].max}) do)\n\
-		end\n\
-		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
-		exit 1 if b.include?(%(<)*%L)'"
-[merge "safariextensioninfoplist"]
-  name = newer Builder Version
-	driver = "ruby -e '\n\
-		system %(git), %(merge-file), %(--marker-size=%L), %(%A), %(%O), %(%B)\n\
-		b = File.read(%(%A))\n\
-    b.sub!(%r{^\t<key>Builder Version</key>\n<+ .*\n\\t<string>((?:\\d+\\.)+\\d+)</string>\n=+\n\\t<string>((?:\\d+\\.)+\\d+)</string>\n>+ .*}) do\n\
-		  %(<key>Builder Version</key>\n\t<string>#{[$1, $2].max}</string>)\n\
+		b.sub!(/^<+.*\\nActiveRecord::Schema\\.define.version: ([0-9_]+). do\\s*=+\\s*ActiveRecord::Schema\\.define.version: ([0-9_]+). do\\s*>+.*?$/m) do\n\
+		%(ActiveRecord::Schema.define(version: #{[$1, $2].max}) do)\n\
 		end\n\
 		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
 		exit 1 if b.include?(%(<)*%L)'"
