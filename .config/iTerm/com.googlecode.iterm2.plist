@@ -1611,5 +1611,7 @@
 	<false/>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
+	<key>kTurnOffSlowTriggersOfferUserDefaultsKey</key>
+	<false/>
 </dict>
 </plist>
