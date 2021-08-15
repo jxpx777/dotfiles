@@ -17,7 +17,6 @@ brew "prettier"
 brew "python"
 brew "rbenv"
 brew "redis"
-brew "ruby"
 brew "ruby-build"
 brew "the_silver_searcher"
 brew "spark"
@@ -46,7 +45,6 @@ cask "monodraw"
 cask "mosaic"
 cask "notion"
 cask "paw"
-cask "postico"
 cask "rocket"
 cask "slack"
 cask "tableplus"
@@ -56,6 +54,7 @@ cask "zoom"
 
 mas "Base", id: 402383384
 mas "Better", id: 1121192229
+mas "Paprika", id: 1303222628
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074 
 mas "Xcode", id: 497799835
