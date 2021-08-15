@@ -63,9 +63,9 @@
 	prompt = false
 	keepBackup = true
 [url "git@github.com:"]
-  insteadOf = gh:
+	insteadOf = gh:
 [url "git@bitbucket.org:"]
-  insteadOf = bb:
+	insteadOf = bb:
 [merge "railsschema"]
 	name = newer Rails schema version
 	driver = "ruby -e '\n\
