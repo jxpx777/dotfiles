@@ -100,7 +100,7 @@
 [difftool "tower"]
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [init]
-	templatedir = ~/.config/git/template
+	templatedir = /Users/jp/.git-templates
 
 [hub]
 protocol = https
@@ -108,7 +108,7 @@ protocol = https
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	program = /usr/local/MacGPG2/bin/gpg2
 [include]
 	path = ~/.local/share/git/config
 [include]
