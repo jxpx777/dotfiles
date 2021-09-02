@@ -7,3 +7,6 @@ vendor
 swagger
 node_modules
 dist
+tmp
+*.chunk.js
+*.js.map
