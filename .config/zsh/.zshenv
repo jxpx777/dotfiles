@@ -14,7 +14,6 @@ export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 export DOTFILES="$HOME"
 export EDITOR='vim'
 export GIT_EDITOR='vim'
-export GIT_DUET_AUTHORS_FILE="$XDG_CONFIG_HOME/git/authors"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
