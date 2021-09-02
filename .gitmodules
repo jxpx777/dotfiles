@@ -73,9 +73,6 @@
 [submodule ".config/vim/pack/graphql/start/vim-graphql"]
 	path = .config/vim/pack/graphql/start/vim-graphql
 	url = https://github.com/jparise/vim-graphql.git
-[submodule ".config/vim/pack/jxpx777/start/local_vimrc"]
-	path = .config/vim/pack/jxpx777/start/local_vimrc
-	url = https://github.com/LucHermitte/local_vimrc.git
 [submodule ".config/vim/pack/jxpx777/start/lh-vim-lib"]
 	path = .config/vim/pack/jxpx777/start/lh-vim-lib
 	url = https://github.com/LucHermitte/lh-vim-lib.git
@@ -88,3 +85,6 @@
 [submodule ".config/vim/pack/jxpx777/start/bufexplorer"]
 	path = .config/vim/pack/jxpx777/start/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule ".config/vim/pack/jxpx777/start/localvimrc"]
+	path = .config/vim/pack/jxpx777/start/localvimrc
+	url = https://github.com/embear/vim-localvimrc.git

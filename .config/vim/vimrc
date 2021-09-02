@@ -148,4 +148,6 @@ set autowrite
 set tags+=./tags,.git/tags,tags;
 set tags+=../../.git/tags "This is a hack for current project, 2020-06-30
 
+let g:localvimrc_name=['.lvimrc', '_local_vimrc.vim']
+let g:localvimrc_whitelist=[$HOME.'/code/testdouble/.*']
 packadd! matchit
