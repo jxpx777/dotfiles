@@ -14,6 +14,7 @@ au! bufread,bufnewfile *.react.js set filetype=javascriptreact
 
 ""json
 au! bufread,bufnewfile *.json set filetype=json
+au! bufread,bufnewfile .eslintrc set filetype=json
 
 au! bufread,bufnewfile Rakefile set filetype=ruby
 au! bufread,bufnewfile *.rake set filetype=ruby
