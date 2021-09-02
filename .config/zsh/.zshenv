@@ -18,7 +18,6 @@ export GIT_EDITOR='vim'
 export GIT_DUET_AUTHORS_FILE="$XDG_CONFIG_HOME/git/authors"
 export BUNDLER_EDITOR='vim'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export NODE_PATH="/usr/local/lib/node"
 
 export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:$HOME/bin/abbot/bin:/usr/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
 export DEVSECRETS_PATH=/Volumes/PhelpsUnlimited128/DevSecrets

@@ -64,7 +64,7 @@ export FZF_DEFAULT_COMMAND="ag -g ''"
 source $XDG_CONFIG_HOME/zsh/customization/base16-tomorrow.fzf.config
 
 export HOMEBREW_PREFIX=$(brew --prefix)
-export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
+export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$PATH"
 
 gpgconf --launch gpg-agent
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
@@ -83,7 +83,6 @@ iterm2_print_user_vars
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export GPG_TTY=$(tty)
 
 source "$XDG_CONFIG_HOME/zsh/ruby.env"
