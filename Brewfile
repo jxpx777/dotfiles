@@ -8,6 +8,8 @@ brew "cmake"
 brew "earthly"
 brew "fzf"
 brew "go"
+brew "gpg"
+brew "pinentry-mac"
 brew "jrnl"
 brew "mysql"
 brew "node"
@@ -31,8 +33,10 @@ brew "vim"
 cask_args appdir: "/Applications"
 cask "1password-beta"
 cask "basecamp"
+cask "bunch"
 cask "choosy"
 cask "coderunner"
+cask "discord"
 cask "docker"
 cask "fantastical"
 cask "firefox-developer-edition"
@@ -47,6 +51,7 @@ cask "monodraw"
 cask "mosaic"
 cask "notion"
 cask "paw"
+cask "quitter"
 cask "rocket"
 cask "slack"
 cask "tableplus"
@@ -56,10 +61,11 @@ cask "zoom"
 
 mas "Base", id: 402383384
 mas "Better", id: 1121192229
+mas "Deliveries", id: 290986013
 mas "Paprika", id: 1303222628
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074 
-mas "Xcode", id: 497799835
+#mas "Xcode", id: 497799835
 
 # Fonts
 cask "font-source-sans-pro"
