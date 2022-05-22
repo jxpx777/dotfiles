@@ -130,3 +130,6 @@
 [submodule ".config/vim/pack/jxpx777/start/bufexplorer"]
 	path = .config/vim/pack/jxpx777/start/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule ".config/vim/pack/earthly/start/earthly.vim"]
+	path = .config/vim/pack/earthly/start/earthly.vim
+	url = https://github.com/earthly/earthly.vim.git
