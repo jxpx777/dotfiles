@@ -5,6 +5,7 @@ brew "mas"
 
 brew "git"
 brew "cmake"
+brew "earthly"
 brew "fzf"
 brew "go"
 brew "jrnl"
