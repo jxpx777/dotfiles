@@ -23,6 +23,7 @@ brew "the_silver_searcher"
 brew "spark"
 brew "battery"
 brew "reattach-to-user-namespace" # To support tmux
+brew "hashicorp/tap/terraform"
 brew "tldr"
 brew "tmux"
 brew "vim"
