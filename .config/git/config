@@ -102,7 +102,7 @@ protocol = https
 [commit]
 	gpgsign = true
 [gpg]
-	program = /usr/local/MacGPG2/bin/gpg2
+	program = /opt/homebrew/bin/gpg
 [include]
 	path = ~/.local/share/git/config
 [include]
