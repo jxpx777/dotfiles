@@ -66,6 +66,7 @@ mas "Paprika", id: 1303222628
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074 
 #mas "Xcode", id: 497799835
+mas "Vinegar", id: 1591303229
 
 # Fonts
 cask "font-source-sans-pro"
