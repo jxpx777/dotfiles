@@ -94,3 +94,6 @@
 [submodule ".config/vim/pack/jxpx777/start/marks.nvim"]
 	path = .config/vim/pack/jxpx777/start/marks.nvim
 	url = https://github.com/chentau/marks.nvim.git
+[submodule ".config/zsh/ohmyzsh"]
+	path = .config/zsh/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh
