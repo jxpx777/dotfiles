@@ -8,6 +8,7 @@
 	ull = pull
 	lr = pull --rebase
 	p = push
+	mylog = log --author="Jamie Phelps"
 	g = log --graph
 	g0 = log --graph --pretty=format:"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s" --date=local
 	g1 = log --graph --all --pretty=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)" --abbrev-commit --date=relative
