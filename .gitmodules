@@ -52,9 +52,6 @@
 [submodule ".config/vim/pack/jxpx777/start/supertab"]
 	path = .config/vim/pack/jxpx777/start/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule ".config/vim/pack/jxpx777/ultisnips"]
-	path = .config/vim/pack/jxpx777/start/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
 [submodule ".config/vim/pack/svelte/start/vim-svelte"]
 	path = .config/vim/pack/svelte/start/vim-svelte
 	url = https://github.com/evanleck/vim-svelte.git
@@ -88,3 +85,12 @@
 [submodule ".config/vim/pack/jxpx777/start/localvimrc"]
 	path = .config/vim/pack/jxpx777/start/localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
+[submodule ".config/vim/pack/productivity/start/todo.txt-vim"]
+	path = .config/vim/pack/productivity/start/todo.txt-vim
+	url = https://github.com/freitass/todo.txt-vim.git
+[submodule ".config/vim/pack/mermaid/start/vim-mermaid"]
+	path = .config/vim/pack/mermaid/start/vim-mermaid
+	url = https://github.com/chazmcgarvey/vim-mermaid.git
+[submodule ".config/vim/pack/jxpx777/start/marks.nvim"]
+	path = .config/vim/pack/jxpx777/start/marks.nvim
+	url = https://github.com/chentau/marks.nvim.git
