@@ -1,6 +1,7 @@
 set nocompatible
 set clipboard=unnamed
 let mapleader=","
+let maplocalleader=","
 set splitright
 set splitbelow
 
@@ -142,7 +143,11 @@ source $XDG_CONFIG_HOME/vim/fzf.vim
 set backupdir=$XDG_CACHE_HOME/vim/backup
 set directory=$XDG_CACHE_HOME/vim/swp 
 set undodir=$XDG_CACHE_HOME/vim/undo
+if has('nvim')
+set viminfo+=n$XDG_CACHE_HOME/vim/nviminfo
+else
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
+end
 
 set autowrite
 set tags+=./tags,.git/tags,tags;
