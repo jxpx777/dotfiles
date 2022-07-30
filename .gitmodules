@@ -133,3 +133,6 @@
 [submodule ".config/vim/pack/earthly/start/earthly.vim"]
 	path = .config/vim/pack/earthly/start/earthly.vim
 	url = https://github.com/earthly/earthly.vim.git
+[submodule ".config/vim/pack/elixir/start/vim-elixir"]
+	path = .config/vim/pack/elixir/start/vim-elixir
+	url = https://github.com/elixir-editors/vim-elixir.git
