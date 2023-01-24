@@ -136,3 +136,9 @@
 [submodule ".config/vim/pack/elixir/start/vim-elixir"]
 	path = .config/vim/pack/elixir/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir.git
+[submodule ".config/vim/pack/github/start/copilot.vim"]
+	path = .config/vim/pack/github/start/copilot.vim
+	url = https://github.com/github/copilot.vim.git
+[submodule ".config/vim/pack/flutter/start/dart-vim-plugin"]
+	path = .config/vim/pack/flutter/start/dart-vim-plugin
+	url = https://github.com/dart-lang/dart-vim-plugin.git
