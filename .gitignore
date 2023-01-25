@@ -22,3 +22,5 @@ configstore
 /.gnupg
 /.config/.zsh_history
 /.config/zsh/.zsh_history
+.aws/credentials
+.config/github-copilot/hosts.json
