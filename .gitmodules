@@ -142,3 +142,5 @@
 [submodule ".config/vim/pack/flutter/start/dart-vim-plugin"]
 	path = .config/vim/pack/flutter/start/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin.git
+[submodule "fzf.vim"]
+	branch = master
