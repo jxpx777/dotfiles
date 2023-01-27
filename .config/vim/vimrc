@@ -137,7 +137,7 @@ set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
 nmap <leader><space> :set list!<CR>
 
-source $XDG_CONFIG_HOME/vim/fzf.vim
+source /opt/homebrew/opt/fzf/plugin/fzf.vim
 
 " Don't clutter my dirs up with swp and tmp files
 set backupdir=$XDG_CACHE_HOME/vim/backup
