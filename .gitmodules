@@ -139,9 +139,6 @@
 [submodule ".config/vim/pack/github/start/copilot.vim"]
 	path = .config/vim/pack/github/start/copilot.vim
 	url = https://github.com/github/copilot.vim.git
-[submodule ".config/vim/pack/flutter/start/dart-vim-plugin"]
-	path = .config/vim/pack/flutter/start/dart-vim-plugin
-	url = https://github.com/dart-lang/dart-vim-plugin.git
 [submodule "fzf.vim"]
 	branch = master
 [submodule ".config/vim/pack/jxpx777/start/vim-prettier"]
