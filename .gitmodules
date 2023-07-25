@@ -144,3 +144,6 @@
 	url = https://github.com/dart-lang/dart-vim-plugin.git
 [submodule "fzf.vim"]
 	branch = master
+[submodule ".config/vim/pack/jxpx777/start/vim-prettier"]
+	path = .config/vim/pack/jxpx777/start/vim-prettier
+	url = https://github.com/prettier/vim-prettier
