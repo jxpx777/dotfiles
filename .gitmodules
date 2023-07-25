@@ -148,3 +148,5 @@
 	branch = master
 [submodule ".config/vim/pack/jxpx777/start/base16-vim"]
 	branch = master
+[submodule ".config/vim/pack/jxpx777/start/ale"]
+	branch = master
