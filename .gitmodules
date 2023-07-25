@@ -146,3 +146,5 @@
 	url = https://github.com/prettier/vim-prettier
 [submodule ".config/vim/pack/ruby/start/vim-rails/"]
 	branch = master
+[submodule ".config/vim/pack/jxpx777/start/base16-vim"]
+	branch = master
