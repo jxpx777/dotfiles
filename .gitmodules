@@ -76,9 +76,6 @@
 [submodule ".config/vim/pack/jxpx777/start/bufexplorer"]
 	path = .config/vim/pack/jxpx777/start/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
-[submodule ".config/vim/pack/jxpx777/start/localvimrc"]
-	path = .config/vim/pack/jxpx777/start/localvimrc
-	url = https://github.com/embear/vim-localvimrc.git
 [submodule ".config/vim/pack/productivity/start/todo.txt-vim"]
 	path = .config/vim/pack/productivity/start/todo.txt-vim
 	url = https://github.com/freitass/todo.txt-vim.git
