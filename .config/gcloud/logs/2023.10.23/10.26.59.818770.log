@@ -1,0 +1,6 @@
+2023-10-23 10:26:59,819 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-10-23 10:26:59,820 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'login']
+2023-10-23 10:26:59,821 ERROR    root            (gcloud.auth.login) unrecognized arguments: --use-oauth2client 
+
+To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS

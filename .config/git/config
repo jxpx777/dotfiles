@@ -13,10 +13,15 @@
 	g0 = log --graph --pretty=format:"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s" --date=local
 	g1 = log --graph --all --pretty=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)" --abbrev-commit --date=relative
 	d = diff --color --abbrev=10 --ignore-all-space --ignore-blank-lines
-	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-main}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
+	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-origin/main}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
 	tree = log --graph --oneline --all
 	root = rev-parse --git-dir
 	tower = !/usr/local/bin/gittower $(git root)/..
+
+	add-trailer = commit --no-edit --amend --trailer
+  coauthors = !git log --pretty=format:'%(trailers:key=Co-authored-by)' | sed 's/Co-authored-by: '// | sort -u
+  authors = !git log --pretty='%an <%ae>' | sort -u
+  ack = !"{ git authors && git coauthors; } | sort -u | fzf | xargs -I  '{}' git add-trailer 'Co-authored-by: {}'"
 
 [user]
 	name = Jamie Phelps
@@ -75,9 +80,17 @@
 		end\n\
 		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
 		exit 1 if b.include?(%(<)*%L)'"
-[merge "gemfilelock"]
-  name = relocks the gemfile.lock
-  driver = bundle lock
+[merge "railsstructuresql"]
+	name = structure.sql versions
+	driver = "ruby -e 'system %(git), %(merge-file), %(--marker-size=%L), %(%A), %(%O), %(%B)\n\
+		s = File.read(%(%A))\n\
+		migrations_insert_index = s.index(%(INSERT INTO \"schema_migrations\" (version) VALUES))\n\
+		r = %r{\\(.{16}\\)(?=,|;)}\n\
+		versions = s[migrations_insert_index..-1].scan(r).sort.uniq\n\
+		s[migrations_insert_index..-1] = %(INSERT INTO \"schema_migrations\" (version) VALUES\\n#{versions.join(\",\\n\")};\\n\\n\\n)\n\
+		File.open(%(%A), %(w)) {|f| f.write(s)}\n\
+		puts s.index(%(<)*%L)\n\
+		exit 1 if s.include?(%(<)*%L)'"
 
 [merge "gemfilelock"]
   name = relocks the gemfile.lock
@@ -87,14 +100,18 @@
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
+
 [filter "lfs"]
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+
 [difftool "tower"]
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+
 [init]
 	templatedir = /Users/jp/.git-templates
+	defaultBranch = main
 
 [hub]
 protocol = https
@@ -114,3 +131,6 @@ protocol = https
 	postBuffer = 524288000
 [credential]
 	helper = osxkeychain
+[rebase]
+	autoStash = true
+	autoSquash = true

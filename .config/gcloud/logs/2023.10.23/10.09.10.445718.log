@@ -1,0 +1,20 @@
+2023-10-23 10:09:10,446 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-10-23 10:09:10,448 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'docker_helper']
+2023-10-23 10:09:10,449 DEBUG    root            Running [gcloud.auth.docker-helper] with arguments: [METHOD: "get"]
+2023-10-23 10:09:10,545 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-10-23 10:09:10,662 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-10-23 10:09:10,856 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 400 None
+2023-10-23 10:09:10,857 INFO     root            Reauthentication not performed as we cannot prompt during non-interactive execution.
+2023-10-23 10:09:10,861 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-10-23 10:09:10,864 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-10-23 10:09:11,143 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 400 None
+2023-10-23 10:09:11,145 INFO     root            Reauthentication not performed as we cannot prompt during non-interactive execution.
+2023-10-23 10:09:11,154 DEBUG    root            Chosen display Format:json
+2023-10-23 10:09:11,154 INFO     root            Display format: "json"
+2023-10-23 10:09:11,159 INFO     ___FILE_ONLY___ {
+  "Secret": "ya29.a0AWY7CkmQqCRGRf0lZMz7_5t3kctx4iaOtcthY5nXybIkimrn6I7WEj2wa1cNYbYFROxyjsJR3LEHADCUVjSzideMu0LF-cg5HHBRUklL_JpqroQlRox7rS8S0gLuEDQewBz9DPjEaoN0xkhdNCEPTbjGiSmIBqJkRlVzaCgYKAa0SARMSFQG1tDrpkxY_RdoZuV3n-xYLn0vOkw0171",
+  "Username": "_dcgcloud_token"
+}
+2023-10-23 10:09:11,159 INFO     ___FILE_ONLY___ 
+
+2023-10-23 10:09:11,159 DEBUG    root            SDK update checks are disabled.

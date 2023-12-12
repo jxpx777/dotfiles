@@ -92,6 +92,7 @@ vnoremap <leader>k :m '<-2<CR>gv=gv
 nnoremap <leader><tab> :tabnew<cr>
 vnoremap <leader><tab> y :tabnew<cr>P
 
+" foo.bar => foo["bar"]
 nmap <leader>[ lysiw"ysa"]hx
 
 noreabbrev Ack Ack!
@@ -137,6 +138,24 @@ set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
 nmap <leader><space> :set list!<CR>
 
+" scratch pad buffer                                                                                                                                                                  
+" modified from https://vi.stackexchange.com/a/21390                                                                                                                                  
+function! Scratch()                                                                                                                                                                   
+  if bufnr("scratch") > 0                                                                                                                                                             
+    sbuffer scratch                                                                                                                                                                   
+  else                                                                                                                                                                                
+    split                                                                                                                                                                             
+    noswapfile hide enew                                                                                                                                                              
+    setlocal buftype=nofile                                                                                                                                                           
+    setlocal bufhidden=hide                                                                                                                                                           
+    "setlocal nobuflisted                                                                                                                                                             
+    "lcd ~                                                                                                                                                                            
+    file scratch                                                                                                                                                                      
+  endif                                                                                                                                                                               
+endfunction       
+
+nnoremap <leader>S :call Scratch()<CR>
+
 source /opt/homebrew/opt/fzf/plugin/fzf.vim
 
 " Don't clutter my dirs up with swp and tmp files
@@ -159,6 +178,8 @@ set autowrite
 set tags+=./tags,.git/tags,tags;
 set tags+=../../.git/tags "This is a hack for current project, 2020-06-30
 
-let g:localvimrc_name=['.lvimrc', '_local_vimrc.vim']
-let g:localvimrc_whitelist=[$HOME.'/code/testdouble/.*']
+let g:local_vimrc=['.lvimrc', '_local_vimrc.vim']
+let g:local_vimrc_options={
+	\'whitelist': [$HOME, $HOME.'/code/testdouble', $HOME.'/code/firehydrant']
+	\}
 packadd! matchit

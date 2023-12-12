@@ -24,3 +24,5 @@ configstore
 /.config/zsh/.zsh_history
 .aws/credentials
 .config/github-copilot/hosts.json
+/Applications
+.local
