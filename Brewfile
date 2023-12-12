@@ -49,6 +49,7 @@ cask "mailmate"
 cask "marked"
 cask "monodraw"
 cask "mosaic"
+cask "netnewswire"
 cask "notion"
 cask "paw"
 cask "quitter"
@@ -64,12 +65,14 @@ mas "Better", id: 1121192229
 mas "Deliveries", id: 290986013
 mas "Paprika", id: 1303222628
 mas "PCalc", id: 403504866
-mas "PrettyJSON for Xcode", id: 1396408074 
+mas "PrettyJSON for Xcode", id: 1396408074
 #mas "Xcode", id: 497799835
 mas "Vinegar", id: 1591303229
+mas "MarkEdit", id: 1669953820
 
 # Fonts
 cask "font-source-sans-pro"
 cask "font-fira-code"
 cask "font-fira-mono"
 cask "font-fira-sans"
+

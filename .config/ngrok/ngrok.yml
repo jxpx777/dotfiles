@@ -1,0 +1,7 @@
+version: "2"
+authtoken: 2UOXk0z5xbyDHeVGLT3CwZAyqha_3pTPZFdhqLrVkFwNtd4wb
+tunnels:
+  slack:
+    proto: http
+    hostname: jphelps.ngrok.io
+    addr: 127.0.0.1:80

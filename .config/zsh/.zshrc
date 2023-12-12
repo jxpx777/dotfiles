@@ -3,7 +3,7 @@ stty -ixon
 if [[ $TERM == xterm ]]; then
 	TERM=xterm-256color
 fi
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=$XDG_DATA_HOME/oh-my-zsh
 
 export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
 
@@ -66,6 +66,7 @@ source $XDG_CONFIG_HOME/zsh/customization/base16-tomorrow.fzf.config
 export HOMEBREW_PREFIX=$(brew --prefix)
 export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
 
+source "$XDG_CONFIG_HOME"/zsh/gnupg.env
 gpgconf --launch gpg-agent
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 
@@ -90,3 +91,7 @@ export GPG_TTY=$(tty)
 source "$XDG_CONFIG_HOME/terraform/zsh.comp"
 source "$XDG_CONFIG_HOME/zsh/ruby.env"
 source "$XDG_CONFIG_HOME/zsh/node.env"
+source "$XDG_CONFIG_HOME/zsh/aws.env"
+source "$XDG_CONFIG_HOME/zsh/asdf.env"
+
+[ -f ~/.local/share/github/github.zsh ] && source ~/.local/share/github/github.zsh

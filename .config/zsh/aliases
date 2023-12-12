@@ -32,7 +32,7 @@ function zipr() {
 
 # Markdown
 marked() {
-	open -a "Marked 2" $1
+	open -b "com.brettterpstra.marked-setapp" $1
 }
 
 # Finder

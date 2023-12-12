@@ -1,5 +1,0 @@
-
-
-export NB_ENCRYPTION_TOOL="${NB_ENCRYPTION_TOOL:-gpg}" # Set by `nb` • Tue Aug  2 16:02:09 PDT 2022
-
-export NB_DIR="${NB_DIR:-/Users/jp/Documents/nb}" # Set by `nb` • Tue Aug  2 16:05:30 PDT 2022
