@@ -175,3 +175,7 @@
 	branch = master
 [submodule ".config/vim/pack/jxpx777/start/vim-test"]
 	branch = master
+[submodule ".config/vim/pack/css/start/vim-css"]
+	path = .config/vim/pack/css/start/vim-css
+	url = https://github.com/amadeus/vim-css.git
+	branch = master
