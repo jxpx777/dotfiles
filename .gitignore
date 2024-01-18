@@ -1,5 +1,5 @@
 .DS_Store
-ssh/known_hosts
+.ssh/known_hosts
 .config/vim/.netrwhist
 configstore
 /.local
@@ -22,7 +22,11 @@ configstore
 /.gnupg
 /.config/.zsh_history
 /.config/zsh/.zsh_history
+/.config/zsh/.zsh_sessions
 .aws/credentials
 .config/github-copilot/hosts.json
 /Applications
 .local
+/.cache
+/Exercism
+/.config/aws/credentials
