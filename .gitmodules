@@ -179,3 +179,7 @@
 	path = .config/vim/pack/css/start/vim-css
 	url = https://github.com/amadeus/vim-css.git
 	branch = master
+[submodule ".config/vim/pack/jxpx777/start/vim-coloresque"]
+	path = .config/vim/pack/jxpx777/start/vim-coloresque
+	url = https://github.com/gko/vim-coloresque.git
+	branch = master
