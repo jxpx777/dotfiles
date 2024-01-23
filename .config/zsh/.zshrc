@@ -63,8 +63,6 @@ function zvm_after_init() {
 export FZF_DEFAULT_COMMAND="ag -g ''"
 source $XDG_CONFIG_HOME/zsh/customization/base16-tomorrow.fzf.config
 
-export HOMEBREW_PREFIX=$(brew --prefix)
-export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
 
 source "$XDG_CONFIG_HOME"/zsh/gnupg.env
 gpgconf --launch gpg-agent
