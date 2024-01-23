@@ -10,6 +10,8 @@ export XDG_DATA_HOME=$HOME/.local/share
 export XDG_STATE_HOME=$HOME/.local/state
 [[ -d $XDG_STATE_HOME ]] || mkdir -p $XDG_STATE_HOME
 
+[[ -f $XDG_DATA_HOME/config.sh.local ]] && source $XDG_DATA_HOME/config.sh.local
+
 export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 
@@ -34,8 +36,12 @@ export BUNDLER_EDITOR="vim"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export NODE_PATH="/usr/local/lib/node"
 
-export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:/usr/bin:/opt/homebrew/bin:opt/local/bin:/opt/local/sbin:/bin:/sbin:$PATH
+export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/opt/local/bin:/opt/local/sbin:/bin:/sbin:./bin:$PATH
 export DEVSECRETS_PATH=/Volumes/PhelpsUnlimited128/DevSecrets
+
+export HOMEBREW_PREFIX=$(brew --prefix)
+export PATH="$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
+
 
 export GIT_CONFIG_NOSYSTEM=1
 export PSQL_HISTORY="$XDG_DATA_HOME"/psql_history
