@@ -26,7 +26,6 @@ configstore
 .aws/credentials
 .config/github-copilot/hosts.json
 /Applications
-.local
 /.cache
 /Exercism
 /.config/aws/credentials
