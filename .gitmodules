@@ -186,3 +186,9 @@
 [submodule ".config/vim/pack/dash/start/dash.vim"]
 	path = .config/vim/pack/dash/start/dash.vim
 	url = https://github.com/rizzatti/dash.vim
+[submodule ".config/vim/pack/lsp/start/vim-lsp"]
+	path = .config/vim/pack/lsp/start/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp.git
+[submodule ".config/vim/pack/lsp/vim-lsp-settings"]
+	path = .config/vim/pack/lsp/start/vim-lsp-settings
+	url = https://github.com/mattn/vim-lsp-settings.git
