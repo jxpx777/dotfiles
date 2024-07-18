@@ -45,3 +45,8 @@ export PATH="$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PR
 
 export GIT_CONFIG_NOSYSTEM=1
 export PSQL_HISTORY="$XDG_DATA_HOME"/psql_history
+
+source "$XDG_CONFIG_HOME/zsh/ruby.env"
+source "$XDG_CONFIG_HOME/zsh/node.env"
+source "$XDG_CONFIG_HOME/zsh/aws.env"
+source "$XDG_CONFIG_HOME/zsh/asdf.env"
