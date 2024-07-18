@@ -24,7 +24,6 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
 export NBRC_PATH="$XDG_CONFIG_HOME/nbrc"
 
-export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 export RBENV_ROOT="/opt/homebrew/rbenv"
 
 export DOTFILES="$HOME"
