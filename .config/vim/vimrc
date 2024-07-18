@@ -120,8 +120,9 @@ filetype plugin indent on    " required
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 
 set number
-set relativenumber 
+set relativenumber
 
+set regexpengine=0
 syntax on
 set statusline+=%#warningmsg#
 set statusline+=%*
@@ -138,21 +139,21 @@ set listchars=tab:▸\ ,eol:¬
 " Shortcut to rapidly toggle `set list`
 nmap <leader><space> :set list!<CR>
 
-" scratch pad buffer                                                                                                                                                                  
-" modified from https://vi.stackexchange.com/a/21390                                                                                                                                  
-function! Scratch()                                                                                                                                                                   
-  if bufnr("scratch") > 0                                                                                                                                                             
-    sbuffer scratch                                                                                                                                                                   
-  else                                                                                                                                                                                
-    split                                                                                                                                                                             
-    noswapfile hide enew                                                                                                                                                              
-    setlocal buftype=nofile                                                                                                                                                           
-    setlocal bufhidden=hide                                                                                                                                                           
-    "setlocal nobuflisted                                                                                                                                                             
-    "lcd ~                                                                                                                                                                            
-    file scratch                                                                                                                                                                      
-  endif                                                                                                                                                                               
-endfunction       
+" scratch pad buffer
+" modified from https://vi.stackexchange.com/a/21390
+function! Scratch()
+  if bufnr("scratch") > 0
+    sbuffer scratch
+  else
+    split
+    noswapfile hide enew
+    setlocal buftype=nofile
+    setlocal bufhidden=hide
+    "setlocal nobuflisted
+    "lcd ~
+    file scratch
+  endif
+endfunction
 
 nnoremap <leader>S :call Scratch()<CR>
 
@@ -160,7 +161,7 @@ source /opt/homebrew/opt/fzf/plugin/fzf.vim
 
 " Don't clutter my dirs up with swp and tmp files
 set backupdir=$XDG_CACHE_HOME/vim/backup
-set directory=$XDG_CACHE_HOME/vim/swp 
+set directory=$XDG_CACHE_HOME/vim/swp
 set undodir=$XDG_CACHE_HOME/vim/undo
 if has('nvim')
 set viminfo+=n$XDG_CACHE_HOME/vim/nviminfo
@@ -170,7 +171,7 @@ end
 
 " Don't clutter my dirs up with swp and tmp files
 set backupdir=$XDG_CACHE_HOME/vim/backup
-set directory=$XDG_CACHE_HOME/vim/swp 
+set directory=$XDG_CACHE_HOME/vim/swp
 set undodir=$XDG_CACHE_HOME/vim/undo
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 
