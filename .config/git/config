@@ -26,7 +26,7 @@
 [user]
 	name = Jamie Phelps
 	email = jamie@jamiephelps.com
-	signingkey = 12CF1193E7A6F7E14EB5126B35B75D9CE7C31F7B
+
 [color]
 	ui = always
 	status = always
@@ -122,8 +122,6 @@ protocol = https
 	program = /opt/homebrew/bin/gpg
 [include]
 	path = ~/.local/share/git/config
-[include]
-	path = /Volumes/Secrets-B/DevSecrets/git/gitconfig
 [pull]
 	ff = only
 	rebase = true
