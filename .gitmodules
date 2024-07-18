@@ -183,3 +183,6 @@
 	path = .config/vim/pack/jxpx777/start/vim-coloresque
 	url = https://github.com/gko/vim-coloresque.git
 	branch = master
+[submodule ".config/vim/pack/dash/start/dash.vim"]
+	path = .config/vim/pack/dash/start/dash.vim
+	url = https://github.com/rizzatti/dash.vim
