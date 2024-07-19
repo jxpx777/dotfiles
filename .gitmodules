@@ -94,6 +94,7 @@
 [submodule ".config/vim/pack/jxpx777/ultisnips"]
 	path = .config/vim/pack/jxpx777/opt/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+	branch = master
 [submodule ".config/vim/pack/svelte/start/vim-svelte"]
 	path = .config/vim/pack/svelte/start/vim-svelte
 	url = https://github.com/evanleck/vim-svelte.git
