@@ -16,7 +16,9 @@ export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
-export ZSH="$XDG_DATA_HOME"/oh-my-zsh
+export ZSH="$XDG_CONFIG_HOME/zsh/ohmyzsh"
+export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/ohmyzsh"
+export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
 
 [[ -d $XDG_STATE_HOME/zsh ]] || mkdir -p $XDG_STATE_HOME/zsh
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
@@ -36,7 +38,7 @@ export BUNDLER_EDITOR="vim"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export NODE_PATH="/usr/local/lib/node"
 
-export PATH=$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/opt/local/bin:/opt/local/sbin:/bin:/sbin:./bin:$PATH
+export PATH=/opt/homebrew/bin:/usr/local/bin:$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:/usr/bin:/opt/local/bin:/opt/local/sbin:/bin:/sbin:./bin:$PATH
 export DEVSECRETS_PATH=/Volumes/PhelpsUnlimited128/DevSecrets
 
 export HOMEBREW_PREFIX=$(brew --prefix)
