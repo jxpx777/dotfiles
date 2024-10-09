@@ -3,7 +3,6 @@ stty -ixon
 if [[ $TERM == xterm ]]; then
 	TERM=xterm-256color
 fi
-export ZSH=$XDG_DATA_HOME/oh-my-zsh
 
 export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
 
