@@ -1,0 +1,9 @@
+cask_args appdir: "/Applications"
+
+cask "discord"
+cask "netnewswire"
+cask "plex"
+
+mas "Deliveries", id: 290986013
+mas "Paprika", id: 1303222628
+mas "Vinegar", id: 1591303229
