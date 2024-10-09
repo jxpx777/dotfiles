@@ -160,16 +160,12 @@ nnoremap <leader>S :call Scratch()<CR>
 source /opt/homebrew/opt/fzf/plugin/fzf.vim
 
 " Don't clutter my dirs up with swp and tmp files
-set backupdir=$XDG_CACHE_HOME/vim/backup
-set directory=$XDG_CACHE_HOME/vim/swp
-set undodir=$XDG_CACHE_HOME/vim/undo
 if has('nvim')
 set viminfo+=n$XDG_CACHE_HOME/vim/nviminfo
 else
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 end
 
-" Don't clutter my dirs up with swp and tmp files
 set backupdir=$XDG_CACHE_HOME/vim/backup
 set directory=$XDG_CACHE_HOME/vim/swp
 set undodir=$XDG_CACHE_HOME/vim/undo
