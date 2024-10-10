@@ -132,3 +132,6 @@ protocol = https
 [rebase]
 	autoStash = true
 	autoSquash = true
+
+[include]
+  path = ~/.local/share/git/config
