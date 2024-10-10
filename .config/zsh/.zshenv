@@ -26,6 +26,10 @@ export HISTFILE="$XDG_STATE_HOME"/zsh/history
 [[ -d $XDG_CACHE_HOME/less ]] || mkdir -p $XDG_CACHE_HOME/less
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
+[[ -d $XDG_CACHE_HOME/vim/backup ]] || mkdir -p $XDG_CACHE_HOME/vim/backup
+[[ -d $XDG_CACHE_HOME/vim/swp ]] || mkdir -p $XDG_CACHE_HOME/vim/swp
+[[ -d $XDG_CACHE_HOME/vim/undo ]] || mkdir -p $XDG_CACHE_HOME/vim/undo
+
 export NBRC_PATH="$XDG_CONFIG_HOME/nbrc"
 
 export RBENV_ROOT="/opt/homebrew/rbenv"
