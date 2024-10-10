@@ -91,4 +91,5 @@ source "$XDG_CONFIG_HOME/zsh/node.env"
 source "$XDG_CONFIG_HOME/zsh/aws.env"
 source "$XDG_CONFIG_HOME/zsh/asdf.env"
 
+[ -f ~/.local/share/zsh/zshrc.local ] && source ~/.local/share/zsh/zshrc.local
 [ -f ~/.local/share/github/github.zsh ] && source ~/.local/share/github/github.zsh
