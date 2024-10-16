@@ -22,9 +22,6 @@
 [submodule "vim/pack/jxpx777/start/vim-fugitive"]
 	path = .config/vim/pack/jxpx777/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "vim/pack/jxpx777/start/editorconfig-vim"]
-	path = .config/vim/pack/jxpx777/start/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim
 [submodule "vim/pack/jxpx777/start/fzf.vim"]
 	path = .config/vim/pack/jxpx777/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
