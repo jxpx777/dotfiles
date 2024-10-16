@@ -1,7 +1,6 @@
-export PATH="./bin:$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$PATH"
-export PATH=$DOTFILES/bin:$HOME/go/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/sbin:$PATH
-export PATH="$PATH:$HOME/fvm/default/bin"
-export PATH="$PATH:$HOME/.pub-cache/bin"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
-export PATH="/usr/local/rbenv/shims:${PATH}"
+export PATH=/opt/homebrew/bin:/usr/local/bin:$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:/usr/bin:/opt/local/bin:/opt/local/sbin:/bin:/sbin:./bin:$PATH
+export PATH="$PATH:$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin"
 
+export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin"
+
+eval $(brew shellenv)

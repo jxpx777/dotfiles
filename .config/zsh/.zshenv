@@ -24,7 +24,7 @@ export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 
 [[ -d $XDG_CACHE_HOME/less ]] || mkdir -p $XDG_CACHE_HOME/less
-export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
 
 [[ -d $XDG_CACHE_HOME/vim/backup ]] || mkdir -p $XDG_CACHE_HOME/vim/backup
 [[ -d $XDG_CACHE_HOME/vim/swp ]] || mkdir -p $XDG_CACHE_HOME/vim/swp
@@ -32,7 +32,6 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
 export NBRC_PATH="$XDG_CONFIG_HOME/nbrc"
 
-export RBENV_ROOT="/opt/homebrew/rbenv"
 
 export DOTFILES="$HOME"
 export EDITOR="vim"
@@ -42,17 +41,20 @@ export BUNDLER_EDITOR="vim"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export NODE_PATH="/usr/local/lib/node"
 
-export PATH=/opt/homebrew/bin:/usr/local/bin:$DOTFILES/bin:$HOME/go/bin:$HOME/bin/Multimarkdown/bin:/usr/bin:/opt/local/bin:/opt/local/sbin:/bin:/sbin:./bin:$PATH
 export DEVSECRETS_PATH=/Volumes/PhelpsUnlimited128/DevSecrets
 
-export HOMEBREW_PREFIX=$(brew --prefix)
-export PATH="$HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight:$HOMEBREW_PREFIX/sbin:$HOMEBREW_PREFIX/mysql/bin:$HOMEBREW_PREFIX/share/npm/bin:$PATH"
-
+if [[ -f /opt/homebrew/bin/brew ]]; then
+    BREW=/opt/homebrew/bin/brew
+else
+    BREW=/usr/local/bin/brew
+fi
+export HOMEBREW_PREFIX=$($BREW --prefix)
+export RBENV_ROOT="$HOMEBREW_PREFIX/rbenv"
 
 export GIT_CONFIG_NOSYSTEM=1
-export PSQL_HISTORY="$XDG_DATA_HOME"/psql_history
+export PSQL_HISTORY="$XDG_DATA_HOME/psql_history"
 
-source "$XDG_CONFIG_HOME/zsh/ruby.env"
-source "$XDG_CONFIG_HOME/zsh/node.env"
-source "$XDG_CONFIG_HOME/zsh/aws.env"
-source "$XDG_CONFIG_HOME/zsh/asdf.env"
+source "$ZDOTDIR/ruby.env"
+source "$ZDOTDIR/node.env"
+source "$ZDOTDIR/aws.env"
+source "$ZDOTDIR/asdf.env"
