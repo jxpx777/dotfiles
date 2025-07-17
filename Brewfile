@@ -39,6 +39,7 @@ cask "kaleidoscope"
 cask "launchbar"
 cask "mailmate"
 cask "marked"
+cask "markedit"
 cask "monodraw"
 cask "mosaic"
 cask "notion"
@@ -54,7 +55,6 @@ cask "zoom"
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074
 #mas "Xcode", id: 497799835
-mas "MarkEdit", id: 1669953820
 
 # Fonts
 cask "font-source-code-pro"
