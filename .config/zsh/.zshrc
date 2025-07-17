@@ -6,6 +6,15 @@ fi
 
 export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
 
+#history
+export HISTTIMEFORMAT="%F %T " # Use YYYY-MM-DD HH:MM:SS date/time format.
+export HISTSIZE=1000000 # Keep lengthy command history.
+export SAVEHIST=1000000 # Keep lengthy command history.
+export HISTCONTROL=ignoredups
+setopt HIST_IGNORE_DUPS          # Don't record an entry that was just recorded again.
+setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
+setopt SHARE_HISTORY   
+
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -88,3 +97,11 @@ export GPG_TTY=$(tty)
 
 [ -f ~/.local/share/zsh/zshrc.local ] && source ~/.local/share/zsh/zshrc.local
 [ -f ~/.local/share/github/github.zsh ] && source ~/.local/share/github/github.zsh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/jp/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jp/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/jp/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jp/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

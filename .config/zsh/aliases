@@ -4,6 +4,28 @@ alias reload='source $XDG_CONFIG_HOME/zsh/aliases'
 alias ea="$EDITOR $XDG_CONFIG_HOME/zsh/aliases && reload" # Edit aliases
 alias ee="$EDITOR $XDG_CONFIG_HOME/zsh/zshenv"
 
+function wm() {
+  local file=~/Desktop/wm.md
+  local date_header="$(date +%F)"
+  local header_line="$date_header\n$(printf '=%.0s' {1..10})"  # Setext-style H2 (adjust length if needed)
+
+  # Ensure wm.md exists
+  [[ -f "$file" ]] || touch "$file"
+
+  # Check if the current date is already in the file
+  if ! grep -q "^$date_header$" "$file"; then
+    echo -e "\n$header_line\n" >> "$file"
+  fi
+
+  if [[ $# -gt 0 ]]; then
+    # Append arguments to wm.md with a blank line before
+    echo -e "\n$*" >> "$file"
+  else
+    # Open wm.md in MarkEdit
+    open -a "MarkEdit" "$file"
+  fi
+}
+
 # Common -- Some are from Damian Conway
 alias la="ls -A -l -G"
 alias c='clear'
