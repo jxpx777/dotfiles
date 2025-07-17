@@ -4,11 +4,14 @@
 	b = branch
 	co = checkout
 	df = diff --color
+	f = fetch
 	l = pull
 	ull = pull
 	lr = pull --rebase
 	p = push
+	pff = push --force
 	pfl = push --force-with-lease
+	puoh = push -u origin head
 	mylog = log --author="Jamie Phelps"
 	g = log --graph
 	g0 = log --graph --pretty=format:"%C(bold blue)%h%C(reset)%x09%C(bold white)— %an%C(reset)%x09%x09%C(bold yellow)%ad%C(reset)%x09%s" --date=local
@@ -64,6 +67,10 @@
 	prompt = false
 [diff]
 	tool = Kaleidoscope
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
 [merge]
 	tool = Kaleidoscope
 [mergetool "Kaleidoscope"]
@@ -132,6 +139,13 @@ protocol = https
 [rebase]
 	autoStash = true
 	autoSquash = true
+	updateRefs = true
 
 [include]
   path = ~/.local/share/git/config
+[fetch]
+	prune = true
+	pruneTags = true
+[rerere]
+	enabled = true
+	autoupdate = true
