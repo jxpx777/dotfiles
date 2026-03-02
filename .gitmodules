@@ -49,9 +49,6 @@
 [submodule ".config/vim/pack/jxpx777/start/supertab"]
 	path = .config/vim/pack/jxpx777/start/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule ".config/vim/pack/jxpx777/start/coc"]
-	path = .config/vim/pack/jxpx777/start/coc
-	url = https://github.com/neoclide/coc.nvim.git
 [submodule ".config/vim/pack/ruby/start/vim-rbenv"]
 	path = .config/vim/pack/ruby/start/vim-rbenv
 	url = https://github.com/tpope/vim-rbenv.git
@@ -98,9 +95,6 @@
 [submodule ".config/vim/pack/javascript/tern.vim"]
 	path = .config/vim/pack/javascript/tern.vim
 	url = https://github.com/ternjs/tern_for_vim
-[submodule ".config/vim/pack/jxpx777/start/coc"]
-	path = .config/vim/pack/jxpx777/start/coc
-	url = https://github.com/neoclide/coc.nvim.git
 [submodule ".config/vim/pack/ruby/start/vim-rbenv"]
 	path = .config/vim/pack/ruby/start/vim-rbenv
 	url = https://github.com/tpope/vim-rbenv.git

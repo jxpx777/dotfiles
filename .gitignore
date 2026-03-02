@@ -29,3 +29,8 @@ configstore
 /.cache
 /Exercism
 /.config/aws/credentials
+/.bundle/cache
+/.claude-worktrees
+.claude/backups/
+.claude/debug
+.claude/cache
