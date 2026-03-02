@@ -55,6 +55,9 @@ export GIT_CONFIG_NOSYSTEM=1
 export PSQL_HISTORY="$XDG_DATA_HOME/psql_history"
 
 export PATH=$PATH:$HOME/.local/bin
+
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+
 source "$ZDOTDIR/ruby.env"
 source "$ZDOTDIR/node.env"
 source "$ZDOTDIR/aws.env"
