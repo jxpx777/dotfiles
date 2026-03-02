@@ -82,9 +82,6 @@
 [submodule ".config/zsh/ohmyzsh"]
 	path = .config/zsh/ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh
-[submodule "vim/pack/start/ctrlp"]
-	path = .config/vim/pack/start/ctrlp
-	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule ".config/vim/pack/jxpx777/ultisnips"]
 	path = .config/vim/pack/jxpx777/opt/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
@@ -92,9 +89,6 @@
 [submodule ".config/vim/pack/svelte/start/vim-svelte"]
 	path = .config/vim/pack/svelte/start/vim-svelte
 	url = https://github.com/evanleck/vim-svelte.git
-[submodule ".config/vim/pack/javascript/tern.vim"]
-	path = .config/vim/pack/javascript/tern.vim
-	url = https://github.com/ternjs/tern_for_vim
 [submodule ".config/vim/pack/ruby/start/vim-rbenv"]
 	path = .config/vim/pack/ruby/start/vim-rbenv
 	url = https://github.com/tpope/vim-rbenv.git
@@ -184,3 +178,6 @@
 [submodule ".config/vim/pack/lsp/vim-lsp-settings"]
 	path = .config/vim/pack/lsp/opt/vim-lsp-settings
 	url = https://github.com/mattn/vim-lsp-settings.git
+[submodule ".config/vim/pack/jxpx777/start/ctrlp"]
+	path = .config/vim/pack/jxpx777/start/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim
