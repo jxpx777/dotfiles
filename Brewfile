@@ -2,6 +2,7 @@ brew "mas"
 
 brew "git"
 brew "cmake"
+brew "codex"
 brew "earthly"
 brew "fzf"
 brew "go"
