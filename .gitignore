@@ -34,3 +34,4 @@ configstore
 .claude/backups/
 .claude/debug
 .claude/cache
+.irb_history
