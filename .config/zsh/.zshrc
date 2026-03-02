@@ -13,7 +13,7 @@ export SAVEHIST=1000000 # Keep lengthy command history.
 export HISTCONTROL=ignoredups
 setopt HIST_IGNORE_DUPS          # Don't record an entry that was just recorded again.
 setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
-setopt SHARE_HISTORY   
+setopt SHARE_HISTORY
 
 
 # Set name of the theme to load.
@@ -103,5 +103,3 @@ if [ -f '/Users/jp/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jp
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jp/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jp/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
