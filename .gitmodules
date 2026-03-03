@@ -30,7 +30,7 @@
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "shell/base16-shell"]
 	path = .config/iTerm/base16-shell
-	url = https://github.com/mileszs/ack.vim.git
+	url = https://github.com/chriskempson/base16-shell
 [submodule "vim/pack/jxpx777/start/vim-commentary"]
 	path = .config/vim/pack/jxpx777/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
@@ -52,15 +52,19 @@
 [submodule ".config/vim/pack/ruby/start/vim-rbenv"]
 	path = .config/vim/pack/ruby/start/vim-rbenv
 	url = https://github.com/tpope/vim-rbenv.git
+	branch = master
 [submodule ".config/vim/pack/ruby/start/vim-ruby"]
 	path = .config/vim/pack/ruby/start/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+	branch = master
 [submodule ".config/vim/pack/graphql/start/vim-graphql"]
 	path = .config/vim/pack/graphql/start/vim-graphql
 	url = https://github.com/jparise/vim-graphql.git
+	branch = master
 [submodule ".config/vim/pack/jxpx777/start/lh-vim-lib"]
 	path = .config/vim/pack/jxpx777/start/lh-vim-lib
 	url = https://github.com/LucHermitte/lh-vim-lib.git
+	branch = master
 [submodule ".config/zsh/customization/plugins/zsh-vi-mode"]
 	path = .config/zsh/customization/plugins/zsh-vi-mode
 	url = https://github.com/jeffreytse/zsh-vi-mode
@@ -89,35 +93,10 @@
 [submodule ".config/vim/pack/svelte/start/vim-svelte"]
 	path = .config/vim/pack/svelte/start/vim-svelte
 	url = https://github.com/evanleck/vim-svelte.git
-[submodule ".config/vim/pack/ruby/start/vim-rbenv"]
-	path = .config/vim/pack/ruby/start/vim-rbenv
-	url = https://github.com/tpope/vim-rbenv.git
-	branch = master
-[submodule ".config/vim/pack/ruby/start/vim-ruby"]
-	path = .config/vim/pack/ruby/start/vim-ruby
-	url = https://github.com/vim-ruby/vim-ruby.git
-	branch = master
-[submodule ".config/vim/pack/graphql/start/vim-graphql"]
-	path = .config/vim/pack/graphql/start/vim-graphql
-	url = https://github.com/jparise/vim-graphql.git
-	branch = master
 [submodule ".config/vim/pack/jxpx777/start/local_vimrc"]
 	path = .config/vim/pack/jxpx777/start/local_vimrc
 	url = https://github.com/LucHermitte/local_vimrc.git
 	branch = master
-[submodule ".config/vim/pack/jxpx777/start/lh-vim-lib"]
-	path = .config/vim/pack/jxpx777/start/lh-vim-lib
-	url = https://github.com/LucHermitte/lh-vim-lib.git
-	branch = master
-[submodule ".config/zsh/customization/plugins/zsh-vi-mode"]
-	path = .config/zsh/customization/plugins/zsh-vi-mode
-	url = https://github.com/jeffreytse/zsh-vi-mode
-[submodule ".config/vim/pack/ruby/start/vim-ruby-heredoc-syntax"]
-	path = .config/vim/pack/ruby/start/vim-ruby-heredoc-syntax
-	url = https://github.com/joker1007/vim-ruby-heredoc-syntax.git
-[submodule ".config/vim/pack/jxpx777/start/bufexplorer"]
-	path = .config/vim/pack/jxpx777/start/bufexplorer
-	url = https://github.com/jlanzarotta/bufexplorer.git
 [submodule ".config/vim/pack/earthly/start/earthly.vim"]
 	path = .config/vim/pack/earthly/start/earthly.vim
 	url = https://github.com/earthly/earthly.vim.git
@@ -128,39 +107,9 @@
 	path = .config/vim/pack/github/start/copilot.vim
 	url = https://github.com/github/copilot.vim.git
 	branch = release
-[submodule "fzf.vim"]
-	branch = master
 [submodule ".config/vim/pack/jxpx777/start/vim-prettier"]
 	path = .config/vim/pack/jxpx777/start/vim-prettier
 	url = https://github.com/prettier/vim-prettier
-[submodule ".config/vim/pack/ruby/start/vim-rails/"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/base16-vim"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/ale"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/vim-go"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/vim-surround"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/vim-repeat"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/vim-git"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/editorconfig-vim"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/fzf.vim"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/ack.vim"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/vim-commentary"]
-	branch = master
-[submodule ".config/vim/pack/tmux/start/vim-tmux-navigator"]
-	branch = master
-[submodule ".config/vim/pack/markdown/start/vim-markdown/"]
-	branch = master
-[submodule ".config/vim/pack/jxpx777/start/vim-test"]
-	branch = master
 [submodule ".config/vim/pack/css/start/vim-css"]
 	path = .config/vim/pack/css/start/vim-css
 	url = https://github.com/amadeus/vim-css.git
@@ -181,3 +130,6 @@
 [submodule ".config/vim/pack/jxpx777/start/ctrlp"]
 	path = .config/vim/pack/jxpx777/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "vim/pack/jxpx777/start/editorconfig-vim"]
+	path = .config/vim/pack/jxpx777/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
