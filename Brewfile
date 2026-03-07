@@ -1,3 +1,7 @@
+tap "homebrew/cask-versions"
+tap "homebrew/cask-fonts"
+tap "nodenv/nodenv"
+
 brew "mas"
 
 brew "git"
@@ -29,20 +33,23 @@ brew "vim"
 
 cask_args appdir: "/Applications"
 cask "bunch"
+cask "claude"
+cask "claude-code"
+cask "chatgpt"
+cask "codex-app"
 cask "choosy"
 cask "coderunner"
-cask "docker"
+cask "docker-desktop"
 cask "fantastical"
 cask "firefox@developer-edition"
 cask "gpg-suite"
-cask "iterm2"
 cask "kaleidoscope"
 cask "launchbar"
+cask "keybase"
 cask "mailmate"
-cask "marked"
+cask "marked-app"
 cask "markedit"
 cask "monodraw"
-cask "mosaic"
 cask "notion"
 cask "rapidapi"
 cask "quitter"
@@ -53,9 +60,11 @@ cask "tower"
 cask "transmit"
 cask "zoom"
 
+mas "1Password for Safari", id: 1569813296
+mas "Base", id: 402383384
 mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074
-#mas "Xcode", id: 497799835
+mas "Xcode", id: 497799835
 
 # Fonts
 cask "font-source-code-pro"
@@ -64,4 +73,3 @@ cask "font-fira-code-nerd-font"
 cask "font-fira-mono"
 cask "font-fira-mono-nerd-font"
 cask "font-fira-sans"
-
