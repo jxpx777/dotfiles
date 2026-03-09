@@ -1,12 +1,9 @@
-tap "homebrew/cask-versions"
-tap "homebrew/cask-fonts"
 tap "nodenv/nodenv"
 
 brew "mas"
 
 brew "git"
 brew "cmake"
-brew "codex"
 brew "earthly"
 brew "fzf"
 brew "go"
@@ -44,8 +41,6 @@ cask "fantastical"
 cask "firefox@developer-edition"
 cask "gpg-suite"
 cask "kaleidoscope"
-cask "launchbar"
-cask "keybase"
 cask "mailmate"
 cask "marked-app"
 cask "markedit"
@@ -58,11 +53,11 @@ cask "slack"
 cask "tableplus"
 cask "tower"
 cask "transmit"
+cask "typora"
 cask "zoom"
 
 mas "1Password for Safari", id: 1569813296
 mas "Base", id: 402383384
-mas "PCalc", id: 403504866
 mas "PrettyJSON for Xcode", id: 1396408074
 mas "Xcode", id: 497799835
 
