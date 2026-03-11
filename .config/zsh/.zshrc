@@ -58,15 +58,11 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(bundler colorize gem git golang gpg-agent redis-cli sudo tmux urltools)
 # plugins+=(zsh-vi-mode)
 
+[[ -d "$ZSH" ]] || git clone https://github.com/ohmyzsh/ohmyzsh.git "$ZSH"
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 source "$XDG_CONFIG_HOME/zsh/aliases"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-function zvm_after_init() {
-  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-}
 
 export FZF_DEFAULT_COMMAND="ag -g ''"
 source $XDG_CONFIG_HOME/zsh/customization/base16-tomorrow.fzf.config
@@ -76,19 +72,9 @@ source "$XDG_CONFIG_HOME"/zsh/gnupg.env
 gpgconf --launch gpg-agent
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 
-test -e "${XDG_CONFIG_HOME}/iTerm/shell_integration" && source "${XDG_CONFIG_HOME}/iTerm/shell_integration"
-iterm2_print_user_vars() {
-  iterm2_set_user_var gitBranch $((git branch --no-color 2> /dev/null) | grep \* | cut -c3-)
-}
-
 function killport () {
 	lsof -i :$1 | tail -n1 | awk '{print $2}' | xargs kill
 }
-
-iterm2_print_user_vars
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 
 export FZF_DEFAULT_COMMAND="ag -g ''"
 export GPG_TTY=$(tty)

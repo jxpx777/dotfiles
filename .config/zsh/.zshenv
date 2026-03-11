@@ -16,19 +16,19 @@ export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
-export ZSH="$XDG_CONFIG_HOME/zsh/ohmyzsh"
+export ZSH="$XDG_DATA_HOME/oh-my-zsh"
 export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/ohmyzsh"
 export ZSH_CUSTOM=$XDG_CONFIG_HOME/zsh/customization
 
 [[ -d $XDG_STATE_HOME/zsh ]] || mkdir -p $XDG_STATE_HOME/zsh
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 
-[[ -d $XDG_CACHE_HOME/less ]] || mkdir -p $XDG_CACHE_HOME/less
-export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
+[[ -d $XDG_CACHE_HOME/zsh ]] || mkdir -p $XDG_CACHE_HOME/zsh
+export ZSH_COMPDUMP="$XDG_CACHE_HOME/zsh/zcompdump"
 
-[[ -d $XDG_CACHE_HOME/vim/backup ]] || mkdir -p $XDG_CACHE_HOME/vim/backup
+[[ -d $XDG_STATE_HOME/vim/backup ]] || mkdir -p $XDG_STATE_HOME/vim/backup
 [[ -d $XDG_CACHE_HOME/vim/swp ]] || mkdir -p $XDG_CACHE_HOME/vim/swp
-[[ -d $XDG_CACHE_HOME/vim/undo ]] || mkdir -p $XDG_CACHE_HOME/vim/undo
+[[ -d $XDG_STATE_HOME/vim/undo ]] || mkdir -p $XDG_STATE_HOME/vim/undo
 
 export NBRC_PATH="$XDG_CONFIG_HOME/nbrc"
 
@@ -52,11 +52,17 @@ export HOMEBREW_PREFIX=$($BREW --prefix)
 export RBENV_ROOT="$HOMEBREW_PREFIX/rbenv"
 
 export GIT_CONFIG_NOSYSTEM=1
-export PSQL_HISTORY="$XDG_DATA_HOME/psql_history"
+export PSQL_HISTORY="$XDG_STATE_HOME/psql_history"
+
+export GOPATH="$XDG_DATA_HOME"/go
+export GOMODCACHE="$XDG_CACHE_HOME"/go/mod
+
+[[ -d $HOME/.ssh ]] || mkdir -m 700 -p $HOME/.ssh
+[[ -L $HOME/.ssh/config ]] || ln -s $XDG_CONFIG_HOME/ssh/config $HOME/.ssh/config
 
 export PATH=$PATH:$HOME/.local/bin
 
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+export SSH_AUTH_SOCK=$(/opt/homebrew/bin/gpgconf --list-dirs agent-ssh-socket)
 
 source "$ZDOTDIR/ruby.env"
 source "$ZDOTDIR/node.env"

@@ -57,8 +57,6 @@
 [core]
 	pager = bash -lc '/opt/homebrew/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
 	editor = "vim"
-	excludesfile = ~/.config/git/ignore
-	attributesfile = ~/.config/git/attributes
 [branch]
 	autosetupmerge = true
 [difftool "Kaleidoscope"]
@@ -119,7 +117,7 @@
 	cmd = \"/Applications/Tower.app/Contents/Resources/kaleidoscope.sh\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 
 [init]
-	templatedir = /Users/jp/.git-templates
+	templatedir = ~/.config/git/template
 	defaultBranch = main
 
 [hub]

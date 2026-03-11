@@ -99,7 +99,7 @@ noreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
 " The Silver Searcher
 if executable('ag')
-	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-ignore=~/.agignore
+	set grepprg=ag\ --nogroup\ --nocolor\ --path-to-ignore=$XDG_CONFIG_HOME/ag/ignore
 
 	" Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
 	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
@@ -161,15 +161,15 @@ source /opt/homebrew/opt/fzf/plugin/fzf.vim
 
 " Don't clutter my dirs up with swp and tmp files
 if has('nvim')
-set viminfo+=n$XDG_CACHE_HOME/vim/nviminfo
+set viminfo+=n$XDG_STATE_HOME/vim/nviminfo
 else
-set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
+set viminfo+=n$XDG_STATE_HOME/vim/viminfo
 end
 
-set backupdir=$XDG_CACHE_HOME/vim/backup
+set backupdir=$XDG_STATE_HOME/vim/backup
 set directory=$XDG_CACHE_HOME/vim/swp
-set undodir=$XDG_CACHE_HOME/vim/undo
-set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
+set undodir=$XDG_STATE_HOME/vim/undo
+set viminfo+=n$XDG_STATE_HOME/vim/viminfo
 
 set autowrite
 set tags+=./tags,.git/tags,tags;

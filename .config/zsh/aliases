@@ -98,7 +98,7 @@ function grf() {
 }
 
 # Give silver_searcher a default set of ignore files
-alias ag='ag -p "$DOTFILES/ag/ignore"'
+alias ag='ag -p "$XDG_CONFIG_HOME/ag/ignore"'
 
 # Ruby
 alias r="rake"
